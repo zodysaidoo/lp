@@ -1,5 +1,5 @@
-lernparadies_lernparadies_homepage:
-    pattern:  /hello/{name}
+lernparadies_lernparadies_start:
+    pattern:  /
     defaults: { _controller: LernparadiesLernparadiesBundle:Default:index }
 
 LernparadiesLernparadiesBundle_benutzergruppe:

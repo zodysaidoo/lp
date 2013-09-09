@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" name="Default" comment="Bc/BootstrapBundle hinzugefügt um Bootstrap3 zu nutzen">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -20,7 +17,7 @@
     <file path="$PROJECT_DIR$/../datenbanktabellen/vokali_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734565592" ignored="false" />
     <file path="$PROJECT_DIR$/../datenbanktabellen/lp_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734580923" ignored="false" />
     <file path="/Benutzer.orm.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378736737366" ignored="false" />
-    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378754119872" ignored="false" />
+    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378756212716" ignored="false" />
     <file path="/routing.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378738670167" ignored="false" />
     <file path="/a.dummy" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378739281734" ignored="false" />
     <file path="/index.html.twig" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378739683032" ignored="false" />
@@ -110,7 +107,7 @@
       <file leaf-file-name="config.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="28" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.12727273">
+            <state line="46" column="24" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.43636364">
               <folding />
             </state>
           </provider>
@@ -851,7 +848,11 @@
       <created>1378753504995</created>
       <updated>1378753504995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bc/BootstrapBundle hinzugefügt zum composer um Bootstrap3 zu nutzen&#10;JqueryBundle und lessphp zum composer hinzugefügt">
+      <created>1378756225954</created>
+      <updated>1378756225954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -921,7 +922,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Standart-Template erweitert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bc/BootstrapBundle hinzugefügt zum composer um Bootstrap3 zu nutzen&#10;JqueryBundle und lessphp zum composer hinzugefügt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -939,6 +940,7 @@
     <MESSAGE value="DatafixturesBundle hinzugefügt" />
     <MESSAGE value="DataFixturesBundle registriert" />
     <MESSAGE value="Standart-Template erweitert" />
+    <MESSAGE value="Bc/BootstrapBundle hinzugefügt zum composer um Bootstrap3 zu nutzen&#10;JqueryBundle und lessphp zum composer hinzugefügt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1058,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.12727273">
+        <state line="46" column="24" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.43636364">
           <folding />
         </state>
       </provider>
