@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new Lernparadies\VokaliBundle\LernparadiesVokaliBundle(),
             new Lernparadies\LernparadiesBundle\LernparadiesLernparadiesBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+			new Bc\Bundle\BootstrapBundle\BcBootstrapBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

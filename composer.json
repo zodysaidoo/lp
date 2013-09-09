@@ -6,6 +6,17 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "repositories": [ {
+        "type": "package",
+        "package": {
+            "name": "jquery/jquery",
+            "version": "1.9.1",
+            "dist": {
+                "url": "http://code.jquery.com/jquery-1.9.1.js",
+                "type": "file"
+            }
+        }
+    } ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.3.*",
@@ -20,7 +31,11 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/data-fixtures": "dev-master",
-        "doctrine/doctrine-fixtures-bundle": "dev-master"
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "braincrafted/bootstrap-bundle": "dev-master",
+        "twitter/bootstrap": "2.3.*",
+        "jquery/jquery": "1.9.*",
+        "leafo/lessphp": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
