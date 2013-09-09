@@ -1,0 +1,10 @@
+{% stylesheets
+	'%kernel.root_dir%/../vendor/twitter/bootstrap/less/bootstrap.less'
+	'%kernel.root_dir%/../vendor/twitter/bootstrap/less/responsive.less'
+	%}
+<!-- Bootstrap -->
+<link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}
+{% block stylesheets %}
+	<style>{% block css %}{% endblock %}</style>
+{% endblock %}
