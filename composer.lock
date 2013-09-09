@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "22cd49e72ccbe6da924418b23f5cf4bb",
+    "hash": "5f228f56a8aa2513d6c46266c3b704e5",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -288,7 +288,7 @@
         },
         {
             "name": "doctrine/data-fixtures",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
@@ -1615,6 +1615,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "doctrine/data-fixtures": 20,
         "doctrine/doctrine-fixtures-bundle": 20
     },
     "platform": {
