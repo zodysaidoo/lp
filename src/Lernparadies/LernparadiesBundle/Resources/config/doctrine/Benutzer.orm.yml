@@ -1,0 +1,60 @@
+Lernparadies\LernparadiesBundle\Entity\Benutzer:
+    type: entity
+    table: BENUTZER
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: BENUTZER_ID
+            generator:
+                strategy: IDENTITY
+        benutzerNewdate:
+            type: datetime
+            nullable: false
+            column: BENUTZER_NEWDATE
+        benutzerEditdate:
+            type: datetime
+            nullable: false
+            column: BENUTZER_EDITDATE
+        benutzerFriendlyUrl:
+            type: string
+            length: 64
+            fixed: false
+            nullable: false
+            column: BENUTZER_FRIENDLY_URL
+        benutzerEmail:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: BENUTZER_EMAIL
+        benutzerName:
+            type: string
+            length: 32
+            fixed: false
+            nullable: false
+            column: BENUTZER_NAME
+        benutzerPasswort:
+            type: string
+            length: 32
+            fixed: true
+            nullable: false
+            column: BENUTZER_PASSWORT
+        benutzerLernerfolgspunkte:
+            type: integer
+            unsigned: true
+            nullable: false
+            column: BENUTZER_LERNERFOLGSPUNKTE
+    manyToOne:
+        benutzerBenutzerkontotyp:
+            targetEntity: Benutzergruppe
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                BENUTZER_ID_BENUTZERKONTOTYP:
+                    referencedColumnName: BENUTZERGRUPPE_ID
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

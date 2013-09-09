@@ -1,0 +1,3 @@
+lernparadies_vokali_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: LernparadiesVokaliBundle:Default:index }

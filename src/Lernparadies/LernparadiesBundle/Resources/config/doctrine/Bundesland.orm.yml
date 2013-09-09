@@ -1,0 +1,37 @@
+Lernparadies\LernparadiesBundle\Entity\Bundesland:
+    type: entity
+    table: BUNDESLAND
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: BUNDESLAND_ID
+            generator:
+                strategy: IDENTITY
+        bundeslandNewdate:
+            type: datetime
+            nullable: false
+            column: BUNDESLAND_NEWDATE
+        bundeslandEditdate:
+            type: datetime
+            nullable: false
+            column: BUNDESLAND_EDITDATE
+        bundeslandName:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: BUNDESLAND_NAME
+    manyToOne:
+        bundeslandLand:
+            targetEntity: Land
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                BUNDESLAND_ID_LAND:
+                    referencedColumnName: LAND_ID
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

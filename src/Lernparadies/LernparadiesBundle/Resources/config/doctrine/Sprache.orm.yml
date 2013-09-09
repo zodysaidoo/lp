@@ -1,0 +1,36 @@
+Lernparadies\LernparadiesBundle\Entity\Sprache:
+    type: entity
+    table: SPRACHE
+    fields:
+        id:
+            id: true
+            type: boolean
+            nullable: false
+            column: SPRACHE_ID
+            generator:
+                strategy: IDENTITY
+        spracheNewdate:
+            type: datetime
+            nullable: false
+            column: SPRACHE_NEWDATE
+        spracheEditdate:
+            type: datetime
+            nullable: false
+            column: SPRACHE_EDITDATE
+        spracheName:
+            type: string
+            length: 32
+            fixed: false
+            nullable: false
+            column: SPRACHE_NAME
+        spracheCode:
+            type: string
+            length: 64
+            fixed: false
+            nullable: false
+            column: SPRACHE_CODE
+        spracheAktiv:
+            type: boolean
+            nullable: false
+            column: SPRACHE_AKTIV
+    lifecycleCallbacks: {  }

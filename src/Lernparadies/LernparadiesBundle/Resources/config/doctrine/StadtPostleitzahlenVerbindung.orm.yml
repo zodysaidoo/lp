@@ -1,0 +1,36 @@
+Lernparadies\LernparadiesBundle\Entity\StadtPostleitzahlenVerbindung:
+    type: entity
+    table: STADT_POSTLEITZAHLEN_VERBINDUNG
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: STADT_POSTLEITZAHLEN_VERBINDUNG_ID
+            generator:
+                strategy: IDENTITY
+        stadtPostleitzahlenVerbindungNewdate:
+            type: datetime
+            nullable: false
+            column: STADT_POSTLEITZAHLEN_VERBINDUNG_NEWDATE
+        stadtPostleitzahlenVerbindungEditdate:
+            type: datetime
+            nullable: false
+            column: STADT_POSTLEITZAHLEN_VERBINDUNG_EDITDATE
+        stadtPostleitzahlenVerbindungPostleitzahl:
+            type: integer
+            unsigned: true
+            nullable: false
+            column: STADT_POSTLEITZAHLEN_VERBINDUNG_POSTLEITZAHL
+    manyToOne:
+        stadtPostleitzahlenVerbindungStadt:
+            targetEntity: Stadt
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                STADT_POSTLEITZAHLEN_VERBINDUNG_ID_STADT:
+                    referencedColumnName: STADT_ID
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

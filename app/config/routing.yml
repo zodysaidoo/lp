@@ -1,0 +1,8 @@
+lernparadies_lernparadies:
+    resource: "@LernparadiesLernparadiesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+lernparadies_vokali:
+    resource: "@LernparadiesVokaliBundle/Resources/config/routing.yml"
+    prefix:   /
+

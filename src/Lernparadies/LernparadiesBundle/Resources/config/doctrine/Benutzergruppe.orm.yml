@@ -1,0 +1,30 @@
+Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
+    type: entity
+    table: BENUTZERGRUPPE
+    fields:
+        id:
+            id: true
+            type: boolean
+            nullable: false
+            column: BENUTZERGRUPPE_ID
+            generator:
+                strategy: IDENTITY
+        benutzergruppeNewdate:
+            type: datetime
+            nullable: false
+            column: BENUTZERGRUPPE_NEWDATE
+        benutzergruppeEditdate:
+            type: datetime
+            nullable: false
+            column: BENUTZERGRUPPE_EDITDATE
+        benutzergruppeLabel:
+            type: string
+            length: 32
+            fixed: false
+            nullable: false
+            column: BENUTZERGRUPPE_LABEL
+        benutzergruppeLogin:
+            type: boolean
+            nullable: false
+            column: BENUTZERGRUPPE_LOGIN
+    lifecycleCallbacks: {  }

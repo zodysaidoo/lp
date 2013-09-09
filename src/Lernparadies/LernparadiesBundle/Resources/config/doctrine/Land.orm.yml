@@ -1,0 +1,27 @@
+Lernparadies\LernparadiesBundle\Entity\Land:
+    type: entity
+    table: LAND
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: LAND_ID
+            generator:
+                strategy: IDENTITY
+        landNewdate:
+            type: datetime
+            nullable: false
+            column: LAND_NEWDATE
+        landEditdate:
+            type: datetime
+            nullable: false
+            column: LAND_EDITDATE
+        landName:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: LAND_NAME
+    lifecycleCallbacks: {  }

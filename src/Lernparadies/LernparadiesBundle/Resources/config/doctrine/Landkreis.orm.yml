@@ -1,0 +1,37 @@
+Lernparadies\LernparadiesBundle\Entity\Landkreis:
+    type: entity
+    table: LANDKREIS
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: LANDKREIS_ID
+            generator:
+                strategy: IDENTITY
+        landkreisNewdate:
+            type: datetime
+            nullable: false
+            column: LANDKREIS_NEWDATE
+        landkreisEditdate:
+            type: datetime
+            nullable: false
+            column: LANDKREIS_EDITDATE
+        landkreisName:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: LANDKREIS_NAME
+    manyToOne:
+        landkreisBundesland:
+            targetEntity: Bundesland
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                LANDKREIS_ID_BUNDESLAND:
+                    referencedColumnName: BUNDESLAND_ID
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

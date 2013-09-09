@@ -1,0 +1,64 @@
+Lernparadies\LernparadiesBundle\Entity\Stadt:
+    type: entity
+    table: STADT
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: STADT_ID
+            generator:
+                strategy: IDENTITY
+        stadtNewdate:
+            type: datetime
+            nullable: false
+            column: STADT_NEWDATE
+        stadtEditdate:
+            type: datetime
+            nullable: false
+            column: STADT_EDITDATE
+        stadtUpdatedate:
+            type: datetime
+            nullable: false
+            column: STADT_UPDATEDATE
+        stadtName:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: STADT_NAME
+        stadtLat:
+            type: float
+            nullable: false
+            column: STADT_LAT
+        stadtLng:
+            type: float
+            nullable: false
+            column: STADT_LNG
+        stadtLink:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: STADT_LINK
+    manyToOne:
+        stadtBundesland:
+            targetEntity: Bundesland
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                STADT_ID_BUNDESLAND:
+                    referencedColumnName: BUNDESLAND_ID
+            orphanRemoval: false
+        stadtLandkreis:
+            targetEntity: Landkreis
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                STADT_ID_LANDKREIS:
+                    referencedColumnName: LANDKREIS_ID
+            orphanRemoval: false
+    lifecycleCallbacks: {  }
