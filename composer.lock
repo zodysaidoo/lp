@@ -3,8 +3,54 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c865d0707347e83954a9c71a47df8f06",
+    "hash": "39e4b10154909e708c55d6375aa807f9",
     "packages": [
+        {
+            "name": "bmatzner/modernizr-bundle",
+            "version": "2.6.2",
+            "target-dir": "Bmatzner/ModernizrBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bmatzner/BmatznerModernizrBundle.git",
+                "reference": "5f1106f66655fbcc451951ac12d61a754d5f626c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bmatzner/BmatznerModernizrBundle/zipball/5f1106f66655fbcc451951ac12d61a754d5f626c",
+                "reference": "5f1106f66655fbcc451951ac12d61a754d5f626c",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": ">=2.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Bmatzner\\ModernizrBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernd Matzner",
+                    "email": "bernd@matznermatzner.de",
+                    "homepage": "http://berndmatzner.de"
+                }
+            ],
+            "description": "Modernizr Bundle for Symfony2",
+            "homepage": "http://modernizr.com/",
+            "keywords": [
+                "HTML5",
+                "detection",
+                "javascript",
+                "symfony"
+            ],
+            "time": "2013-01-13 11:59:33"
+        },
         {
             "name": "braincrafted/bootstrap-bundle",
             "version": "dev-master",

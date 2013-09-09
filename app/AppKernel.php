@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 			new Bc\Bundle\BootstrapBundle\BcBootstrapBundle(),
 	        new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+	        new Bmatzner\ModernizrBundle\BmatznerModernizrBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -36,7 +36,8 @@
         "twitter/bootstrap": "2.3.*",
         "jquery/jquery": "1.9.*",
         "leafo/lessphp": "dev-master",
-        "knplabs/knp-paginator-bundle": "dev-master"
+        "knplabs/knp-paginator-bundle": "dev-master",
+        "bmatzner/modernizr-bundle": "*"
     },
     "scripts": {
         "post-install-cmd": [
