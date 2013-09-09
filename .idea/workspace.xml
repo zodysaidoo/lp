@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +15,7 @@
     <file path="$PROJECT_DIR$/../datenbanktabellen/lp_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734580923" ignored="false" />
     <file path="/Benutzer.orm.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378736737366" ignored="false" />
     <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378736941292" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378738552147" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <file leaf-file-name="routing.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.07272727">
+            <state line="9" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.16363636">
               <folding />
             </state>
           </provider>
@@ -750,7 +748,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.07272727">
+        <state line="9" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.16363636">
           <folding />
         </state>
       </provider>
