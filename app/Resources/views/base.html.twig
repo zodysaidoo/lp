@@ -14,8 +14,17 @@
 	    {% include '__base_js.html.twig' %}
     </head>
     <body>
-    {% block body %}
-    {% endblock %}
+    <div class="container">
+		    <nav>
+			    <ul class="nav nav-pills">
+				    {% block navigation_top %}
+					    {% include '__base_navigation.html.twig' %}
+				    {% endblock %}
+			    </ul>
+		    </nav>
+	        {% block body %}
+	        {% endblock %}
+        </div>
     {% block javascripts %}
     {% endblock %}
     </body>

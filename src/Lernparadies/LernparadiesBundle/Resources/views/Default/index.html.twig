@@ -1,5 +1,8 @@
 {% extends '::base.html.twig' %}
+{% block navigation_top %}
+	{{ parent() }}
+	{% include 'LernparadiesLernparadiesBundle:Default:navigation_top.html.twig' %}
+{% endblock %}
 {% block body %}
-	Hier ist nichts
-	{{ "tests"|badge }}
+	{{ parent() }}
 {% endblock %}

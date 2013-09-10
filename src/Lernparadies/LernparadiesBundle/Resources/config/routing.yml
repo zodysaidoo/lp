@@ -1,11 +1,11 @@
-lernparadies_lernparadies_start:
+lernparadies_lernparadies_home:
     pattern:  /
     defaults: { _controller: LernparadiesLernparadiesBundle:Default:index }
 
-LernparadiesLernparadiesBundle_benutzergruppe:
-        resource: "@LernparadiesLernparadiesBundle/Resources/config/routing/benutzergruppe.yml"
-        prefix:   /benutzergruppe
+lernparadies_lernparadies_benutzergruppe:
+    resource: "@LernparadiesLernparadiesBundle/Resources/config/routing/benutzergruppe.yml"
+    prefix:   /benutzergruppe
 
-LernparadiesLernparadiesBundle_benutzer:
-        resource: "@LernparadiesLernparadiesBundle/Resources/config/routing/benutzer.yml"
-        prefix:   /benutzer
+lernparadies_lernparadies_benutzer:
+    resource: "@LernparadiesLernparadiesBundle/Resources/config/routing/benutzer.yml"
+    prefix:   /benutzer
