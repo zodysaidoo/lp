@@ -136,4 +136,9 @@ class Benutzergruppe
     {
         return $this->benutzergruppeLogin;
     }
+
+	public function __toString()
+	{
+		return $this->getBenutzergruppeLabel();
+	}
 }

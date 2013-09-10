@@ -2,107 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/__base_navigation.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/blue-arrow.png" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/blue-arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/field-background.gif" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/field-background.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/logo.gif" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/logo.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/search.png" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-configure.gif" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-configure.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-demo.gif" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-demo.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-quick-tour.gif" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/images/welcome-quick-tour.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/AcmeDemoBundle.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/AcmeDemoBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppCache.php" afterPath="$PROJECT_DIR$/app/AppCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzer.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Bundesland.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Bundesland.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Bundesland.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Bundesland.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Form/ContactType.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Form/ContactType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/EventListener/ControllerListener.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/EventListener/ControllerListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Tests/Controller/DefaultControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Tests/Controller/DefaultControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Twig/Extension/DemoExtension.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Twig/Extension/DemoExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Land.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Land.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Land.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Land.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Landkreis.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Landkreis.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Landkreis.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Landkreis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/LernparadiesLernparadiesBundle.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/LernparadiesLernparadiesBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DependencyInjection/LernparadiesLernparadiesExtension.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DependencyInjection/LernparadiesLernparadiesExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/LernparadiesVokaliBundle.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/LernparadiesVokaliBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DependencyInjection/LernparadiesVokaliExtension.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DependencyInjection/LernparadiesVokaliExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/SecuredController.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/SecuredController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Stadt.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Stadt.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Stadt.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Stadt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/StadtPostleitzahlenVerbindung.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/StadtPostleitzahlenVerbindung.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/StadtPostleitzahlenVerbindung.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/StadtPostleitzahlenVerbindung.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE-2.2.md" afterPath="$PROJECT_DIR$/UPGRADE-2.2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE.md" afterPath="$PROJECT_DIR$/UPGRADE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/WelcomeController.php" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Controller/WelcomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/__base_css.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/__base_css.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/__base_js.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/__base_js.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app.php" afterPath="$PROJECT_DIR$/web/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="$PROJECT_DIR$/app/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/check.php" afterPath="$PROJECT_DIR$/app/check.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_test.yml" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/contact.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/contact.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/demo.css" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/hello.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/hello.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/helloadmin.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/helloadmin.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/doc/index.rst" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/doc/index.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/doc/index.rst" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/doc/index.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/layout.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/login.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/login.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/translations/messages.fr.xlf" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/translations/messages.fr.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/translations/messages.fr.xlf" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/translations/messages.fr.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/app/phpunit.xml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/services.xml" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/config/services.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
@@ -115,7 +15,7 @@
     <file path="$PROJECT_DIR$/../datenbanktabellen/vokali_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734565592" ignored="false" />
     <file path="$PROJECT_DIR$/../datenbanktabellen/lp_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734580923" ignored="false" />
     <file path="/Benutzer.orm.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378736737366" ignored="false" />
-    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774381992" ignored="false" />
+    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774803833" ignored="false" />
     <file path="/routing.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378771951843" ignored="false" />
     <file path="/a.dummy" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378765441249" ignored="false" />
     <file path="/index.html.twig" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774633892" ignored="false" />
@@ -138,6 +38,7 @@
     <file path="$PROJECT_DIR$/app/logs/dev.log" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378773001265" ignored="false" />
     <file path="/navigation_top.html.twig" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774192544" ignored="false" />
     <file path="/edit.html.twig" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774278504" ignored="false" />
+    <file path="/Benutzergruppe.php" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378775135369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/index.html.twig">
+      <file leaf-file-name="BenutzerController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/BenutzerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.0">
+            <state line="81" column="33" selection-start="2143" selection-end="2143" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Benutzergruppe.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="46" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.83146065">
               <folding />
             </state>
           </provider>
@@ -223,25 +124,25 @@
       <file leaf-file-name="new.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.0">
+            <state line="5" column="15" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="benutzer.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing/benutzer.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="24" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation_top.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="36" selection-start="91" selection-end="91" vertical-scroll-proportion="-0.625">
+            <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -265,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Resources/views/__base_js.html.twig" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig.html" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/__base_navigation.html.twig.html" />
@@ -281,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/new.html.twig" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php" />
       </list>
     </option>
   </component>
@@ -635,6 +536,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -765,7 +718,11 @@
       <created>1378764974184</created>
       <updated>1378764974184</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Grundlayout verbunden">
+      <created>1378774858836</created>
+      <updated>1378774858836</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -835,7 +792,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modernizr hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grundlayout verbunden" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -857,32 +814,12 @@
     <MESSAGE value="Configuration für Bootstrap angepasst" />
     <MESSAGE value="Bootstrap3, Lessphp und Jquery eingebunden" />
     <MESSAGE value="Modernizr hinzugefügt" />
+    <MESSAGE value="Grundlayout verbunden" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="121" selection-end="140" vertical-scroll-proportion="0.07272727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="30" selection-start="0" selection-end="30" vertical-scroll-proportion="0.0">
@@ -914,13 +851,6 @@
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -960,16 +890,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing/benutzer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/BenutzerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="71" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="81" column="33" selection-start="2143" selection-end="2143" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="46" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.83146065">
           <folding />
         </state>
       </provider>
