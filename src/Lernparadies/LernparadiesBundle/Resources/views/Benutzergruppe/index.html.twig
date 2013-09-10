@@ -1,0 +1,47 @@
+{% extends 'LernparadiesLernparadiesBundle::Default/index.html.twig' %}
+
+{% block body -%}
+    <h1>Benutzergruppe list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Benutzergruppenewdate</th>
+                <th>Benutzergruppeeditdate</th>
+                <th>Benutzergruppelabel</th>
+                <th>Benutzergruppelogin</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('benutzergruppe_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{% if entity.benutzergruppeNewdate %}{{ entity.benutzergruppeNewdate|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{% if entity.benutzergruppeEditdate %}{{ entity.benutzergruppeEditdate|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ entity.benutzergruppeLabel }}</td>
+                <td>{{ entity.benutzergruppeLogin }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('benutzergruppe_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('benutzergruppe_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('benutzergruppe_new') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}

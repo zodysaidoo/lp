@@ -1,0 +1,30 @@
+benutzer:
+    pattern:  /
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:index" }
+
+benutzer_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:show" }
+
+benutzer_new:
+    pattern:  /new
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:new" }
+
+benutzer_create:
+    pattern:  /create
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:create" }
+    requirements: { _method: post }
+
+benutzer_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:edit" }
+
+benutzer_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:update" }
+    requirements: { _method: post|put }
+
+benutzer_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Benutzer:delete" }
+    requirements: { _method: post|delete }
