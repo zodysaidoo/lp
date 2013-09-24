@@ -1,0 +1,44 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Wortart</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Wortartnewdate</th>
+                <td>{{ entity.wortartNewdate|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Wortarteditdate</th>
+                <td>{{ entity.wortartEditdate|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Wortartname</th>
+                <td>{{ entity.wortartName }}</td>
+            </tr>
+            <tr>
+                <th>Wortartkommentar</th>
+                <td>{{ entity.wortartKommentar }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('wortart') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('wortart_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

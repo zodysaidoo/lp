@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzer.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Benutzergruppe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadBenutzerData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadBenutzerData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadSpracheData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadSpracheData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
@@ -22,7 +14,7 @@
     <file path="$PROJECT_DIR$/../datenbanktabellen/vokali_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734565592" ignored="false" />
     <file path="$PROJECT_DIR$/../datenbanktabellen/lp_mysql_tabelle_example.sql" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378734580923" ignored="false" />
     <file path="/Benutzer.orm.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378736737366" ignored="false" />
-    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1380062219369" ignored="false" />
+    <file path="/Dummy.txt" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1380064735758" ignored="false" />
     <file path="/routing.yml" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378771951843" ignored="false" />
     <file path="/a.dummy" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378765441249" ignored="false" />
     <file path="/index.html.twig" changelist="6382a1d5-5887-4c2c-b8ec-ed5ce5d6853c" time="1378774633892" ignored="false" />
@@ -112,28 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sprache.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Sprache.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="-16.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Benutzergruppe.orm.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Benutzer.orm.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="46" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.6545454">
+            <state line="62" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="0.47445256">
               <folding />
             </state>
           </provider>
@@ -938,7 +912,11 @@
       <created>1380062234896</created>
       <updated>1380062234896</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Data-Fixtures für Benutzergruppe, Benutzer und Sprache lassen sich korrekt laden">
+      <created>1380064739428</created>
+      <updated>1380064739428</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1028,7 +1006,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Benutzer-DataFixtures angelegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data-Fixtures für Benutzergruppe, Benutzer und Sprache lassen sich korrekt laden" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1056,6 +1034,7 @@
     <MESSAGE value="Sprache-DataFixtures hinzugefügt" />
     <MESSAGE value="Benutzergruppen-DataFixtures angelegt" />
     <MESSAGE value="Benutzer-DataFixtures angelegt" />
+    <MESSAGE value="Data-Fixtures für Benutzergruppe, Benutzer und Sprache lassen sich korrekt laden" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1123,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadSpracheData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="209" column="43" selection-start="5951" selection-end="5951" vertical-scroll-proportion="-29.375">
@@ -1155,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadBenutzerData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="44" selection-start="863" selection-end="863" vertical-scroll-proportion="-12.5">
@@ -1181,6 +1146,20 @@
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzer.orm.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="46" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.6545454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Benutzergruppe.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="0.47445256">
           <folding />
         </state>
       </provider>
