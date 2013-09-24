@@ -1,0 +1,30 @@
+sprache:
+    pattern:  /
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:index" }
+
+sprache_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:show" }
+
+sprache_new:
+    pattern:  /new
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:new" }
+
+sprache_create:
+    pattern:  /create
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:create" }
+    requirements: { _method: post }
+
+sprache_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:edit" }
+
+sprache_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:update" }
+    requirements: { _method: post|put }
+
+sprache_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LernparadiesLernparadiesBundle:Sprache:delete" }
+    requirements: { _method: post|delete }

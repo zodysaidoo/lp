@@ -4,7 +4,8 @@ Lernparadies\LernparadiesBundle\Entity\Sprache:
     fields:
         id:
             id: true
-            type: boolean
+            type: integer
+            unsigned: true
             nullable: false
             column: SPRACHE_ID
             generator:
