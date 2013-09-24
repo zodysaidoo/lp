@@ -141,4 +141,32 @@ class Benutzergruppe
 	{
 		return $this->getBenutzergruppeLabel();
 	}
+    /**
+     * @var integer
+     */
+    private $benutzergruppeStatuscode;
+
+
+    /**
+     * Set benutzergruppeStatuscode
+     *
+     * @param integer $benutzergruppeStatuscode
+     * @return Benutzergruppe
+     */
+    public function setBenutzergruppeStatuscode($benutzergruppeStatuscode)
+    {
+        $this->benutzergruppeStatuscode = $benutzergruppeStatuscode;
+    
+        return $this;
+    }
+
+    /**
+     * Get benutzergruppeStatuscode
+     *
+     * @return integer
+     */
+    public function getBenutzergruppeStatuscode()
+    {
+        return $this->benutzergruppeStatuscode;
+    }
 }

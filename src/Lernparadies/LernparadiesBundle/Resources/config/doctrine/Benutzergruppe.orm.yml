@@ -9,6 +9,10 @@ Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
             column: BENUTZERGRUPPE_ID
             generator:
                 strategy: IDENTITY
+        benutzergruppeStatuscode:
+            type: tinyint
+            column: BENUTZERGRUPPE_STATUSCODE
+            columnDefinition: integer unsigned
         benutzergruppeNewdate:
             type: datetime
             nullable: false
