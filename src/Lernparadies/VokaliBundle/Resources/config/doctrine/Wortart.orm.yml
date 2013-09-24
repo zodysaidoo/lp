@@ -1,0 +1,33 @@
+Lernparadies\VokaliBundle\Entity\Wortart:
+    type: entity
+    table: WORTART
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: WORTART_ID
+            generator:
+                strategy: IDENTITY
+        wortartNewdate:
+            type: datetime
+            nullable: false
+            column: WORTART_NEWDATE
+        wortartEditdate:
+            type: datetime
+            nullable: false
+            column: WORTART_EDITDATE
+        wortartName:
+            type: string
+            length: 64
+            fixed: false
+            nullable: false
+            column: WORTART_NAME
+        wortartKommentar:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: WORTART_CODE
+    lifecycleCallbacks: {  }

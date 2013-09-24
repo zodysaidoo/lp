@@ -1,3 +1,6 @@
 lernparadies_vokali_homepage:
-    pattern:  /hello/{name}
+    pattern:  /
     defaults: { _controller: LernparadiesVokaliBundle:Default:index }
+LernparadiesVokaliBundle_wortart:
+        resource: "@LernparadiesVokaliBundle/Resources/config/routing/wortart.yml"
+        prefix:   /wortart
