@@ -4,13 +4,13 @@ Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
     fields:
         id:
             id: true
-            type: boolean
+            type: integer
             nullable: false
             column: BENUTZERGRUPPE_ID
             generator:
                 strategy: IDENTITY
         benutzergruppeStatuscode:
-            type: tinyint
+            type: integer
             column: BENUTZERGRUPPE_STATUSCODE
             columnDefinition: integer unsigned
         benutzergruppeNewdate:
@@ -31,4 +31,6 @@ Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
             type: boolean
             nullable: false
             column: BENUTZERGRUPPE_LOGIN
-    lifecycleCallbacks: {  }
+    lifecycleCallbacks:
+        prePersist: [ setBenutzergruppeNewdate ]
+        preUpdate: [ setBenutzergruppeEditdate ]

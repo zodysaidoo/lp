@@ -47,7 +47,7 @@ class Benutzer
     /**
      * @var integer
      */
-    private $benutzerLernerfolgspunkte;
+    private $benutzerLernerfolgspunkte = 0;
 
     /**
      * @var \Lernparadies\LernparadiesBundle\Entity\Benutzergruppe
@@ -65,51 +65,49 @@ class Benutzer
         return $this->id;
     }
 
-    /**
-     * Set benutzerNewdate
-     *
-     * @param \DateTime $benutzerNewdate
-     * @return Benutzer
-     */
-    public function setBenutzerNewdate($benutzerNewdate)
-    {
-        $this->benutzerNewdate = $benutzerNewdate;
-    
-        return $this;
-    }
+	/**
+	 * Set benutzerNewdate
+	 *
+	 * @return Benutzer
+	 */
+	public function setBenutzerNewdate()
+	{
+		if(!$this->getBenutzerNewdate())
+		{
+			$this->benutzerNewdate = new \DateTime();
+			$this->benutzerEditdate = new \DateTime();
+		}
+	}
 
-    /**
-     * Get benutzerNewdate
-     *
-     * @return \DateTime 
-     */
-    public function getBenutzerNewdate()
-    {
-        return $this->benutzerNewdate;
-    }
+	/**
+	 * Get benutzerNewdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getBenutzerNewdate()
+	{
+		return $this->benutzerNewdate;
+	}
 
-    /**
-     * Set benutzerEditdate
-     *
-     * @param \DateTime $benutzerEditdate
-     * @return Benutzer
-     */
-    public function setBenutzerEditdate($benutzerEditdate)
-    {
-        $this->benutzerEditdate = $benutzerEditdate;
-    
-        return $this;
-    }
+	/**
+	 * Set benutzerEditdate
+	 *
+	 * @return Benutzer
+	 */
+	public function setBenutzerEditdate()
+	{
+		$this->benutzerEditdate = new \DateTime();
+	}
 
-    /**
-     * Get benutzerEditdate
-     *
-     * @return \DateTime 
-     */
-    public function getBenutzerEditdate()
-    {
-        return $this->benutzerEditdate;
-    }
+	/**
+	 * Get benutzerEditdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getBenutzerEditdate()
+	{
+		return $this->benutzerEditdate;
+	}
 
     /**
      * Set benutzerFriendlyUrl

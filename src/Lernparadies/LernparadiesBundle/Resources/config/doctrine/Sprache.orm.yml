@@ -34,4 +34,6 @@ Lernparadies\LernparadiesBundle\Entity\Sprache:
             type: boolean
             nullable: false
             column: SPRACHE_AKTIV
-    lifecycleCallbacks: {  }
+    lifecycleCallbacks:
+        prePersist: [ setSpracheNewdate ]
+        preUpdate: [ setSpracheEditdate ]
