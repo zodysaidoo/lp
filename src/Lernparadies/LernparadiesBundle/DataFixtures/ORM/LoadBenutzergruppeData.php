@@ -107,6 +107,10 @@ class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureIn
 		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeMinisteriumsmitarbeiter->getBenutzergruppeStatuscode()+100 );
 		$benutzergruppe->setBenutzergruppeLogin( false );
 		$em->persist($benutzergruppe);
+
+		$em->flush();
+
+		$this->addReference('benutzergruppe-administrator', $benutzergruppeAdmin);
 	}
 
 	public function getOrder()
