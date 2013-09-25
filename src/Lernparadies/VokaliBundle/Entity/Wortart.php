@@ -45,52 +45,49 @@ class Wortart
         return $this->id;
     }
 
-    /**
-     * Set wortartNewdate
-     *
-     * @param \DateTime $wortartNewdate
-     * @return Wortart
-     */
-    public function setWortartNewdate($wortartNewdate)
-    {
-        $this->wortartNewdate = $wortartNewdate;
-    
-        return $this;
-    }
+	/**
+	 * Set wortartNewdate
+	 *
+	 * @return Wortart
+	 */
+	public function setWortartNewdate()
+	{
+		if(!$this->getWortartNewdate())
+		{
+			$this->wortartNewdate = new \DateTime();
+			$this->wortartEditdate = new \DateTime();
+		}
+	}
 
-    /**
-     * Get wortartNewdate
-     *
-     * @return \DateTime 
-     */
-    public function getWortartNewdate()
-    {
-        return $this->wortartNewdate;
-    }
+	/**
+	 * Get wortartNewdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getWortartNewdate()
+	{
+		return $this->wortartNewdate;
+	}
 
-    /**
-     * Set wortartEditdate
-     *
-     * @param \DateTime $wortartEditdate
-     * @return Wortart
-     */
-    public function setWortartEditdate($wortartEditdate)
-    {
-        $this->wortartEditdate = $wortartEditdate;
-    
-        return $this;
-    }
+	/**
+	 * Set wortartEditdate
+	 *
+	 * @return Wortart
+	 */
+	public function setWortartEditdate()
+	{
+		$this->wortartEditdate = new \DateTime();
+	}
 
-    /**
-     * Get wortartEditdate
-     *
-     * @return \DateTime 
-     */
-    public function getWortartEditdate()
-    {
-        return $this->wortartEditdate;
-    }
-
+	/**
+	 * Get wortartEditdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getWortartEditdate()
+	{
+		return $this->wortartEditdate;
+	}
     /**
      * Set wortartName
      *

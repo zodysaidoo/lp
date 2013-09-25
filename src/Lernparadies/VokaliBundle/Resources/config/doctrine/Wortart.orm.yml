@@ -30,4 +30,6 @@ Lernparadies\VokaliBundle\Entity\Wortart:
             fixed: false
             nullable: false
             column: WORTART_CODE
-    lifecycleCallbacks: {  }
+    lifecycleCallbacks:
+        prePersist: [ setWortartNewdate ]
+        preUpdate: [ setWortartEditdate ]

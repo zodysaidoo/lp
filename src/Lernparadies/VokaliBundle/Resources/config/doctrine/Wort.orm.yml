@@ -1,0 +1,29 @@
+Lernparadies\VokaliBundle\Entity\Wort:
+    type: entity
+    table: WORT
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: WORT_ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: WORT_NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: WORT_EDITDATE
+        wortName:
+            type: string
+            length: 64
+            fixed: false
+            nullable: false
+            column: WORT_NAME
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]
