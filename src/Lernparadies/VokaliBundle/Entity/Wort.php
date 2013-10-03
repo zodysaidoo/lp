@@ -116,6 +116,7 @@ class Wort
 	    if(!$this->getCreatedAt())
 	    {
 		    $this->created_at = new \DateTime();
+		    $this->updated_at= new \DateTime();
 	    }
     }
 
