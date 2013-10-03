@@ -15,8 +15,8 @@ class VokabelType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('wort1')
-            ->add('wort2')
+            ->add('wort1', 'text')
+            ->add('wort2', 'text')
             ->add('wort1sprache')
             ->add('wort2sprache')
         ;

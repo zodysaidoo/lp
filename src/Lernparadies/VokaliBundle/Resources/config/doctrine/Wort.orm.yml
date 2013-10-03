@@ -1,6 +1,9 @@
 Lernparadies\VokaliBundle\Entity\Wort:
     type: entity
     table: WORT
+    indexes:
+        name_index:
+            columns: [ WORT_NAME ]
     fields:
         id:
             id: true
@@ -20,7 +23,8 @@ Lernparadies\VokaliBundle\Entity\Wort:
             column: WORT_EDITDATE
         wortName:
             type: string
-            length: 64
+            length: 128
+            unique: true
             fixed: false
             nullable: false
             column: WORT_NAME

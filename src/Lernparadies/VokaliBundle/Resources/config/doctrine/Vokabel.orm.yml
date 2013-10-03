@@ -21,7 +21,7 @@ Lernparadies\VokaliBundle\Entity\Vokabel:
     manyToOne:
         wort1:
             targetEntity: Wort
-            cascade: {  }
+            cascade: ["persist"]
             mappedBy: null
             inversedBy: null
             nullable: false
@@ -32,7 +32,7 @@ Lernparadies\VokaliBundle\Entity\Vokabel:
             orphanRemoval: false
         wort2:
             targetEntity: Wort
-            cascade: {  }
+            cascade: ["persist"]
             mappedBy: null
             inversedBy: null
             nullable: false

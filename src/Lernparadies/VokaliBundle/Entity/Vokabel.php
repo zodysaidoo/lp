@@ -107,10 +107,20 @@ class Vokabel
      * @param \Lernparadies\VokaliBundle\Entity\Wort $wort1
      * @return Vokabel
      */
-    public function setWort1(\Lernparadies\VokaliBundle\Entity\Wort $wort1 = null)
+    public function setWort1( $wort1 = null)
     {
-        $this->wort1 = $wort1;
-    
+
+	    if(is_string($wort1)){
+		    $wort = $this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort1) );
+		    if(!$wort)
+		    {
+			    $wort = new Wort();
+			    $wort->setWortName($wort1);
+		    }
+		    $this->wort1 = $wort;
+	    }elseif(is_object($wort1) && get_class($wort1) == 'Lernparadies\VokaliBundle\Entity\Wort'){
+		    $this->wort1 = $wort1;
+	    };
         return $this;
     }
 
@@ -130,9 +140,19 @@ class Vokabel
      * @param \Lernparadies\VokaliBundle\Entity\Wort $wort2
      * @return Vokabel
      */
-    public function setWort2(\Lernparadies\VokaliBundle\Entity\Wort $wort2 = null)
+    public function setWort2( $wort2 = null)
     {
-        $this->wort2 = $wort2;
+	    if(is_string($wort2)){
+		    $wort = $this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort2) );
+		    if(!$wort)
+		    {
+			    $wort = new Wort();
+			    $wort->setWortName($wort2);
+		    }
+		    $this->wort2 = $wort;
+	    }elseif(is_object($wort2) && get_class($wort2) == 'Lernparadies\VokaliBundle\Entity\Wort'){
+		    $this->wort2 = $wort2;
+	    };
     
         return $this;
     }

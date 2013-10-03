@@ -36,6 +36,7 @@ class VokabelController extends Controller
     public function createAction(Request $request)
     {
         $entity = new Vokabel();
+        $entity->doctrine = $this->getDoctrine();
         $form = $this->createCreateForm($entity);
         $form->handleRequest($request);
 
