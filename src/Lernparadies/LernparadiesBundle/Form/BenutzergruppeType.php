@@ -15,8 +15,6 @@ class BenutzergruppeType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('benutzergruppeNewdate')
-            ->add('benutzergruppeEditdate')
             ->add('benutzergruppeLabel')
             ->add('benutzergruppeLogin')
         ;

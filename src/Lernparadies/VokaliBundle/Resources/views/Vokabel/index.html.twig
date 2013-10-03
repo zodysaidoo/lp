@@ -9,6 +9,10 @@
                 <th>Id</th>
                 <th>Created_at</th>
                 <th>Updated_at</th>
+                <th>Wort1</th>
+                <th>Wort2</th>
+                <th>Wort1Sprache</th>
+                <th>Wort2Sprache</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -18,15 +22,19 @@
                 <td><a href="{{ path('vokabel_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td>{% if entity.createdat %}{{ entity.createdat|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{% if entity.updatedat %}{{ entity.updatedat|date('Y-m-d H:i:s') }}{% endif %}</td>
+	            <td>{{ entity.wort1.wortName }}</td>
+	            <td>{{ entity.wort2.wortName }}</td>
+	            <td>{{ entity.wort1sprache.spracheName }}</td>
+	            <td>{{ entity.wort2sprache.spracheName }}</td>
                 <td>
-                <ul>
-                    <li>
-                        <a href="{{ path('vokabel_show', { 'id': entity.id }) }}">show</a>
-                    </li>
-                    <li>
-                        <a href="{{ path('vokabel_edit', { 'id': entity.id }) }}">edit</a>
-                    </li>
-                </ul>
+	                <ul>
+	                    <li>
+	                        <a href="{{ path('vokabel_show', { 'id': entity.id }) }}">show</a>
+	                    </li>
+	                    <li>
+	                        <a href="{{ path('vokabel_edit', { 'id': entity.id }) }}">edit</a>
+	                    </li>
+	                </ul>
                 </td>
             </tr>
         {% endfor %}
@@ -35,7 +43,7 @@
 
         <ul>
         <li>
-            <a href="{{ path('vokabel_new') }}">
+            <a href="{{ path('vokabel_new', { 'lang1': "engl", 'lang2': "germ" }) }}">
                 Create a new entry
             </a>
         </li>

@@ -17,6 +17,29 @@
                 <th>Updated_at</th>
                 <td>{{ entity.updatedat|date('Y-m-d H:i:s') }}</td>
             </tr>
+	        <tr>
+		        <th>Wort1</th>
+		        <td>
+			        {{ entity.wort1.wortName }}
+		        </td>
+	        </tr>
+		        <th>Wort2</th>
+		        <td>
+			        {{ entity.wort2.wortName }}
+		        </td>
+	        </tr>
+	        </tr>
+		        <th>Wort1Sprache</th>
+		        <td>
+			        {{ entity.wort1sprache.spracheName }}
+		        </td>
+	        </tr>
+	        </tr>
+		        <th>Wort2Sprache</th>
+		        <td>
+			        {{ entity.wort2sprache.spracheName }}
+		        </td>
+	        </tr>
         </tbody>
     </table>
 

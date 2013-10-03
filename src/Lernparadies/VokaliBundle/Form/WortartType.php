@@ -15,8 +15,6 @@ class WortartType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('wortartNewdate')
-            ->add('wortartEditdate')
             ->add('wortartName')
             ->add('wortartKommentar')
         ;

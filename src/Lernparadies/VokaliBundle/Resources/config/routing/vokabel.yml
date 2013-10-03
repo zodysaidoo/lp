@@ -7,7 +7,7 @@ vokabel_show:
     defaults: { _controller: "LernparadiesVokaliBundle:Vokabel:show" }
 
 vokabel_new:
-    pattern:  /new
+    pattern:  /new/{lang1}/{lang2}
     defaults: { _controller: "LernparadiesVokaliBundle:Vokabel:new" }
 
 vokabel_create:

@@ -15,8 +15,6 @@ class SpracheType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('spracheNewdate')
-            ->add('spracheEditdate')
             ->add('spracheName')
             ->add('spracheCode')
             ->add('spracheAktiv')

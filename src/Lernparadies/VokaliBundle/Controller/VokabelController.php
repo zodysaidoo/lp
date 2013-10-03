@@ -76,9 +76,19 @@ class VokabelController extends Controller
      * Displays a form to create a new Vokabel entity.
      *
      */
-    public function newAction()
+    public function newAction($lang1, $lang2)
     {
+	    $language1 = $this->getDoctrine()
+		    ->getRepository('LernparadiesLernparadiesBundle:Sprache')
+		    ->findOneBy( array( 'spracheCode' => $lang1) );
+
+	    $language2 = $this->getDoctrine()
+		    ->getRepository('LernparadiesLernparadiesBundle:Sprache')
+		    ->findOneBy( array( 'spracheCode' => $lang2) );
+
         $entity = new Vokabel();
+	    $entity->setWort1sprache($language1);
+	    $entity->setWort2sprache($language2);
         $form   = $this->createCreateForm($entity);
 
         return $this->render('LernparadiesVokaliBundle:Vokabel:new.html.twig', array(
