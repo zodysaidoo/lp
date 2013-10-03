@@ -1,0 +1,30 @@
+wort:
+    pattern:  /
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:index" }
+
+wort_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:show" }
+
+wort_new:
+    pattern:  /new
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:new" }
+
+wort_create:
+    pattern:  /create
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:create" }
+    requirements: { _method: post }
+
+wort_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:edit" }
+
+wort_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:update" }
+    requirements: { _method: post|put }
+
+wort_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LernparadiesVokaliBundle:Wort:delete" }
+    requirements: { _method: post|delete }
