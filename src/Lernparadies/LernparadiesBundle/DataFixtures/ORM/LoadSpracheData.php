@@ -6,7 +6,7 @@
  * Time: 23:08
  * To change this template use File | Settings | File Templates.
  */
-namespace Lernparadies\LernparadieBundle\DataFixtures\ORM;
+namespace Lernparadies\LernparadiesBundle\DataFixtures\ORM;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\DataFixtures\AbstractFixture;
