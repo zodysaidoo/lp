@@ -7,4 +7,7 @@ LernparadiesVokaliBundle_wortart:
 LernparadiesVokaliBundle_wort:
         resource: "@LernparadiesVokaliBundle/Resources/config/routing/wort.yml"
         prefix:   /wort
+LernparadiesVokaliBundle_vokabel:
+        resource: "@LernparadiesVokaliBundle/Resources/config/routing/vokabel.yml"
+        prefix:   /vokabel
 

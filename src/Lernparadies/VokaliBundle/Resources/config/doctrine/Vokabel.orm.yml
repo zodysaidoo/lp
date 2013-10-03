@@ -1,0 +1,68 @@
+Lernparadies\VokaliBundle\Entity\Vokabel:
+    type: entity
+    table: VOKABEL
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: VOKABEL_ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: VOKABEL_NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: VOKABEL_EDITDATE
+    manyToOne:
+        wort1:
+            targetEntity: Wort
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: Vokabel_Wort1
+            joinColumns:
+                WORT1:
+                    referencedColumnName: WORT_ID
+            orphanRemoval: false
+        wort2:
+            targetEntity: Wort
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: Vokabel_Wort2
+            joinColumns:
+                WORT2:
+                    referencedColumnName: WORT_ID
+            orphanRemoval: false
+        wort1sprache:
+            targetEntity: Lernparadies\LernparadiesBundle\Entity\Sprache
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: Vokabel_Sprache1
+            joinColumns:
+                WORT1SPRACHE:
+                    referencedColumnName: SPRACHE_ID
+            orphanRemoval: false
+        wort2sprache:
+            targetEntity: Lernparadies\LernparadiesBundle\Entity\Sprache
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: Vokabel_Sprache2
+            joinColumns:
+                WORT2SPRACHE:
+                    referencedColumnName: SPRACHE_ID
+            orphanRemoval: false
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]

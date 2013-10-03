@@ -162,4 +162,9 @@ class Sprache
     {
         return $this->spracheAktiv;
     }
+
+	public function __toString()
+	{
+		return $this->getSpracheName();
+	}
 }

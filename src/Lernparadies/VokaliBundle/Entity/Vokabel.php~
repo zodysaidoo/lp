@@ -1,0 +1,264 @@
+<?php
+
+namespace Lernparadies\VokaliBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Vokabel
+ */
+class Vokabel
+{
+    /**
+     * @var integer
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     */
+    private $created_at;
+
+    /**
+     * @var \DateTime
+     */
+    private $updated_at;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $wort1;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $wort2;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $wort1sprache;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $wort2sprache;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->wort1 = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->wort2 = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->wort1sprache = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->wort2sprache = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set created_at
+     *
+     * @param \DateTime $createdAt
+     * @return Vokabel
+     */
+    public function setCreatedAt($createdAt)
+    {
+        $this->created_at = $createdAt;
+    
+        return $this;
+    }
+
+    /**
+     * Get created_at
+     *
+     * @return \DateTime 
+     */
+    public function getCreatedAt()
+    {
+        return $this->created_at;
+    }
+
+    /**
+     * Set updated_at
+     *
+     * @param \DateTime $updatedAt
+     * @return Vokabel
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updated_at = $updatedAt;
+    
+        return $this;
+    }
+
+    /**
+     * Get updated_at
+     *
+     * @return \DateTime 
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updated_at;
+    }
+
+    /**
+     * Add wort1
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Wort $wort1
+     * @return Vokabel
+     */
+    public function addWort1(\Lernparadies\VokaliBundle\Entity\Wort $wort1)
+    {
+        $this->wort1[] = $wort1;
+    
+        return $this;
+    }
+
+    /**
+     * Remove wort1
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Wort $wort1
+     */
+    public function removeWort1(\Lernparadies\VokaliBundle\Entity\Wort $wort1)
+    {
+        $this->wort1->removeElement($wort1);
+    }
+
+    /**
+     * Get wort1
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getWort1()
+    {
+        return $this->wort1;
+    }
+
+    /**
+     * Add wort2
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Wort $wort2
+     * @return Vokabel
+     */
+    public function addWort2(\Lernparadies\VokaliBundle\Entity\Wort $wort2)
+    {
+        $this->wort2[] = $wort2;
+    
+        return $this;
+    }
+
+    /**
+     * Remove wort2
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Wort $wort2
+     */
+    public function removeWort2(\Lernparadies\VokaliBundle\Entity\Wort $wort2)
+    {
+        $this->wort2->removeElement($wort2);
+    }
+
+    /**
+     * Get wort2
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getWort2()
+    {
+        return $this->wort2;
+    }
+
+    /**
+     * Add wort1sprache
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Sprache $wort1sprache
+     * @return Vokabel
+     */
+    public function addWort1sprache(\Lernparadies\VokaliBundle\Entity\Sprache $wort1sprache)
+    {
+        $this->wort1sprache[] = $wort1sprache;
+    
+        return $this;
+    }
+
+    /**
+     * Remove wort1sprache
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Sprache $wort1sprache
+     */
+    public function removeWort1sprache(\Lernparadies\VokaliBundle\Entity\Sprache $wort1sprache)
+    {
+        $this->wort1sprache->removeElement($wort1sprache);
+    }
+
+    /**
+     * Get wort1sprache
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getWort1sprache()
+    {
+        return $this->wort1sprache;
+    }
+
+    /**
+     * Add wort2sprache
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Sprache $wort2sprache
+     * @return Vokabel
+     */
+    public function addWort2sprache(\Lernparadies\VokaliBundle\Entity\Sprache $wort2sprache)
+    {
+        $this->wort2sprache[] = $wort2sprache;
+    
+        return $this;
+    }
+
+    /**
+     * Remove wort2sprache
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\Sprache $wort2sprache
+     */
+    public function removeWort2sprache(\Lernparadies\VokaliBundle\Entity\Sprache $wort2sprache)
+    {
+        $this->wort2sprache->removeElement($wort2sprache);
+    }
+
+    /**
+     * Get wort2sprache
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getWort2sprache()
+    {
+        return $this->wort2sprache;
+    }
+    /**
+     * @ORM\PrePersist
+     */
+	public function setCreatedAtValue()
+	{
+		if(!$this->getCreatedAt())
+		{
+			$this->created_at = new \DateTime();
+			$this->updated_at= new \DateTime();
+		}
+	}
+
+	/**
+	 * @ORM\PreUpdate
+	 */
+	public function setUpdatedAtValue()
+	{
+		$this->updated_at = new \DateTime();
+	}
+}

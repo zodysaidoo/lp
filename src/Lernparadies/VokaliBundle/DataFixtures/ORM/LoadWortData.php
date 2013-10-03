@@ -27,6 +27,14 @@ class LoadWortData extends AbstractFixture implements OrderedFixtureInterface
 		$wortHouse->setWortName('house');
 		$em->persist($wortHouse);
 
+		$wortBaum = new Wort();
+		$wortBaum->setWortName('Baum');
+		$em->persist($wortBaum);
+
+		$wortTree = new Wort();
+		$wortTree->setWortName('tree');
+		$em->persist($wortTree);
+
 		$em->flush();
 	}
 
