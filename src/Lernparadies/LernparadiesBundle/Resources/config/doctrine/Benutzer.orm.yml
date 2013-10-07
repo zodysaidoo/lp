@@ -23,22 +23,25 @@ Lernparadies\LernparadiesBundle\Entity\Benutzer:
             length: 64
             fixed: false
             nullable: false
+            unique: true
             column: BENUTZER_FRIENDLY_URL
         benutzerEmail:
             type: string
-            length: 256
+            length: 128
             fixed: false
             nullable: false
+            unique: true
             column: BENUTZER_EMAIL
         benutzerName:
             type: string
-            length: 32
+            length: 64
             fixed: false
             nullable: false
+            unique: true
             column: BENUTZER_NAME
         benutzerPasswort:
             type: string
-            length: 32
+            length: 255
             fixed: true
             nullable: false
             column: BENUTZER_PASSWORT

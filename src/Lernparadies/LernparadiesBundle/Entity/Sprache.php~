@@ -50,18 +50,19 @@ class Sprache
         return $this->id;
     }
 
-    /**
-     * Set spracheNewdate
-     *
-     * @param \DateTime $spracheNewdate
-     * @return Sprache
-     */
-    public function setSpracheNewdate($spracheNewdate)
-    {
-        $this->spracheNewdate = $spracheNewdate;
-    
-        return $this;
-    }
+	/**
+	 * Set spracheNewdate
+	 *
+	 * @return Sprache
+	 */
+	public function setSpracheNewdate()
+	{
+		if(!$this->getSpracheNewdate())
+		{
+			$this->spracheNewdate = new \DateTime();
+			$this->spracheEditdate = new \DateTime();
+		}
+	}
 
     /**
      * Get spracheNewdate
@@ -73,18 +74,15 @@ class Sprache
         return $this->spracheNewdate;
     }
 
-    /**
-     * Set spracheEditdate
-     *
-     * @param \DateTime $spracheEditdate
-     * @return Sprache
-     */
-    public function setSpracheEditdate($spracheEditdate)
-    {
-        $this->spracheEditdate = $spracheEditdate;
-    
-        return $this;
-    }
+	/**
+	 * Set spracheEditdate
+	 *
+	 * @return Sprache
+	 */
+	public function setSpracheEditdate()
+	{
+		$this->spracheEditdate = new \DateTime();
+	}
 
     /**
      * Get spracheEditdate
@@ -164,4 +162,9 @@ class Sprache
     {
         return $this->spracheAktiv;
     }
+
+	public function __toString()
+	{
+		return $this->getSpracheName();
+	}
 }

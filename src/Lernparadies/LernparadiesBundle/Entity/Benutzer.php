@@ -3,56 +3,57 @@
 namespace Lernparadies\LernparadiesBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
  * Benutzer
  */
-class Benutzer
+class Benutzer implements UserInterface
 {
     /**
      * @var integer
      */
-    private $id;
+    protected $id;
 
     /**
      * @var \DateTime
      */
-    private $benutzerNewdate;
+	protected $benutzerNewdate;
 
     /**
      * @var \DateTime
      */
-    private $benutzerEditdate;
+	protected $benutzerEditdate;
 
     /**
      * @var string
      */
-    private $benutzerFriendlyUrl;
+	protected $benutzerFriendlyUrl;
 
     /**
      * @var string
      */
-    private $benutzerEmail;
+	protected $benutzerEmail;
 
     /**
      * @var string
      */
-    private $benutzerName;
+	protected $benutzerName;
 
     /**
      * @var string
      */
-    private $benutzerPasswort;
+	protected $benutzerPasswort;
 
     /**
      * @var integer
      */
-    private $benutzerLernerfolgspunkte = 0;
+	protected $benutzerLernerfolgspunkte = 0;
 
     /**
      * @var \Lernparadies\LernparadiesBundle\Entity\Benutzergruppe
      */
-    private $benutzerBenutzerkontotyp;
+	protected $benutzerBenutzerkontotyp;
 
 
     /**
@@ -246,4 +247,33 @@ class Benutzer
     {
         return $this->benutzerBenutzerkontotyp;
     }
+	public function getUsername()
+	{
+		return $this->getBenutzerName();
+	}
+
+	public function getPassword()
+	{
+		return $this->getBenutzerPasswort();
+	}
+
+	public function getRoles()
+	{
+		return array('ROLE_ADMIN');
+	}
+
+	public function getSalt()
+	{
+		return null;
+	}
+
+	public function eraseCredentials()
+	{
+
+	}
+
+	public function equals(UserInterface $user)
+	{
+		return $user->getUsername() == $this->getBenutzerName();
+	}
 }

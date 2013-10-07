@@ -45,51 +45,49 @@ class Benutzergruppe
         return $this->id;
     }
 
-    /**
-     * Set benutzergruppeNewdate
-     *
-     * @param \DateTime $benutzergruppeNewdate
-     * @return Benutzergruppe
-     */
-    public function setBenutzergruppeNewdate($benutzergruppeNewdate)
-    {
-        $this->benutzergruppeNewdate = $benutzergruppeNewdate;
-    
-        return $this;
-    }
+	/**
+	 * Set benutzergruppeNewdate
+	 *
+	 * @return Benutzergruppe
+	 */
+	public function setBenutzergruppeNewdate()
+	{
+		if(!$this->getBenutzergruppeNewdate())
+		{
+			$this->benutzergruppeNewdate = new \DateTime();
+			$this->benutzergruppeEditdate = new \DateTime();
+		}
+	}
 
-    /**
-     * Get benutzergruppeNewdate
-     *
-     * @return \DateTime 
-     */
-    public function getBenutzergruppeNewdate()
-    {
-        return $this->benutzergruppeNewdate;
-    }
+	/**
+	 * Get benutzergruppeNewdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getBenutzergruppeNewdate()
+	{
+		return $this->benutzergruppeNewdate;
+	}
 
-    /**
-     * Set benutzergruppeEditdate
-     *
-     * @param \DateTime $benutzergruppeEditdate
-     * @return Benutzergruppe
-     */
-    public function setBenutzergruppeEditdate($benutzergruppeEditdate)
-    {
-        $this->benutzergruppeEditdate = $benutzergruppeEditdate;
-    
-        return $this;
-    }
+	/**
+	 * Set benutzergruppeEditdate
+	 *
+	 * @return Benutzergruppe
+	 */
+	public function setBenutzergruppeEditdate()
+	{
+		$this->benutzergruppeEditdate = new \DateTime();
+	}
 
-    /**
-     * Get benutzergruppeEditdate
-     *
-     * @return \DateTime 
-     */
-    public function getBenutzergruppeEditdate()
-    {
-        return $this->benutzergruppeEditdate;
-    }
+	/**
+	 * Get benutzergruppeEditdate
+	 *
+	 * @return \DateTime
+	 */
+	public function getBenutzergruppeEditdate()
+	{
+		return $this->benutzergruppeEditdate;
+	}
 
     /**
      * Set benutzergruppeLabel
@@ -141,4 +139,32 @@ class Benutzergruppe
 	{
 		return $this->getBenutzergruppeLabel();
 	}
+    /**
+     * @var integer
+     */
+    private $benutzergruppeStatuscode;
+
+
+    /**
+     * Set benutzergruppeStatuscode
+     *
+     * @param integer $benutzergruppeStatuscode
+     * @return Benutzergruppe
+     */
+    public function setBenutzergruppeStatuscode($benutzergruppeStatuscode)
+    {
+        $this->benutzergruppeStatuscode = $benutzergruppeStatuscode;
+    
+        return $this;
+    }
+
+    /**
+     * Get benutzergruppeStatuscode
+     *
+     * @return integer
+     */
+    public function getBenutzergruppeStatuscode()
+    {
+        return $this->benutzergruppeStatuscode;
+    }
 }
