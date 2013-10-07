@@ -825,7 +825,7 @@ Wort<y:LabelModel>
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="125.45056165803112" width="154.88185162279785" x="-499.0188027025908" y="-160.9554022134715"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:BorderStyle color="#0000FF" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="60.232421875" x="47.32471487389893" y="4.0">VOKABEL</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" modelName="custom" textColor="#000000" visible="true" width="148.556640625" x="2.0" y="29.96875">ID
 ID_Wort1

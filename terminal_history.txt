@@ -1,0 +1,153 @@
+  273  php app/console generate:doctrine:entity --help
+  274  php app/console generate:doctrine:entity --entity=LernparadiesBundle/Sprache
+  275  php app/console generate:doctrine:entity --entity=LernparadiesLernparadiesBundle/Sprache
+  276  php app/console generate:doctrine:entity --entity=Lernparadies:Lernparadies/Sprache
+  277  php app/console generate:doctrine:entity --entity=LernparadiesBundle:Lernparadies/Sprache
+  278  php app/console generate:doctrine:entity --entity=Lernparadies/Sprache
+  279  php app/console generate:doctrine:entity --entity=LernparadiesBundle:Sprache
+  280  php app/console generate:doctrine:entity --entity=LernparadiesLernparadiesBundle:Sprache
+  281  php app/console generate:doctrine:entity --entity=Lernparadies/LernparadiesBundle:Sprache
+  282  php app/console generate:doctrine:entities
+  283  php app/console generate:doctrine --help
+  284  php app/console list
+  285  php app/console generate:doctrine:entities --help
+  286  php app/console generate:doctrine:entities LernparadiesBundle:Sprache
+  287  php app/console generate:doctrine:entities Lernparadies/LernparadiesBundle:Sprache
+  288  php app/console generate:doctrine:entities Lernparadies:Sprache
+  289  php app/console generate:doctrine:entities LernparadiesLernparadiesBundle:Sprache
+  290  php app/console list
+  291  php app/console generate:doctrine:crud --help
+  292  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache
+  293  php app/console generate:doctrine:crud --entity=Lernparadies/LernparadiesBundle:Sprache
+  294  php app/console generate:doctrine:crud --entity=LernparadiesBundle:Sprache
+  295  php app/console generate:doctrine:crud --entity=Lernparadies\LernparadiesBundle:Sprache
+  296  php app/console generate:doctrine:crud --entity=lernparadieslernparadiesBundle:Sprache
+  297  php app/console generate:doctrine:crud --entity=LernparadieslernparadiesBundle:Sprache
+  298  php app/console generate:doctrine:crud --entity=Lernparadies/lernparadiesBundle:Sprache
+  299  php app/console generate:doctrine:crud --entity=Lernparadies/LernparadiesBundle:Sprache
+  300  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache
+  301  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache --format=yml
+  302  php app/console generate:doctrine:crud --help
+  303  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache --format=yml --no-interaction --with-write
+  304  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  305  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  306  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Wortart --format=yml --no-interaction --with-write
+  307  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  308  php app/console list
+  309  php app/console doctrine:database:create
+  310  php app/console doctrine:schema:create 
+  311  php app/console doctrine:fixtures:load 
+  312  php app/console doctrine:database:drop
+  313  php app/console doctrine:database:drop --force
+  314  php app/console doctrine:schema:create 
+  315  php app/console doctrine:database:create
+  316  php app/console doctrine:schema:create 
+  317  php app/console doctrine:fixtures:load 
+  318  php app/console doctrine:database:drop
+  319  php app/console doctrine:database:drop --force
+  320  php app/console doctrine:database:create
+  321  php app/console doctrine:schema:create 
+  322  php app/console doctrine:fixtures:load 
+  323  php app/console doctrine:database:drop --force
+  324  php app/console doctrine:database:create
+  325  php app/console doctrine:schema:create 
+  326  php app/console doctrine:fixtures:load 
+  327  php app/console doctrine:fixtures:load  --purge-with-truncate
+  328  php app/console doctrine:fixtures:load
+  329  php app/console doctrine:database:drop --force
+  330  php app/console doctrine:database:create
+  331  php app/console doctrine:schema:create 
+  332  php app/console doctrine:fixtures:load
+  333  php app/console doctrine:database:drop --force
+  334  php app/console doctrine:database:create
+  335  php app/console doctrine:schema:create 
+  336  php app/console doctrine:fixtures:load
+  337  git --help
+  338  git add .
+  339  git commit -m "UML-Grafik um Wortart-Vokabel-Verbindung-Erweitert"
+  340  git push
+  341  git gui
+  342  git push
+  343  git pull
+  344  git pull origin master
+  345  git push
+  346  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  347  git push
+  348  ssh-keygen 
+  349  nano /home/zeid/.ssh/id_rsa.pub.
+  350  nano /home/zeid/.ssh/id_rsa.pub
+  351  gedit /home/zeid/.ssh/id_rsa.pub
+  352  lp
+  353  php app/console doctrine:fixtures:load
+  354  php app/console doctrine:database:drop --force
+  355  php app/console doctrine:database:create
+  356  php app/console doctrine:schema:create 
+  357  php app/console doctrine:fixtures:load
+  358  git add .
+  359  git commit -m "Wortart-Fixtures hinzugefügt"
+  360  git push
+  361  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Wort --format=yml --no-interaction --with-write
+  362  php app/console doctrine:fixtures:load
+  363  git commit -a -m "Wort Fixtures hinhzugefügt"
+  364  git push
+  365  git add .
+  366  git status
+  367  git commit -, "
+  368  git commit -m "Wort Crud generiert"
+  369  git push
+  370  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  371  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  372  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  373  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  374  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  375  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  376  php app/console doctrine:database:drop --force
+  377  php app/console doctrine:database:create
+  378  php app/console doctrine:schema:create 
+  379  php app/console doctrine:schema:create #
+  380  php app/console doctrine:schema:create
+  381  php app/console doctrine:database:drop --force
+  382  php app/console doctrine:database:create
+  383  php app/console doctrine:schema:create
+  384  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  385  git add .
+  386  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  387  git add .
+  388  php app/console doctrine:fixtures:load
+  389  git add .
+  390  git -m "Vokabel: ORM, Entity, Crud erzeugt"
+  391  git commit -m "Vokabel: ORM, Entity, Crud erzeugt"
+  392  git commit -a -m "Views um LpBase erweitert"
+  393  git commit -a -m "Vokabel-CreateForm bekommt aus URL Sprache übergeben, Sprachen und Wortausgabe in Vokabel-List und Vokabel-Show"
+  394  git push
+  395  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  396  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  397  php app/console doctrine:fixtures:load
+  398  php app/console doctrine:database:drop --force
+  399  php app/console doctrine:database:create
+  400  php app/console doctrine:schema:create
+  401  php app/console doctrine:database:drop --force
+  402  php app/console doctrine:database:create
+  403  php app/console doctrine:schema:create
+  404  php app/console doctrine:database:drop --force
+  405  php app/console doctrine:database:create
+  406  php app/console doctrine:schema:create
+  407  php app/console doctrine:database:drop --force
+  408  php app/console doctrine:database:create
+  409  php app/console doctrine:schema:create
+  410  php app/console doctrine:database:drop --force
+  411  php app/console doctrine:database:create
+  412  php app/console doctrine:schema:create
+  413  php app/console doctrine:database:drop --force
+  414  php app/console doctrine:database:create
+  415  php app/console doctrine:schema:create
+  416  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  417  php app/console doctrine:fixtures:load
+  418  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  419  git commit -a -m "Vokabeln können eingegeben werden, nicht vorhandene Wörter werden eingetragen, vorhandene korrekt verbunden"
+  420  git push
+  421  git status
+  422  php ../composer.phar --help
+  423  php ../composer.phar self-update
+  424  php ../composer.phar update
+  425  history >> terminal_history.txt

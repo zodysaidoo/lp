@@ -5,3 +5,18 @@ services:
 #    lernparadies_lernparadies.example:
 #        class: %lernparadies_lernparadies.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
+# src/Ens/JobeetBundle/Resources/config/services.yml
+
+services:
+    lernparadies.lernparadiest.admin.benutzergruppe:
+        class: Lernparadies\LernparadiesBundle\Admin\BenutzergruppeAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: lernparadies, label: Benutzergruppen }
+        arguments: [null, Lernparadies\LernparadiesBundle\Entity\Benutzergruppe, LernparadiesLernparadiesBundle:BenutzergruppeAdmin]
+
+    lernparadies.lernparadiest.admin.sprache:
+        class: Lernparadies\LernparadiesBundle\Admin\SpracheAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: lernparadies, label: Sprachen }
+        arguments: [null, Lernparadies\LernparadiesBundle\Entity\Sprache, LernparadiesLernparadiesBundle:SpracheAdmin]

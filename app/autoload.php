@@ -15,5 +15,6 @@ $loader->add( 'Doctrine\\Common', __DIR__.'/../vendor/doctrine-common/lib');
 $loader->add( 'Knp\Menu', __DIR__.'/vendor/KnpMenu/src');
 $loader->add( 'Knp\\Component', __DIR__.'/../vendor/knp-components/src');
 $loader->add( 'Knp\\Bundle', __DIR__.'/../vendor/bundles');
+$loader->add( 'Sonata', __DIR__.'/../vendor/bundles');
 
 return $loader;
