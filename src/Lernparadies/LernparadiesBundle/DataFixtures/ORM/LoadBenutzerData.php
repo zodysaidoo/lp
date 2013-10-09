@@ -39,7 +39,8 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 		$benutzer->setUsername('Zeid');
 		$benutzer->setEmail('Zeid@gmx.de');
 		$benutzer->setBenutzerFriendlyUrl('zeid');
-		$benutzer->setPassword('0000');
+
+		$benutzer->setPlainPassword('0000');
 		$em->persist($benutzer);
 
 		$em->flush();

@@ -12,27 +12,32 @@ class Benutzergruppe
     /**
      * @var boolean
      */
-    private $id;
+	protected $id;
 
     /**
      * @var \DateTime
      */
-    private $benutzergruppeNewdate;
+	protected $benutzergruppeNewdate;
 
     /**
      * @var \DateTime
      */
-    private $benutzergruppeEditdate;
+	protected $benutzergruppeEditdate;
 
     /**
      * @var string
      */
-    private $benutzergruppeLabel;
+	protected $benutzergruppeLabel;
 
     /**
      * @var boolean
      */
-    private $benutzergruppeLogin;
+	protected $benutzergruppeLogin;
+
+	/**
+	 * @var integer
+	 */
+	protected $benutzergruppeStatuscode;
 
 
     /**
@@ -139,11 +144,6 @@ class Benutzergruppe
 	{
 		return $this->getBenutzergruppeLabel();
 	}
-    /**
-     * @var integer
-     */
-    private $benutzergruppeStatuscode;
-
 
     /**
      * Set benutzergruppeStatuscode

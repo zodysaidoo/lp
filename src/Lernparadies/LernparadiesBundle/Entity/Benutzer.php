@@ -171,21 +171,6 @@ class Benutzer extends BaseUser implements UserInterface
 		// your own logic
 	}
 
-	public function getRoles()
-	{
-		return array('ROLE_ADMIN');
-	}
-
-	public function getSalt()
-	{
-		return null;
-	}
-
-	public function eraseCredentials()
-	{
-
-	}
-
 	public function equals(UserInterface $user)
 	{
 		return $user->getUsername() == $this->getUsername();
