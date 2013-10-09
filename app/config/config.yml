@@ -29,7 +29,7 @@ twig:
 fos_user:
     db_driver: orm
     firewall_name: main
-    user_class: Application\Sonata\UserBundle\Entity\User
+    user_class: Lernparadies\LernparadiesBundle\Entity\Benutzer
 
 sonata_admin:
     title: Lernparadies Admin

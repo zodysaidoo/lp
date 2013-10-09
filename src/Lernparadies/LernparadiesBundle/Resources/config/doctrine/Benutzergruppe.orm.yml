@@ -12,7 +12,6 @@ Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
         benutzergruppeStatuscode:
             type: integer
             column: BENUTZERGRUPPE_STATUSCODE
-            columnDefinition: integer unsigned
         benutzergruppeNewdate:
             type: datetime
             nullable: false

@@ -36,16 +36,10 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 	{
 		$benutzer = new Benutzer();
 		$benutzer->setBenutzerBenutzerkontotyp($em->merge($this->getReference('benutzergruppe-administrator')));
-		$benutzer->setBenutzerName('Zeid');
-		$benutzer->setBenutzerEmail('Zeid@gmx.de');
+		$benutzer->setUsername('Zeid');
+		$benutzer->setEmail('Zeid@gmx.de');
 		$benutzer->setBenutzerFriendlyUrl('zeid');
-		$password = '0000';
-
-		// encode the password
-		$factory = $this->container->get('security.encoder_factory');
-		$encoder = $factory->getEncoder($benutzer);
-		$encodedPassword = $encoder->encodePassword($password, $benutzer->getSalt() );
-		$benutzer->setBenutzerPasswort($encodedPassword);
+		$benutzer->setPassword('0000');
 		$em->persist($benutzer);
 
 		$em->flush();

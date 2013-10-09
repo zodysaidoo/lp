@@ -630,3 +630,531 @@
   477  php app/console fos:user:create zeidiadmin admin@cholakovit.com password --super-admin
   478  php app/console fos:user:create zeidtestuser test@cholakovit.com password
   479  history >> terminal_history.txt
+    1  su
+    2  cd Do
+    3  cd Downloads/
+    4  sh netbeans-7.3-php-linux.sh 
+    5  su
+    6  cd /etc/apt/php
+    7  cd /etc/php
+    8  cd /etc/php5/
+    9  ls -al
+   10  cd apache2/
+   11  ls -al
+   12  nano php.ini 
+   13  su
+   14  exit
+   15  cd /var/www
+   16  curl -s http://getcomposer.org/installer | php --
+   17  php composer.phar create-project symfony-cmf/standard-edition <path-to-install> --stability=dev
+   18  php composer.phar create-project symfony-cmf/standard-edition lernparadies --stability=dev
+   19  cd lernparadies/l
+   20  cd lernparadies/
+   21  app/console doctrine:database:create
+   22  app/console doctrine:phpcr:register-system-node-types
+   23  app/console doctrine:phpcr:fixtures:load
+   24  su
+   25  cd /var/www/
+   26  php composer.phar create-project symfony/framework-standard-edition lernparadies 2.2.0
+   27  cd lernparadies/
+   28  php app/check.php
+   29  su
+   30  git --
+   31  git gui
+   32  aptitude
+   33  git gui
+   34  cd /var/www/lernparadies/
+   35  php composer.phar install
+   36  php ../composer.phar install
+   37  cd ..
+   38  ls -al
+   39  rm -R lernparadies/
+   40  ls -al
+   41  cd /var/www/lernparadies/
+   42  php ../composer.phar install
+   43  cd vokali
+   44  php ../../composer.phar install
+   45  git gui
+   46  git init
+   47  git gui
+   48  ls -al
+   49  chmod 777 app/cache/
+   50  chmod 777 app/logs/
+   51  apt-get install php-apc
+   52  su
+   53  app/console --version
+   54  ls -al
+   55  chmod 777 app
+   56  ls -al
+   57  app/console --version
+   58  su
+   59  app/console --version
+   60  app/console generate:bundle
+   61  app/console gen:doctrine:entity
+   62  app/console generate:bundffffkggglö
+   63  [
+   64  app/console generate:bundffffkggglöq
+   65  q
+   66  hallo
+   67  exit
+   68  git gui
+   69  cd ../../
+   70  git gui
+   71  cd /var/www
+   72  app/console gen:doctrine:entity
+   73  cd lernparadies/
+   74  app/console gen:doctrine:entity
+   75  ls -al
+   76  cd vokali/
+   77  ls -al
+   78  app/console gen:doctrine:entity
+   79  cd /var/www
+   80  ls -al
+   81  chmod 777 typo3
+   82  ls -al
+   83  cd /var/www
+   84  su
+   85  cd /var/www/
+   86  su
+   87  cups
+   88  hpsetup
+   89  su
+   90  winetricks
+   91  winetricks -gui
+   92  winetricks --gui
+   93  su
+   94  exit
+   95  su
+   96  cd /var/www
+   97  wget 'http://prdownloads.sourceforge.net/typo3/dummy-6.0.4.tar.gz'
+   98  tar -xzf dummy-6.0.4.tar.gz 
+   99  mv dummy-6.0.4/* typo
+  100  rm dummy-6.0.4.tar.gz 
+  101  rm dummy-6.0.4/ -R
+  102  ls -al
+  103  cd typo
+  104  ls -al
+  105  cd ..
+  106  wget 'http://prdownloads.sourceforge.net/typo3/typo3_src-6.0.4.tar.gz?download'
+  107  cd typo
+  108  ls -al
+  109  cd ..
+  110  tar -xzf typo3_src-6.0.4.tar.gz typo3_src-6.0.4/
+  111  mv typo3_src-6.0.4 typo
+  112  rm typo3_src-6.0.4.tar.gz
+  113  mv typo/typo3_src-6.0.4  ..
+  114  mv typo/typo3_src-6.0.4  ./
+  115  chmod 755 typo3_src-6.0.4/
+  116  chmod 755 typo3_src-6.0.4/ -R
+  117  ls -al
+  118  chmod 755 typo3/ -R
+  119  su
+  120  cd Downloads/
+  121  ls -al
+  122  su
+  123  exit
+  124  cd /var/www
+  125  ls -al
+  126  chmod 777 silex_server_html/
+  127  ls -al
+  128  su
+  129  aptitude
+  130  jdownloader
+  131  aptitude
+  132  cd Downloads/
+  133  sh jd.sh 
+  134  jdownloader
+  135  js
+  136  jd
+  137  su
+  138  cd Downloads/
+  139  start jd.sh 
+  140  cd Do
+  141  cd Downloads/
+  142  tar zxvf tucan-0.3.10.tar.gz 
+  143  cd tucan-0.3.10/
+  144  make install
+  145  su
+  146  tucan
+  147  link
+  148  link --help
+  149  link .desktop/tucan tucan
+  150  start
+  151  gnome-desktop-item-edit --create-new ~/Arbeitsfläche
+  152  ls -al
+  153  .jd
+  154  cd j.ja
+  155  cd j.jd
+  156  jd
+  157  jd.sh
+  158  ls -al
+  159  cd .jd
+  160  ls -al
+  161  JDownloader.jar
+  162  cd jd
+  163  ls aö
+  164  ls -al
+  165  cd ..
+  166  JDownloader.exe
+  167  start JDownloader.exe
+  168  uninstall tucan
+  169  su
+  170  gnome-desktop-item-edit --create-new ~/Arbeitsfläche
+  171  java .jd/JDownloader.jar
+  172  java .jd/fgfghjfgJDownloader.jar
+  173  cd .jd
+  174  ls -al
+  175  java JDownloader.jar
+  176  java ./JDownloader.jar
+  177  gnome-desktop-item-edit --create-new ~/Arbeitsfläche
+  178  apt-get install filezilla
+  179  su
+  180  aptitude
+  181  cd var/www/typo3
+  182  cd /var/www/typo3
+  183  su
+  184  phpinfo
+  185  aptitude
+  186  pecö
+  187  pecl
+  188  pecl install xdebug-beta
+  189  su
+  190  su
+  191  cd /var/www
+  192  su
+  193  cd /var/www
+  194  ls -al
+  195  rm -R silex_server_html/
+  196  rm -R doctrinetest/*
+  197  rm -R -f doctrinetest/*
+  198  su
+  199  cd /var/www
+  200  cd doctrinetest/
+  201  ../composer.phar install
+  202  cd /var/www/doctrinetest/
+  203  ../composer.phar install
+  204  cd /var/www
+  205  cd doctrinetest/
+  206  ../composer.phar  install
+  207  ../composer.phar install --reinstall
+  208  ../composer.phar install --help
+  209  rm -R vendor/
+  210  ../composer.phar install
+  211  rm -R vendor/
+  212  ../composer.phar install
+  213  rm -R vendor/*
+  214  ../composer.phar install
+  215  rm -R vendor/ composer.lock
+  216  ../composer.phar install
+  217  rm -R vendor/ composer.lock
+  218  ../composer.phar install
+  219  cd
+  220  cd /var/www
+  221  ls -al
+  222  $ composer.phar create-project symfony/framework-standard-edition sf2 2.2.0
+  223  ls -al
+  224  chown composer zeid:www-data
+  225  chown zeid:www-data composer.phar
+  226  su
+  227  ls -al
+  228  $ composer.phar create-project symfony/framework-standard-edition sf2 2.2.0
+  229  composer.phar create-project symfony/framework-standard-edition sf2 2.2.0
+  230  cd doctrinetest/
+  231  ../composer.phar create-project symfony/framework-standard-edition sf2 2.2.0
+  232  ls -al
+  233  cd sf2/
+  234  ls -al
+  235  cd app
+  236  ls -al
+  237  cd
+  238  cd /var/www/doctrinetest//sf2/
+  239  php app/check.php 
+  240  nano /etc/php5/apache2/php.ini
+  241  su
+  242  git-gui
+  243  git gui
+  244  su
+  245  nano .bachsrc
+  246  nano .bashsrc
+  247  nano .bashrc 
+  248  su
+  249  su
+  250  pp
+  251  lp
+  252  php ../composer.phar upgrade
+  253  php ../composer.phar 
+  254  php ../composer.phar self-update
+  255  php ../composer.phar update
+  256  git-stuff
+  257  gitk
+  258  lp
+  259  gitk
+  260  git-stuff
+  261  gitg
+  262  git-ftp
+  263  git web
+  264  git-web
+  265  gitweb
+  266  su
+  267  lp
+  268  su
+  269  lp
+  270  .
+  271  php app/console list#
+  272  php app/console list
+  273  php app/console generate:doctrine:entity --help
+  274  php app/console generate:doctrine:entity --entity=LernparadiesBundle/Sprache
+  275  php app/console generate:doctrine:entity --entity=LernparadiesLernparadiesBundle/Sprache
+  276  php app/console generate:doctrine:entity --entity=Lernparadies:Lernparadies/Sprache
+  277  php app/console generate:doctrine:entity --entity=LernparadiesBundle:Lernparadies/Sprache
+  278  php app/console generate:doctrine:entity --entity=Lernparadies/Sprache
+  279  php app/console generate:doctrine:entity --entity=LernparadiesBundle:Sprache
+  280  php app/console generate:doctrine:entity --entity=LernparadiesLernparadiesBundle:Sprache
+  281  php app/console generate:doctrine:entity --entity=Lernparadies/LernparadiesBundle:Sprache
+  282  php app/console generate:doctrine:entities
+  283  php app/console generate:doctrine --help
+  284  php app/console list
+  285  php app/console generate:doctrine:entities --help
+  286  php app/console generate:doctrine:entities LernparadiesBundle:Sprache
+  287  php app/console generate:doctrine:entities Lernparadies/LernparadiesBundle:Sprache
+  288  php app/console generate:doctrine:entities Lernparadies:Sprache
+  289  php app/console generate:doctrine:entities LernparadiesLernparadiesBundle:Sprache
+  290  php app/console list
+  291  php app/console generate:doctrine:crud --help
+  292  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache
+  293  php app/console generate:doctrine:crud --entity=Lernparadies/LernparadiesBundle:Sprache
+  294  php app/console generate:doctrine:crud --entity=LernparadiesBundle:Sprache
+  295  php app/console generate:doctrine:crud --entity=Lernparadies\LernparadiesBundle:Sprache
+  296  php app/console generate:doctrine:crud --entity=lernparadieslernparadiesBundle:Sprache
+  297  php app/console generate:doctrine:crud --entity=LernparadieslernparadiesBundle:Sprache
+  298  php app/console generate:doctrine:crud --entity=Lernparadies/lernparadiesBundle:Sprache
+  299  php app/console generate:doctrine:crud --entity=Lernparadies/LernparadiesBundle:Sprache
+  300  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache
+  301  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache --format=yml
+  302  php app/console generate:doctrine:crud --help
+  303  php app/console generate:doctrine:crud --entity=LernparadiesLernparadiesBundle:Sprache --format=yml --no-interaction --with-write
+  304  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  305  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  306  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Wortart --format=yml --no-interaction --with-write
+  307  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  308  php app/console list
+  309  php app/console doctrine:database:create
+  310  php app/console doctrine:schema:create 
+  311  php app/console doctrine:fixtures:load 
+  312  php app/console doctrine:database:drop
+  313  php app/console doctrine:database:drop --force
+  314  php app/console doctrine:schema:create 
+  315  php app/console doctrine:database:create
+  316  php app/console doctrine:schema:create 
+  317  php app/console doctrine:fixtures:load 
+  318  php app/console doctrine:database:drop
+  319  php app/console doctrine:database:drop --force
+  320  php app/console doctrine:database:create
+  321  php app/console doctrine:schema:create 
+  322  php app/console doctrine:fixtures:load 
+  323  php app/console doctrine:database:drop --force
+  324  php app/console doctrine:database:create
+  325  php app/console doctrine:schema:create 
+  326  php app/console doctrine:fixtures:load 
+  327  php app/console doctrine:fixtures:load  --purge-with-truncate
+  328  php app/console doctrine:fixtures:load
+  329  php app/console doctrine:database:drop --force
+  330  php app/console doctrine:database:create
+  331  php app/console doctrine:schema:create 
+  332  php app/console doctrine:fixtures:load
+  333  php app/console doctrine:database:drop --force
+  334  php app/console doctrine:database:create
+  335  php app/console doctrine:schema:create 
+  336  php app/console doctrine:fixtures:load
+  337  git --help
+  338  git add .
+  339  git commit -m "UML-Grafik um Wortart-Vokabel-Verbindung-Erweitert"
+  340  git push
+  341  git gui
+  342  git push
+  343  git pull
+  344  git pull origin master
+  345  git push
+  346  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  347  git push
+  348  ssh-keygen 
+  349  nano /home/zeid/.ssh/id_rsa.pub.
+  350  nano /home/zeid/.ssh/id_rsa.pub
+  351  gedit /home/zeid/.ssh/id_rsa.pub
+  352  lp
+  353  su
+  354  lp
+  355  php app/console doctrine:fixtures:load
+  356  php app/console doctrine:database:drop --force
+  357  php app/console doctrine:database:create
+  358  php app/console doctrine:schema:create 
+  359  php app/console doctrine:fixtures:load
+  360  git add .
+  361  git commit -m "Wortart-Fixtures hinzugefügt"
+  362  git push
+  363  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Wort --format=yml --no-interaction --with-write
+  364  php app/console doctrine:fixtures:load
+  365  git commit -a -m "Wort Fixtures hinhzugefügt"
+  366  git push
+  367  git add .
+  368  git status
+  369  git commit -, "
+  370  git commit -m "Wort Crud generiert"
+  371  git push
+  372  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  373  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  374  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  375  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  376  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  377  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  378  php app/console doctrine:database:drop --force
+  379  php app/console doctrine:database:create
+  380  php app/console doctrine:schema:create 
+  381  php app/console doctrine:schema:create #
+  382  php app/console doctrine:schema:create
+  383  php app/console doctrine:database:drop --force
+  384  php app/console doctrine:database:create
+  385  php app/console doctrine:schema:create
+  386  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  387  git add .
+  388  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  389  git add .
+  390  php app/console doctrine:fixtures:load
+  391  git add .
+  392  git -m "Vokabel: ORM, Entity, Crud erzeugt"
+  393  git commit -m "Vokabel: ORM, Entity, Crud erzeugt"
+  394  git commit -a -m "Views um LpBase erweitert"
+  395  git commit -a -m "Vokabel-CreateForm bekommt aus URL Sprache übergeben, Sprachen und Wortausgabe in Vokabel-List und Vokabel-Show"
+  396  git push
+  397  php app/console generate:doctrine:crud --entity=LernparadiesVokaliBundle:Vokabel --format=yml --no-interaction --with-write
+  398  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  399  php app/console doctrine:fixtures:load
+  400  php app/console doctrine:database:drop --force
+  401  php app/console doctrine:database:create
+  402  php app/console doctrine:schema:create
+  403  php app/console doctrine:database:drop --force
+  404  php app/console doctrine:database:create
+  405  php app/console doctrine:schema:create
+  406  php app/console doctrine:database:drop --force
+  407  php app/console doctrine:database:create
+  408  php app/console doctrine:schema:create
+  409  php app/console doctrine:database:drop --force
+  410  php app/console doctrine:database:create
+  411  php app/console doctrine:schema:create
+  412  php app/console doctrine:database:drop --force
+  413  php app/console doctrine:database:create
+  414  php app/console doctrine:schema:create
+  415  php app/console doctrine:database:drop --force
+  416  php app/console doctrine:database:create
+  417  php app/console doctrine:schema:create
+  418  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  419  php app/console doctrine:fixtures:load
+  420  php app/console doctrine:generate:entities LernparadiesVokaliBundle
+  421  git commit -a -m "Vokabeln können eingegeben werden, nicht vorhandene Wörter werden eingetragen, vorhandene korrekt verbunden"
+  422  git push
+  423  git status
+  424  php ../composer.phar --help
+  425  php ../composer.phar self-update
+  426  php ../composer.phar update
+  427  history >> terminal_history.txt
+  428  php app/console assets:install web
+  429  php ../composer.phar update
+  430  php app/console assets:install web
+  431  php app/console cache:clear --env=dev
+  432  php app/console cache:clear --env=prod
+  433  git add .
+  434  git commit -m "SonataAdmin hinzugefügt: Sprachen und Benutzergruppen in Admin-Dashboard hinzugefügt"
+  435  git push
+  436  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  437  php app/console doctrine:database:drop --force
+  438  php app/console doctrine:database:create
+  439  php app/console doctrine:schema:create
+  440  php app/console doctrine:fixtures:load
+  441  php app/console Lernparadies:Lernparadies:Benutzer
+  442  php app/console Lernparadies:Lernparadies:Benutzer Zeid 00001 zeid zeid@gmx.de
+  443  php app/console Lernparadies:Lernparadies:Benutzer eZeid 000001 ezeid zeid@gmx.ded
+  444  php app/console doctrine:fixtures:load
+  445  php app/console Lernparadies:Lernparadies:Benutzer Zeid 00001 zeid zeid@gmx.de
+  446  php app/console doctrine:database:drop --force
+  447  php app/console doctrine:schema:create
+  448  php app/console doctrine:database:create
+  449  php app/console doctrine:schema:create
+  450  php app/console doctrine:database:drop --force
+  451  php app/console doctrine:database:create
+  452  php app/console doctrine:schema:create
+  453  php app/console doctrine:fixtures:load
+  454  php app/console Lernparadies:Lernparadies:Benutzer Zeid 00001 zeid zeid@gmx.de
+  455  php app/console Lernparadies:Lernparadies:Benutzer Zeidd 00001 dzeid zeid@gmx.dde
+  456  php app/console doctrine:fixtures:load
+  457  php app/console Lernparadies:Lernparadies:Benutzer Zeidd 00001 dzeid zeid@gmx.dde
+  458  php app/console cache:clear --env=dev
+  459  php app/console cache:clear --env=prod
+  460  php app/console doctrine:fixtures:load
+  461  php app/console Lernparadies:Lernparadies:Benutzer Zeidd 00001 dzeid zeid@gmx.dde
+  462  git add .
+  463  git commit -m "Login und Logout für Admins nun möglich, SonataAdmin ist nun geschützter Bereich"
+  464  git push
+  465  git status
+  466  php ../composer.phar update
+  467  php app/console sonata:easy-extends:generate SonataUserBundle
+  468  php app/console doctrine:schema:update –dump-sql
+  469  php app/console doctrine:schema:update –force
+  470  php app/console assets:install web
+  471  php app/console fos:user:create zeidiadmin admin@cholakovit.com password --super-admin
+  472  php ../composer.phar update
+  473  php app/console fos:user:create zeidiadmin admin@cholakovit.com password --super-admin
+  474  php app/console doctrine:schema:update –dump-sql
+  475  php app/console doctrine:schema:update
+  476  php app/console doctrine:schema:update --dump-sql
+  477  php app/console doctrine:schema:update --forc
+  478  php app/console assets:install web
+  479  php app/console fos:user:create zeidiadmin admin@cholakovit.com password --super-admin
+  480  php app/console fos:user:create zeidtestuser test@cholakovit.com password
+  481  history >> terminal_history.txt
+  482  git add .
+  483  git commit -m "SonataAdminBundle um SonataUserBundle erweitern und FOSUserBundle"
+  484  git push
+  485  su
+  486  lp
+  487  php app/console router:debug
+  488  php app/console doctrine:schema:update --dump-sql
+  489  php app/console doctrine:database:drop --force
+  490  php app/console doctrine:database:create
+  491  php app/console doctrine:schema:create
+  492  php app/console doctrine:fixtures:load
+  493  php app/console list
+  494  php app/console fos:user:create
+  495  php app/console doctrine:generate:entity Lernparadies/LernparadiesBundle/Benutzer
+  496  php app/console doctrine:generate:entities LernparadiesLernparadiesBundle
+  497  php app/console fos:user:create
+  498  php app/console doctrine:database:drop --force
+  499  php app/console doctrine:database:create
+  500  php app/console doctrine:schema:create
+  501  php app/console doctrine:schema:update --dump-sql
+  502  php app/console doctrine:fixtures:load
+  503  php app/console fos:user:create
+  504  php app/console doctrine:database:drop --force
+  505  php app/console doctrine:database:create
+  506  php app/console doctrine:schema:create
+  507  php app/console doctrine:schema:update --dump-sql
+  508  php app/console doctrine:fixtures:load
+  509  php app/console fos:user:create
+  510  php app/console doctrine:fixtures:load
+  511  php app/console doctrine:database:drop --force
+  512  php app/console doctrine:database:create
+  513  php app/console doctrine:schema:create
+  514  php app/console doctrine:schema:update --dump-sql
+  515  php app/console doctrine:fixtures:load
+  516  php app/console fos:user:create
+  517  php app/console assets:install web
+  518  gedit history.txt
+  519  php app/console sonata:easy-extends:generate SonataUserBundle
+  520  php ../composer.phar --help
+  521  php ../composer.phar help
+  522  php app/console doctrine:database:drop --force
+  523  php app/console doctrine:schema:create
+  524  php app/console doctrine:database:create
+  525  php app/console doctrine:schema:create
+  526  php app/console fos:user:create
+  527  php app/console doctrine:fixtures:load
+  528  history >> terminal_history.txt

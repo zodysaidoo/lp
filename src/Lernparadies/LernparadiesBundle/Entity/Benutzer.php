@@ -4,11 +4,12 @@ namespace Lernparadies\LernparadiesBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use FOS\UserBundle\Entity\User as BaseUser;
 
 /**
  * Benutzer
  */
-class Benutzer implements UserInterface
+class Benutzer extends BaseUser implements UserInterface
 {
     /**
      * @var integer
@@ -29,21 +30,6 @@ class Benutzer implements UserInterface
      * @var string
      */
 	protected $benutzerFriendlyUrl;
-
-    /**
-     * @var string
-     */
-	protected $benutzerEmail;
-
-    /**
-     * @var string
-     */
-	protected $benutzerName;
-
-    /**
-     * @var string
-     */
-	protected $benutzerPasswort;
 
     /**
      * @var integer
@@ -134,75 +120,6 @@ class Benutzer implements UserInterface
     }
 
     /**
-     * Set benutzerEmail
-     *
-     * @param string $benutzerEmail
-     * @return Benutzer
-     */
-    public function setBenutzerEmail($benutzerEmail)
-    {
-        $this->benutzerEmail = $benutzerEmail;
-    
-        return $this;
-    }
-
-    /**
-     * Get benutzerEmail
-     *
-     * @return string 
-     */
-    public function getBenutzerEmail()
-    {
-        return $this->benutzerEmail;
-    }
-
-    /**
-     * Set benutzerName
-     *
-     * @param string $benutzerName
-     * @return Benutzer
-     */
-    public function setBenutzerName($benutzerName)
-    {
-        $this->benutzerName = $benutzerName;
-    
-        return $this;
-    }
-
-    /**
-     * Get benutzerName
-     *
-     * @return string 
-     */
-    public function getBenutzerName()
-    {
-        return $this->benutzerName;
-    }
-
-    /**
-     * Set benutzerPasswort
-     *
-     * @param string $benutzerPasswort
-     * @return Benutzer
-     */
-    public function setBenutzerPasswort($benutzerPasswort)
-    {
-        $this->benutzerPasswort = $benutzerPasswort;
-    
-        return $this;
-    }
-
-    /**
-     * Get benutzerPasswort
-     *
-     * @return string 
-     */
-    public function getBenutzerPasswort()
-    {
-        return $this->benutzerPasswort;
-    }
-
-    /**
      * Set benutzerLernerfolgspunkte
      *
      * @param integer $benutzerLernerfolgspunkte
@@ -247,14 +164,11 @@ class Benutzer implements UserInterface
     {
         return $this->benutzerBenutzerkontotyp;
     }
-	public function getUsername()
-	{
-		return $this->getBenutzerName();
-	}
 
-	public function getPassword()
+	public function __construct()
 	{
-		return $this->getBenutzerPasswort();
+		parent::__construct();
+		// your own logic
 	}
 
 	public function getRoles()
@@ -274,6 +188,16 @@ class Benutzer implements UserInterface
 
 	public function equals(UserInterface $user)
 	{
-		return $user->getUsername() == $this->getBenutzerName();
+		return $user->getUsername() == $this->getUsername();
 	}
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function setDefaultParameterAtCreation()
+    {
+        if(!$this->getBenutzerFriendlyUrl()){
+	        $this->setBenutzerFriendlyUrl($this->getUsername()."-".uniqid());
+        }
+    }
 }
