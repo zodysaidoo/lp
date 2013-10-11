@@ -34,7 +34,9 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 
 	public function load(ObjectManager $em)
 	{
-		$benutzer = new Benutzer();
+        $userManager = $this->container->get('fos_user.user_manager');
+        /** @var Benutzer $benutzer */
+        $benutzer = $userManager->createUser();
 		$benutzer->setBenutzerBenutzerkontotyp($em->merge($this->getReference('benutzergruppe-administrator')));
 		$benutzer->setUsername('Zeid');
 		$benutzer->setEmail('Zeid@gmx.de');
