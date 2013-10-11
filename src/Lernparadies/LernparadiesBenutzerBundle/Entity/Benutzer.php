@@ -120,29 +120,6 @@ class Benutzer extends BaseUser implements UserInterface
         return $this->benutzerFriendlyUrl;
     }
 
-    /**
-     * Set benutzerBenutzerkontotyp
-     *
-     * @param \Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp
-     * @return Benutzer
-     */
-    public function setBenutzerBenutzerkontotyp(\Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp = null)
-    {
-        $this->benutzerBenutzerkontotyp = $benutzerBenutzerkontotyp;
-    
-        return $this;
-    }
-
-    /**
-     * Get benutzerBenutzerkontotyp
-     *
-     * @return \Lernparadies\LernparadiesBundle\Entity\Benutzergruppe 
-     */
-    public function getBenutzerBenutzerkontotyp()
-    {
-        return $this->benutzerBenutzerkontotyp;
-    }
-
 	public function equals(UserInterface $user)
 	{
 		return $user->getUsername() == $this->getUsername();

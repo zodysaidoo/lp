@@ -12,101 +12,61 @@ namespace Lernparadies\LernparadiesBenutzerBundle\DataFixtures\ORM;
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe;
 
-class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureInterface
+class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureInterface, ContainerAwareInterface
 {
+    /**
+     * @var ContainerInterface
+     */
+    private $container;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setContainer(ContainerInterface $container = null)
+    {
+        $this->container = $container;
+    }
+
 	public function load(ObjectManager $em)
 	{
-		$benutzergruppeAdmin = new Benutzergruppe();
-		$benutzergruppeAdmin->setBenutzergruppeLabel('Administrator');
-		$benutzergruppeAdmin->setBenutzergruppeStatuscode(0);
-		$benutzergruppeAdmin->setBenutzergruppeLogin( true );
-		$em->persist($benutzergruppeAdmin);
+        $userManager = $this->container->get('fos_user.group_manager');
 
-		$benutzergruppeFreeUser = new Benutzergruppe();
-		$benutzergruppeFreeUser->setBenutzergruppeLabel('Freier User');
-		$benutzergruppeFreeUser->setBenutzergruppeStatuscode(1);
-		$benutzergruppeFreeUser->setBenutzergruppeLogin( true );
-		$em->persist($benutzergruppeFreeUser);
+        $benutzergruppeAdmin = $userManager->createGroup('Administrator');
+        $benutzergruppeAdmin->addRole('ROLE_ADMIN');
+        $em->persist($benutzergruppeAdmin);
 
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeFreeUser->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeFreeUser->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
+        $benutzergruppeFreeUser = $userManager->createGroup('Freier User');
+        $benutzergruppeFreeUser->addRole('ROLE_FREE_USER');
+        $em->persist($benutzergruppeFreeUser);
 
-		$benutzergruppeLehrer = new Benutzergruppe();
-		$benutzergruppeLehrer->setBenutzergruppeLabel('Lehrer');
-		$benutzergruppeLehrer->setBenutzergruppeStatuscode(2);
-		$benutzergruppeLehrer->setBenutzergruppeLogin( true );
-		$em->persist($benutzergruppeLehrer);
+        $benutzergruppeLehrer = $userManager->createGroup('Lehrer');
+        $benutzergruppeLehrer->addRole('ROLE_TEACHER');
+        $em->persist($benutzergruppeLehrer);
 
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeLehrer->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeLehrer->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
+        $benutzergruppeSchueler = $userManager->createGroup('Schüler');
+        $benutzergruppeSchueler->addRole('ROLE_STUDENT');
+        $em->persist($benutzergruppeSchueler);
 
-		$benutzergruppeSchueler = new Benutzergruppe();
-		$benutzergruppeSchueler->setBenutzergruppeLabel('Schüler');
-		$benutzergruppeSchueler->setBenutzergruppeStatuscode(3);
-		$benutzergruppeSchueler->setBenutzergruppeLogin( true );
-		$em->persist($benutzergruppeSchueler);
+        $benutzergruppeSchulleitung = $userManager->createGroup('Schulleitung');
+        $benutzergruppeSchulleitung->addRole('ROLE_HEADTEACHER');
+        $benutzergruppeSchulleitung->addRole('ROLE_TEACHER');
+        $em->persist($benutzergruppeSchulleitung);
 
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeSchueler->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeSchueler->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
-
-		$benutzergruppeSchulleitung = new Benutzergruppe();
-		$benutzergruppeSchulleitung->setBenutzergruppeLabel('Schulleitung');
-		$benutzergruppeSchulleitung->setBenutzergruppeStatuscode(4);
-		$benutzergruppeSchulleitung->setBenutzergruppeLogin( true );
-		$em->persist($benutzergruppeSchulleitung);
-
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeSchulleitung->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeSchulleitung->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
-
-		$benutzergruppeRedakteur = new Benutzergruppe();
-		$benutzergruppeRedakteur->setBenutzergruppeLabel('Redakteur');
-		$benutzergruppeRedakteur->setBenutzergruppeStatuscode(5);
-		$benutzergruppeRedakteur->setBenutzergruppeLogin( true );
+        $benutzergruppeRedakteur = $userManager->createGroup('Redakteur');
+		$benutzergruppeRedakteur->addRole('ROLE_REDAKTEUR');
 		$em->persist($benutzergruppeRedakteur);
 
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeRedakteur->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeRedakteur->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
-
-		$benutzergruppeEltern = new Benutzergruppe();
-		$benutzergruppeEltern->setBenutzergruppeLabel('Eltern');
-		$benutzergruppeEltern->setBenutzergruppeStatuscode(6);
-		$benutzergruppeEltern->setBenutzergruppeLogin( true );
+        $benutzergruppeEltern = $userManager->createGroup('Eltern');
+		$benutzergruppeEltern->addRole('ROLE_PARENT');
 		$em->persist($benutzergruppeEltern);
 
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeEltern->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeEltern->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
-
-		$benutzergruppeMinisteriumsmitarbeiter = new Benutzergruppe();
-		$benutzergruppeMinisteriumsmitarbeiter->setBenutzergruppeLabel('Ministeriumsmitarbeiter');
-		$benutzergruppeMinisteriumsmitarbeiter->setBenutzergruppeStatuscode(7);
-		$benutzergruppeMinisteriumsmitarbeiter->setBenutzergruppeLogin( true );
+        $benutzergruppeMinisteriumsmitarbeiter = $userManager->createGroup('Ministeriumsmitarbeiter');
+		$benutzergruppeMinisteriumsmitarbeiter->addRole('ROLE_GOUVERNMENT_EMPLOYEE');
 		$em->persist($benutzergruppeMinisteriumsmitarbeiter);
-
-		$benutzergruppe = new Benutzergruppe();
-		$benutzergruppe->setBenutzergruppeLabel( $benutzergruppeMinisteriumsmitarbeiter->getBenutzergruppeLabel().' unbestätigt');
-		$benutzergruppe->setBenutzergruppeStatuscode( $benutzergruppeMinisteriumsmitarbeiter->getBenutzergruppeStatuscode()+100 );
-		$benutzergruppe->setBenutzergruppeLogin( false );
-		$em->persist($benutzergruppe);
 
 		$em->flush();
 

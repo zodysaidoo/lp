@@ -30,6 +30,8 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzer
+    group:
+        group_class: Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe
     registration:
         confirmation:
             enabled:    true

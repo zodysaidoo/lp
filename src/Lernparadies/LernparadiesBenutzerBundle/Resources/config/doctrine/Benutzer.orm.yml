@@ -25,16 +25,17 @@ Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzer:
             nullable: false
             unique: true
             column: BENUTZER_FRIENDLY_URL
-    manyToOne:
-        benutzerBenutzerkontotyp:
+    manyToMany:
+        groups:
             targetEntity: Benutzergruppe
-            cascade: {  }
-            mappedBy: null
-            inversedBy: null
-            joinColumns:
-                BENUTZER_ID_BENUTZERKONTOTYP:
-                    referencedColumnName: BENUTZERGRUPPE_ID
-            orphanRemoval: false
+            joinTable:
+                name: BENUTZER_XX_BENUTZERGRUPPE
+                joinColumns:
+                    user_id:
+                        referencedColumnName: BENUTZER_ID
+                inverseJoinColumns:
+                    group_id:
+                        referencedColumnName: BENUTZERGRUPPE_ID
     lifecycleCallbacks:
         prePersist: [ setBenutzerNewdate, setDefaultParameterAtCreation ]
         preUpdate: [ setBenutzerEditdate ]

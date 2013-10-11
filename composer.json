@@ -37,7 +37,8 @@
         "jquery/jquery": "1.9.*",
         "leafo/lessphp": "dev-master",
         "bmatzner/modernizr-bundle": "*",
-        "friendsofsymfony/user-bundle": "v1.3.3"
+        "friendsofsymfony/user-bundle": "v1.3.3",
+        "sonata-project/doctrine-extensions": "*"
     },
     "scripts": {
         "post-install-cmd": [
