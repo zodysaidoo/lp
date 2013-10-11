@@ -30,6 +30,25 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzer
+    registration:
+        confirmation:
+            enabled:    true
+            from_email:
+                address:        registration@acmedemo.com
+                sender_name:    Acme Demo Registration
+    resetting:
+        email:
+            from_email:
+                address:        resetting@acmedemo.com
+                sender_name:    Acme Demo Resetting
+    from_email:
+        address:        noreply@acmedemo.com
+        sender_name:    Acme Demo App
+    service:
+        mailer: fos_user.mailer.twig_swift
+    resetting:
+        email:
+            template: LernparadiesLernparadiesBenutzerBundle:Benutzer:resetting.email.html.twig
 
 bc_bootstrap:
     less_filter: lessphp

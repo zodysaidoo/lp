@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea03c79-b36b-48c3-a932-7c8382c27d44" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting.email.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting_email_plain_text.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/edit.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/new.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzer/show.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/edit.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/new.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Benutzergruppe/show.html.twig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
@@ -14,7 +25,7 @@
     <file path="/Benutzer.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508355195" ignored="false" />
     <file path="/Benutzergruppe.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508398007" ignored="false" />
     <file path="/Benutzergruppe.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508421285" ignored="false" />
-    <file path="/config.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508527337" ignored="false" />
+    <file path="/config.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381521779483" ignored="false" />
     <file path="/routing.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508698880" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/classes.map" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381509588351" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381509588351" ignored="false" />
@@ -28,6 +39,9 @@
     <file path="$PROJECT_DIR$/vendor/composer/ClassLoader.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381511960437" ignored="false" />
     <file path="/login.html.twig" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381513021043" ignored="false" />
     <file path="/parameters.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381513148269" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381521563658" ignored="false" />
+    <file path="/resetting.email.html.twig" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381522029492" ignored="false" />
+    <file path="/resetting_email_plain_text.html.twig" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381522118868" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadBenutzerData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/DataFixtures/ORM/LoadBenutzerData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="25" selection-start="1103" selection-end="1103" vertical-scroll-proportion="-13.583333">
-              <folding>
-                <element signature="e#230#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,46 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig">
+      <file leaf-file-name="config.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="89" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.55851066">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="90" selection-end="604" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="57" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="85" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation_top.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="485" selection-end="485" vertical-scroll-proportion="0.28901735">
               <folding />
             </state>
           </provider>
@@ -130,13 +106,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/config/view/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/autoload.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/config/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/LernparadiesBenutzerBundle.php" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/layout.html.twig" />
@@ -146,6 +118,10 @@
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/DataFixtures/ORM/LoadBenutzerData.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting.email.html.twig" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting_email_plain_text.html.twig" />
       </list>
     </option>
   </component>
@@ -471,6 +447,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Benutzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBenutzerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="translations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -606,11 +616,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/translations" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity" />
-      <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/config/doctrine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources" />
@@ -647,15 +657,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24242425" sideWeight="0.67118645" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24242425" sideWeight="0.67118645" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -733,46 +743,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/LernparadiesBenutzerBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="225" selection-end="225" vertical-scroll-proportion="0.28901735" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="588" selection-end="601" vertical-scroll-proportion="0.3468208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="41" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.52986515" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="587" selection-end="587" vertical-scroll-proportion="0.433526" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="67" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.53518516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="813" selection-end="813" vertical-scroll-proportion="0.21276596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.1861702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3314917" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/translations/FOSUserBundle.de.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -784,13 +754,6 @@
           <folding>
             <element signature="e#230#276#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,16 +771,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="12" column="14" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Security/login.html.twig">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="85" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.75">
+        <state line="39" column="48" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.76878613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="10" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -825,6 +809,48 @@
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/navigation_top.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="49" selection-start="485" selection-end="485" vertical-scroll-proportion="0.28901735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="85" selection-start="923" selection-end="923" vertical-scroll-proportion="0.63583815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="37" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting.email.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="56" selection-start="543" selection-end="579" vertical-scroll-proportion="0.5277778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Benutzer/resetting_email_plain_text.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="89" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.55851066">
           <folding />
         </state>
       </provider>
