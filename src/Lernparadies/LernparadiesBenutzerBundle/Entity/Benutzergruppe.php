@@ -1,6 +1,6 @@
 <?php
 
-namespace Lernparadies\LernparadiesBundle\Entity;
+namespace Lernparadies\LernparadiesBenutzerBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

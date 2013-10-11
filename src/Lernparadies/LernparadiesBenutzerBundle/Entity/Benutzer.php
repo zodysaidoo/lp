@@ -1,6 +1,6 @@
 <?php
 
-namespace Lernparadies\LernparadiesBundle\Entity;
+namespace Lernparadies\LernparadiesBenutzerBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -32,15 +32,16 @@ class Benutzer extends BaseUser implements UserInterface
 	protected $benutzerFriendlyUrl;
 
     /**
-     * @var integer
-     */
-	protected $benutzerLernerfolgspunkte = 0;
-
-    /**
-     * @var \Lernparadies\LernparadiesBundle\Entity\Benutzergruppe
+     * @var \Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe
      */
 	protected $benutzerBenutzerkontotyp;
 
+
+    public function __construct()
+    {
+        parent::__construct();
+        // your own logic
+    }
 
     /**
      * Get id
@@ -120,35 +121,12 @@ class Benutzer extends BaseUser implements UserInterface
     }
 
     /**
-     * Set benutzerLernerfolgspunkte
-     *
-     * @param integer $benutzerLernerfolgspunkte
-     * @return Benutzer
-     */
-    public function setBenutzerLernerfolgspunkte($benutzerLernerfolgspunkte)
-    {
-        $this->benutzerLernerfolgspunkte = $benutzerLernerfolgspunkte;
-    
-        return $this;
-    }
-
-    /**
-     * Get benutzerLernerfolgspunkte
-     *
-     * @return integer 
-     */
-    public function getBenutzerLernerfolgspunkte()
-    {
-        return $this->benutzerLernerfolgspunkte;
-    }
-
-    /**
      * Set benutzerBenutzerkontotyp
      *
-     * @param \Lernparadies\LernparadiesBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp
+     * @param \Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp
      * @return Benutzer
      */
-    public function setBenutzerBenutzerkontotyp(\Lernparadies\LernparadiesBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp = null)
+    public function setBenutzerBenutzerkontotyp(\Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $benutzerBenutzerkontotyp = null)
     {
         $this->benutzerBenutzerkontotyp = $benutzerBenutzerkontotyp;
     
@@ -164,12 +142,6 @@ class Benutzer extends BaseUser implements UserInterface
     {
         return $this->benutzerBenutzerkontotyp;
     }
-
-	public function __construct()
-	{
-		parent::__construct();
-		// your own logic
-	}
 
 	public function equals(UserInterface $user)
 	{

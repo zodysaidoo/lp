@@ -1,4 +1,4 @@
-Lernparadies\LernparadiesBundle\Entity\Benutzergruppe:
+Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe:
     type: entity
     table: BENUTZERGRUPPE
     fields:

@@ -6,3 +6,7 @@ lernparadies_vokali:
     resource: "@LernparadiesVokaliBundle/Resources/config/routing.yml"
     prefix:   /
 
+lernparadies_benutzer:
+    resource: "@LernparadiesBenutzerBundle/Resources/config/routing.yml"
+    prefix:   /
+

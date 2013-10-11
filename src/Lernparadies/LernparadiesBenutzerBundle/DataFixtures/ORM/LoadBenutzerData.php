@@ -7,14 +7,14 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace Lernparadies\LernparadiesBundle\DataFixtures\ORM;
+namespace Lernparadies\LernparadiesBenutzerBundle\DataFixtures\ORM;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Lernparadies\LernparadiesBundle\Entity\Benutzer;
+use Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzer;
 
 
 class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterface, ContainerAwareInterface
@@ -39,6 +39,7 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 		$benutzer->setUsername('Zeid');
 		$benutzer->setEmail('Zeid@gmx.de');
 		$benutzer->setBenutzerFriendlyUrl('zeid');
+        $benutzer->setEnabled(true);
 
 		$benutzer->setPlainPassword('0000');
 		$em->persist($benutzer);
@@ -48,6 +49,6 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 
 	public function getOrder()
 	{
-		return 3; // the order in which fixtures will be loaded
+		return 2; // the order in which fixtures will be loaded
 	}
 }

@@ -1,4 +1,4 @@
-Lernparadies\LernparadiesBundle\Entity\Benutzer:
+Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzer:
     type: entity
     table: BENUTZER
     fields:
@@ -25,11 +25,6 @@ Lernparadies\LernparadiesBundle\Entity\Benutzer:
             nullable: false
             unique: true
             column: BENUTZER_FRIENDLY_URL
-        benutzerLernerfolgspunkte:
-            type: integer
-            unsigned: true
-            nullable: false
-            column: BENUTZER_LERNERFOLGSPUNKTE
     manyToOne:
         benutzerBenutzerkontotyp:
             targetEntity: Benutzergruppe

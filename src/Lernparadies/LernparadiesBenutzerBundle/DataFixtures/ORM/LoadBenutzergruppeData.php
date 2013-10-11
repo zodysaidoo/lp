@@ -7,12 +7,12 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace Lernparadies\LernparadiesBundle\DataFixtures\ORM;
+namespace Lernparadies\LernparadiesBenutzerBundle\DataFixtures\ORM;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
-use Lernparadies\LernparadiesBundle\Entity\Benutzergruppe;
+use Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe;
 
 class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureInterface
 {
@@ -115,6 +115,6 @@ class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureIn
 
 	public function getOrder()
 	{
-		return 2; // the order in which fixtures will be loaded
+		return 1; // the order in which fixtures will be loaded
 	}
 }
