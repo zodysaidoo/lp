@@ -99,7 +99,7 @@
                 {
                     "name": "Florian Eckerstorfer",
                     "email": "florian@eckerstorfer.co",
-                    "homepage": "http://braincrafted.com",
+                    "homepage": "http://florianeckerstorfer.com",
                     "role": "Developer"
                 }
             ],
@@ -165,7 +165,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -301,7 +301,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -373,7 +373,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -396,12 +396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "b1e7d5a991ca891cd66c143a618f5ce1e679ba9f"
+                "reference": "8ffac1c63f34124f693b93889fa32f4036eb241b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/b1e7d5a991ca891cd66c143a618f5ce1e679ba9f",
-                "reference": "b1e7d5a991ca891cd66c143a618f5ce1e679ba9f",
+                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/8ffac1c63f34124f693b93889fa32f4036eb241b",
+                "reference": "8ffac1c63f34124f693b93889fa32f4036eb241b",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +443,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2013-09-16 23:31:59"
+            "time": "2013-10-10 22:08:39"
         },
         {
             "name": "doctrine/dbal",
@@ -737,7 +737,7 @@
                     "email": "roman@code-factory.org"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "fdb1124a2864817c62dd61fdb5950881ebe69dbe"
+                "reference": "cd9bf9bfe8c3888a98b3c6689dcfd685caf6e2c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/fdb1124a2864817c62dd61fdb5950881ebe69dbe",
-                "reference": "fdb1124a2864817c62dd61fdb5950881ebe69dbe",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/cd9bf9bfe8c3888a98b3c6689dcfd685caf6e2c7",
+                "reference": "cd9bf9bfe8c3888a98b3c6689dcfd685caf6e2c7",
                 "shasum": ""
             },
             "require": {
@@ -1543,7 +1543,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2013-10-07 21:39:07"
+            "time": "2013-10-11 08:16:58"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -1727,12 +1727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "6f0312984965d0edc029e437486715a2687749e6"
+                "reference": "4394e0a0154e863435aba80bd151c69d573e1934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/6f0312984965d0edc029e437486715a2687749e6",
-                "reference": "6f0312984965d0edc029e437486715a2687749e6",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/4394e0a0154e863435aba80bd151c69d573e1934",
+                "reference": "4394e0a0154e863435aba80bd151c69d573e1934",
                 "shasum": ""
             },
             "require": {
@@ -1775,7 +1775,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2013-10-01 10:26:22"
+            "time": "2013-10-11 08:18:18"
         },
         {
             "name": "sonata-project/easy-extends-bundle",
@@ -2162,7 +2162,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.3.5",
+            "version": "v2.3.6",
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
@@ -2331,16 +2331,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.2.8",
+            "version": "v2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "e80fc4aa253529fe0100ead61c41ae22bee5f030"
+                "reference": "6a5c6c0d76014cd54cf8bd82a96b75d7589d8029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/e80fc4aa253529fe0100ead61c41ae22bee5f030",
-                "reference": "e80fc4aa253529fe0100ead61c41ae22bee5f030",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6a5c6c0d76014cd54cf8bd82a96b75d7589d8029",
+                "reference": "6a5c6c0d76014cd54cf8bd82a96b75d7589d8029",
                 "shasum": ""
             },
             "require": {
@@ -2426,7 +2426,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-09-26 07:49:44"
+            "time": "2013-10-10 12:15:43"
         },
         {
             "name": "twig/extensions",

@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Lernparadies\VokaliBundle\LernparadiesVokaliBundle(),
             new Lernparadies\LernparadiesBundle\LernparadiesLernparadiesBundle(),
+            new Lernparadies\LernparadiesBenutzerBundle\LernparadiesBenutzerBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 			new Bc\Bundle\BootstrapBundle\BcBootstrapBundle(),
 	        new Bmatzner\ModernizrBundle\BmatznerModernizrBundle(),
