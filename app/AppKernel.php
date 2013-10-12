@@ -18,11 +18,19 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Lernparadies\VokaliBundle\LernparadiesVokaliBundle(),
             new Lernparadies\LernparadiesBundle\LernparadiesLernparadiesBundle(),
-            new Lernparadies\LernparadiesBenutzerBundle\LernparadiesBenutzerBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
-			new Bc\Bundle\BootstrapBundle\BcBootstrapBundle(),
-	        new Bmatzner\ModernizrBundle\BmatznerModernizrBundle(),
-	        new FOS\UserBundle\FOSUserBundle(),
+            new Bc\Bundle\BootstrapBundle\BcBootstrapBundle(),
+            new Bmatzner\ModernizrBundle\BmatznerModernizrBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new Sonata\AdminBundle\SonataAdminBundle(),
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Sonata\CacheBundle\SonataCacheBundle(),
+            new Sonata\jQueryBundle\SonatajQueryBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
+            new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
+            new Lernparadies\LernparadiesBenutzerBundle\LernparadiesBenutzerBundle('SonataUserBundle'),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

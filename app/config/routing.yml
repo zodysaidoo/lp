@@ -9,4 +9,3 @@ lernparadies_vokali:
 lernparadies_benutzer:
     resource: "@LernparadiesBenutzerBundle/Resources/config/routing.yml"
     prefix:   /
-

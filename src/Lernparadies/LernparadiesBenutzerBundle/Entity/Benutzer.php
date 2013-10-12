@@ -4,7 +4,7 @@ namespace Lernparadies\LernparadiesBenutzerBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
-use FOS\UserBundle\Entity\User as BaseUser;
+use Sonata\UserBundle\Entity\BaseUser as BaseUser;
 
 /**
  * Benutzer

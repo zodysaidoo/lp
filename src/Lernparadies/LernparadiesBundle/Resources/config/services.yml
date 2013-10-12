@@ -9,12 +9,6 @@ services:
 # src/Ens/JobeetBundle/Resources/config/services.yml
 
 services:
-    lernparadies.lernparadiest.admin.benutzergruppe:
-        class: Lernparadies\LernparadiesBundle\Admin\BenutzergruppeAdmin
-        tags:
-            - { name: sonata.admin, manager_type: orm, group: lernparadies, label: Benutzergruppen }
-        arguments: [null, Lernparadies\LernparadiesBundle\Entity\Benutzergruppe, LernparadiesLernparadiesBundle:BenutzergruppeAdmin]
-
     lernparadies.lernparadiest.admin.sprache:
         class: Lernparadies\LernparadiesBundle\Admin\SpracheAdmin
         tags:
