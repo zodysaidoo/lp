@@ -5,3 +5,15 @@ services:
 #    lernparadies_vokali.example:
 #        class: %lernparadies_vokali.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+#services:
+#    sonata.admin.post:
+#        class: Lernparadies\VokaliBundle\Admin\FlexionsartAdmin
+#        tags:
+#            - name: sonata.admin
+#              manager_type: orm
+#              group: "Vokali"
+#              label: "Flexionsarten"
+#        arguments:
+#            - ~
+#            - Lernparadies\VokaliBundle\Entity\Flexionsart
+#            - ~
