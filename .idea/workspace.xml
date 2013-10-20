@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea03c79-b36b-48c3-a932-7c8382c27d44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/TagAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/KommentarAdmin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382291015812" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382291088599" ignored="false" />
     <file path="/AppKernel.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381510623479" ignored="false" />
     <file path="/LernparadiesLernparadiesBundle.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381507098457" ignored="false" />
     <file path="/a.dummy" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290528827" ignored="false" />
@@ -38,7 +37,7 @@
     <file path="/Tag.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381588299168" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381588478468" ignored="false" />
     <file path="/Flexionsart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382275133486" ignored="false" />
-    <file path="/services.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290716157" ignored="false" />
+    <file path="/services.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382291255234" ignored="false" />
     <file path="/DefaultControllerTest.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382277431661" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382288603637" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382288603637" ignored="false" />
@@ -49,6 +48,7 @@
     <file path="/TagAdminController.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290547216" ignored="false" />
     <file path="/PostAdmin.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290982817" ignored="false" />
     <file path="/TagAdmin.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382291001611" ignored="false" />
+    <file path="/KommentarAdmin.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382291180945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <file leaf-file-name="PostAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="14" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-8.25">
+            <state line="2" column="0" selection-start="53" selection-end="105" vertical-scroll-proportion="-1.25">
               <folding>
                 <element signature="e#107#142#0" expanded="true" />
               </folding>
@@ -129,8 +129,19 @@
       <file leaf-file-name="services.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="500" selection-end="500" vertical-scroll-proportion="0.27675277">
+            <state line="18" column="59" selection-start="976" selection-end="976" vertical-scroll-proportion="0.49815497">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KommentarAdmin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/KommentarAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="7" selection-start="575" selection-end="575" vertical-scroll-proportion="-11.875">
+              <folding>
+                <element signature="e#110#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,17 +166,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tag.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Entity/Tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="43" selection-start="2470" selection-end="2470" vertical-scroll-proportion="-9.083333">
-              <folding>
-                <element signature="e#62#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -184,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Tests/Controller/DefaultControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection/LernparadiesBlogExtension.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/doctrine/Comment.orm.yml" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/TagAdminController.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/TagAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/KommentarAdmin.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" />
       </list>
     </option>
@@ -811,7 +811,11 @@
       <created>1382290776434</created>
       <updated>1382290776434</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TagAdmin übernommen">
+      <created>1382291091838</created>
+      <updated>1382291091838</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -911,13 +915,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/doctrine/Tag.orm.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1008,15 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="1324" selection-end="1324" vertical-scroll-proportion="-8.25">
-          <folding>
-            <element signature="e#107#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/TagAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="14" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-15.333333">
@@ -1026,9 +1014,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="53" selection-end="105" vertical-scroll-proportion="-1.25">
+          <folding>
+            <element signature="e#107#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/KommentarAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="575" selection-end="575" vertical-scroll-proportion="-11.875">
+          <folding>
+            <element signature="e#110#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="500" selection-end="500" vertical-scroll-proportion="0.27675277">
+        <state line="18" column="59" selection-start="976" selection-end="976" vertical-scroll-proportion="0.49815497">
           <folding />
         </state>
       </provider>
