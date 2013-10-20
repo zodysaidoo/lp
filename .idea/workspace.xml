@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea03c79-b36b-48c3-a932-7c8382c27d44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/doctrine/Kommentar.orm.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Entity/Kommentar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/KommentarAdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/doctrine/Post.orm.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Entity/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/PostAdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/doctrine/Tag.orm.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Entity/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/TagAdminController.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection/LernparadiesBlogExtension.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity/Benutzer.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity/Benutzer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection/LernparadiesLernparadiesBlogExtension.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382277574481" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290589051" ignored="false" />
     <file path="/AppKernel.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381510623479" ignored="false" />
     <file path="/LernparadiesLernparadiesBundle.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381507098457" ignored="false" />
     <file path="/a.dummy" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290528827" ignored="false" />
@@ -47,7 +38,7 @@
     <file path="/Tag.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381588299168" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381588478468" ignored="false" />
     <file path="/Flexionsart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382275133486" ignored="false" />
-    <file path="/services.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382275600650" ignored="false" />
+    <file path="/services.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382290716157" ignored="false" />
     <file path="/DefaultControllerTest.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382277431661" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382288603637" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382288603637" ignored="false" />
@@ -104,10 +95,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagAdminController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TagAdminController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/TagAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="139" selection-end="139" vertical-scroll-proportion="0.14478764">
+            <state line="5" column="9" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostAdmin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="34.666668">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="95" selection-start="406" selection-end="406" vertical-scroll-proportion="0.22140221">
               <folding />
             </state>
           </provider>
@@ -153,24 +162,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flexionsart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="22" selection-start="1977" selection-end="2356" vertical-scroll-proportion="-6.5833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Benutzer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity/Benutzer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="12" selection-start="2495" selection-end="2495" vertical-scroll-proportion="-4.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -189,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection/LernparadiesLernparadiesBlogExtension.php" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Tests/Controller/DefaultControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/DefaultController.php" />
@@ -205,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/KommentarController.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/PostAdminController.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/TagAdminController.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml" />
       </list>
     </option>
   </component>
@@ -637,6 +628,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBlogBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="LernparadiesBenutzerBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -782,12 +799,16 @@
       <created>1382277578530</created>
       <updated>1382277578530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BlogBundle (http://sonata-project.org/bundles/doctrine-orm-admin/master/doc/tutorial/creating_your_first_admin_class/defining_crud_controller.html)">
+      <created>1382290595033</created>
+      <updated>1382290595033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -795,7 +816,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26176023" sideWeight="0.67232597" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26176023" sideWeight="0.67232597" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -852,7 +873,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlogBundle neu generiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlogBundle (http://sonata-project.org/bundles/doctrine-orm-admin/master/doc/tutorial/creating_your_first_admin_class/defining_crud_controller.html)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -874,27 +895,12 @@
     <MESSAGE value="FlexionsartEntity und Orm erstellt" />
     <MESSAGE value="Flexionsart-Entity und Orm erstellt" />
     <MESSAGE value="BlogBundle neu generiert" />
+    <MESSAGE value="BlogBundle (http://sonata-project.org/bundles/doctrine-orm-admin/master/doc/tutorial/creating_your_first_admin_class/defining_crud_controller.html)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="75" selection-end="78" vertical-scroll-proportion="-2.5">
-          <folding>
-            <element signature="e#75#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terminal_history.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="10" selection-start="12240" selection-end="12294" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/history-tuxedo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="12" selection-start="2336" selection-end="2337" vertical-scroll-proportion="0.37896827">
@@ -994,7 +1000,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Controller/TagAdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="139" selection-end="139" vertical-scroll-proportion="0.14478764">
+        <state line="5" column="9" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Admin/PostAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="34.666668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="95" selection-start="406" selection-end="406" vertical-scroll-proportion="0.22140221">
           <folding />
         </state>
       </provider>
