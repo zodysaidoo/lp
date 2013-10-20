@@ -1,0 +1,35 @@
+Lernparadies\VokaliBundle\Entity\Flexionsart:
+    type: entity
+    table: FLEXIONSART
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: FLEXIONSART_ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: FLEXIONSART_NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: FLEXIONSART_EDITDATE
+        name:
+            type: string
+            length: 64
+            fixed: false
+            nullable: false
+            column: FLEXIONSART_NAME
+        code:
+            type: string
+            length: 256
+            fixed: false
+            nullable: false
+            column: FLEXIONSART_CODE
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]
