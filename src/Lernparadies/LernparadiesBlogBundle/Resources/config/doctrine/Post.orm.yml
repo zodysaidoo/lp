@@ -1,0 +1,53 @@
+Lernparadies\LernparadiesBlogBundle\Entity\Post:
+    type: entity
+    table: POST
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: POST_ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: POST_NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: POST_EDITDATE
+        title:
+            type: string
+            length: 256
+            nullable: false
+            column: POST_TITLE
+        abstract:
+            type: string
+            column: POST_ABSTRACT
+        content:
+            type: text
+            nullable: false
+            column: POST_CONTENT
+        enabled:
+            type: boolean
+            column: POST_ENABLED
+    oneToMany:
+        comments:
+            targetEntity: Lernparadies\LernparadiesBlogBundle\Entity\Kommentar
+            mappedBy: Lernparadies\LernparadiesBlogBundle\Entity\Post
+    manyToMany:
+        tags:
+            targetEntity: Lernparadies\LernparadiesBlogBundle\Entity\Tag
+            joinTable:
+                name: POST_XX_TAG
+                joinColumns:
+                    post_id:
+                        referencedColumnName: POST_ID
+                inverseJoinColumns:
+                    tag_id:
+                        referencedColumnName: TAG_ID
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]

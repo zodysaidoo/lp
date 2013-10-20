@@ -1,0 +1,31 @@
+Lernparadies\LernparadiesBlogBundle\Entity\Tag:
+    type: entity
+    table: TAG
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: TAG_ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: TAG_NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: TAG_EDITDATE
+        name:
+            type: string
+            nullable: false
+            column: TAG_NAME
+        enabled:
+            type: boolean
+            column: TAG_ENABLED
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]
+
