@@ -7,3 +7,8 @@ services:
       tags:
         - { name: sonata.admin, manager_type: orm, group: tutorial_blog, label: post }
       arguments: [null, Lernparadies\LernparadiesBlogBundle\Entity\Post, LernparadiesBlogBundle:PostAdmin]
+   tutorial.blog.admin.tag:
+      class: Lernparadies\LernparadiesBlogBundle\Admin\TagAdmin
+      tags:
+        - { name: sonata.admin, manager_type: orm, group: tutorial_blog, label: tag }
+      arguments: [null, Lernparadies\LernparadiesBlogBundle\Entity\Tag, LernparadiesBlogBundle:TagAdmin]

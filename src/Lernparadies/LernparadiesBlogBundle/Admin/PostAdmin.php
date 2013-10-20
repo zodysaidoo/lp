@@ -1,6 +1,6 @@
 <?php
 // src/Tutorial/BlogBundle/Admin/PostAdmin.php
-namespace Tutorial\BlogBundle\Admin;
+namespace Lernparadies\LernparadiesBlogBundle\Admin;
 
 use Sonata\AdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;
@@ -10,7 +10,7 @@ use Sonata\AdminBundle\Show\ShowMapper;
 
 use Knp\Menu\ItemInterface as MenuItemInterface;
 
-use Tutorial\BlogBundle\Entity\Comment;
+use Lernparadies\LernparadiesBlogBundle\Entity\Kommentar;
 
 class PostAdmin extends Admin
 {
