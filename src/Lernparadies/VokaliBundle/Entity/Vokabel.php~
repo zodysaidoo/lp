@@ -109,9 +109,14 @@ class Vokabel
      */
     public function setWort1( $wort1 = null)
     {
+
 	    if(is_string($wort1)){
-		    $wort = new Wort();
-		    $wort->setWortName($wort1);
+		    $wort = $this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort1) );
+		    if(!$wort)
+		    {
+			    $wort = new Wort();
+			    $wort->setWortName($wort1);
+		    }
 		    $this->wort1 = $wort;
 	    }elseif(is_object($wort1) && get_class($wort1) == 'Lernparadies\VokaliBundle\Entity\Wort'){
 		    $this->wort1 = $wort1;
@@ -137,10 +142,13 @@ class Vokabel
      */
     public function setWort2( $wort2 = null)
     {
-
 	    if(is_string($wort2)){
-		    $wort = new Wort();
-		    $wort->setWortName($wort2);
+		    $wort = $this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort2) );
+		    if(!$wort)
+		    {
+			    $wort = new Wort();
+			    $wort->setWortName($wort2);
+		    }
 		    $this->wort2 = $wort;
 	    }elseif(is_object($wort2) && get_class($wort2) == 'Lernparadies\VokaliBundle\Entity\Wort'){
 		    $this->wort2 = $wort2;
