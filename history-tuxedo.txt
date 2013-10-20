@@ -1,0 +1,179 @@
+    1  sudo su
+    2  apt-get update && apt-get -y dist-upgrade && apt-get -y upgrade && reboot
+    3  sudo apt-get update && apt-get -y dist-upgrade && apt-get -y upgrade && reboot
+    4  su root
+    5  sudo su
+    6  uname -r
+    7  lspci
+    8  ifconfig
+    9  sudo root
+   10  su root
+   11  su
+   12  lshw
+   13  du
+   14  su
+   15  Downloads/sh/yed-3.11.1/yed.jar
+   16  su
+   17  ls -al
+   18  nano .bashrc 
+   19  lp
+   20  cd var/www
+   21  nano .bashrc
+   22  lp
+   23  chmod 777 -R app/logs/
+   24  chmod 777 -R app/cache/
+   25  php ../composer.phar update
+   26  chmod 777 -R app/logs/
+   27  chmod 777 -R app/cache/
+   28  git status
+   29  git add .
+   30  git commit -m "LernparadiesBenutzerBundle manuell erstellt"
+   31  git push
+   32  php app/console router:debug
+   33  php app/console doctrine:database:create
+   34  php app/console doctrine:schema:update --dump-sql
+   35  chmod 777 -R app/logs/
+   36  php app/console doctrine:schema:update --dump-sql
+   37  php app/console doctrine:schema:create
+   38  php app/console doctrine:fixtures:load
+   39  php app/console fos:user:create
+   40  php app/console fos:user:promote
+   41  php app/console list
+   42  php app/console cache:clear
+   43  chmod 777 -R app/logs/
+   44  chmod 777 -R app/cache/
+   45  php app/console cache:clear
+   46  php ../composer.phar update
+   47  php app/console cache:clear --no-warmup
+   48  git add .
+   49  git commit -m "Benutzer-Sachen mit FOSUserBundle in BenutzerBundle ausgelagert"
+   50  git push
+   51  git config --global push.default simple
+   52  git push
+   53  git-ftp 
+   54  git-ftp --help
+   55  git-ftp init -u web37 -p #E12960 ftp://vokali.de/html/lp/vokali
+   56  git status
+   57  git --help
+   58  git rm .idea/workspace.xml 
+   59  git add .
+   60  git status
+   61  git commit -m "idea forced commit"
+   62  git config --global user.name "Zeid Nidal Ali"
+   63  git config --global user.email zeid@gmx.de
+   64  git commit --amend --reset-author
+   65  git push
+   66  git-ftp init -u web37 -p #E12960 ftp://vokali.de/html/lp/vokali
+   67  git-ftp init -u web37 -p ftp://vokali.de/html/lp/vokali
+   68  git-ftp init -u web37  ftp://vokali.de/html/lp/vokali
+   69  php app/console doctrine:fixtures:load
+   70  git commit -a -m "BenutzerLoadData mit dem UserManager arbeiten lassen"
+   71  git push
+   72  git-ftp init -u web37  ftp://vokali.de/html/lp/vokali
+   73  git-ftp init -u web37 -p - ftp://vokali.de/html/lp/vokali
+   74  git status
+   75  nano .gitignore 
+   76  git status
+   77  nano .gitignore 
+   78  git commit -a -m "idea zu gitignore hinzugefügt"
+   79  git-ftp init -u web37 -p - ftp://vokali.de/html/lp/vokali
+   80  php app/console doctrine:schema:update --dump-sql
+   81  php ../composer.phar update
+   82  php app/console doctrine:schema:update --dump-sql
+   83  php app/console doctrine:database:drop --force
+   84  php app/console doctrine:database:create
+   85  php app/console doctrine:schema:create
+   86  php app/console doctrine:schema:update --dump-sql
+   87  php app/console doctrine:fixtures:load
+   88  php app/console doctrine:database:drop --force
+   89  php app/console doctrine:database:create
+   90  php app/console doctrine:schema:update --dump-sql
+   91  php app/console doctrine:database:drop --force
+   92  php app/console doctrine:database:create
+   93  php app/console doctrine:schema:create
+   94  php app/console doctrine:schema:update --dump-sql
+   95  php app/console doctrine:fixtures:load
+   96  php app/console doctrine:database:drop --force
+   97  php app/console doctrine:database:create
+   98  php app/console doctrine:schema:update --dump-sql
+   99  php app/console doctrine:fixtures:load
+  100  php app/console doctrine:database:drop --force
+  101  php app/console doctrine:database:create
+  102  php app/console doctrine:schema:create
+  103  php app/console doctrine:schema:update --dump-sql
+  104  php app/console doctrine:fixtures:load
+  105  php app/console doctrine:database:drop --force
+  106  php app/console doctrine:database:create
+  107  php app/console doctrine:schema:create
+  108  php app/console doctrine:schema:update --dump-sql
+  109  php app/console doctrine:fixtures:load
+  110  git push
+  111  git-ftp push -u web37 -p - ftp://vokali.de/html/lp/vokali
+  112  git status
+  113  php ../composer.phar upgrade
+  114  php ../composer.phar self-update
+  115  php ../composer.phar update
+  116  php app/console sonata:easy-extends:generate SonataBenutzerBundle
+  117  php app/console sonata:easy-extends:generate LernparadiesLernparadiesBenutzerBundle
+  118  php app/console sonata:easy-extends:generate LernparadiesBenutzerBundle
+  119  php app/console router:debug
+  120  php app/console assets:install web
+  121  php ../composer.phar update
+  122  php app/console assets:install web
+  123  php app/console cache:clear
+  124  php app/console cache:clear --no-warmup
+  125  php app/console list
+  126  php app/console cache:warmup
+  127  php app/console cache:clear --no-warmup
+  128  php ../composer.phar update
+  129  php app/console sonata:easy-extends:generate --help
+  130  php app/console sonata:easy-extends:generate --dest="/var/www/lp/src/Lernparadies/LernparadiesBenutzerBundle" LernparadiesBenutzerBundle
+  131  php app/console sonata:easy-extends:generate LernparadiesBenutzerBundle
+  132  php app/console sonata:easy-extends:generate SonataUserBundle
+  133  php app/console sonata:easy-extends:generate --dest="/var/www/lp/src/Lernparadies/LernparadiesBenutzerBundle" SonataUserBundle
+  134  php app/console doctrine:database:drop --force
+  135  php app/console doctrine:database:create
+  136  php app/console doctrine:schema:create
+  137  php app/console doctrine:schema:update --dump-sql
+  138  php app/console doctrine:fixtures:load
+  139  php app/console sonata:easy-extends:generate SonataUserBundle
+  140  php app/console doctrine:database:drop --force
+  141  php app/console doctrine:database:create
+  142  php app/console doctrine:schema:create
+  143  php app/console doctrine:schema:update --dump-sql
+  144  php app/console doctrine:fixtures:load
+  145  php app/console cache:warmup
+  146  php app/console cache:clear --no-warmup
+  147  php app/console doctrine:database:drop --force
+  148  php app/console doctrine:database:create
+  149  php app/console doctrine:schema:create
+  150  php app/console doctrine:schema:update --dump-sql
+  151  php app/console doctrine:fixtures:load
+  152  git status
+  153  git history
+  154  git show
+  155  git log
+  156  git status
+  157  git add .
+  158  git commit -m "Commit vor merge"
+  159  git merge master SonataAdminBundle 
+  160  git rm .idea/*
+  161  git rm -r .idea/*
+  162  git rm -r -f .idea/*
+  163  git merge master SonataAdminBundle 
+  164  nano .gitignore 
+  165  git merge master SonataAdminBundle 
+  166  git commit -a -m "gitignore geupdated"
+  167  git merge master SonataAdminBundle 
+  168  nano .gitignore 
+  169  git commit -m -a "Merge Branch SonataAdminBundle mit Master"
+  170  git merge master SonataAdminBundle 
+  171  git commit -a "Merge Branch SonataAdminBundle mit Master"
+  172  git commit -a . -m "Merge Branch SonataAdminBundle mit Master"
+  173  git merge master SonataAdminBundle 
+  174  git add .
+  175  git commit -m "Merge Branch SonataAdminBundle mit Master"
+  176  git push
+  177  nano ~/.bashrc
+  178  history >>> history-tuxedo.txt
+  179  history >> history-tuxedo.txt
