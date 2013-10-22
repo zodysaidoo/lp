@@ -1,6 +1,0 @@
-services:
-    lernparadies.lernparadies.admin.benutzergruppe:
-        class: Lernparadies\LernparadiesBenutzerBundle\Admin\BenutzergruppeAdmin
-        tags:
-            - { name: sonata.admin, manager_type: orm, group: Benutzer, label: Benutzergruppen }
-        arguments: [null, Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe, LernparadiesLernparadiesBenutzerBundle:BenutzergruppeAdmin]

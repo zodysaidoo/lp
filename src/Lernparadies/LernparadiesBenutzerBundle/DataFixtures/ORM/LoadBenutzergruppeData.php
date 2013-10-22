@@ -39,6 +39,8 @@ class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureIn
         $benutzergruppeAdmin = $userManager->createGroup('Administrator');
         $benutzergruppeAdmin->addRole('ROLE_ADMIN');
         $benutzergruppeAdmin->addRole('ROLE_USER');
+        $benutzergruppeAdmin->addRole('SUPER_ADMIN');
+        $benutzergruppeAdmin->addRole('ROLE_SONATA_PAGE_ADMIN_PAGE_EDIT');
         $benutzergruppeAdmin->addRole('ROLE_SONATA_ADMIN');
         $benutzergruppeAdmin->addRole('ROLE_ALLOWED_TO_SWITCH');
         $em->persist($benutzergruppeAdmin);
