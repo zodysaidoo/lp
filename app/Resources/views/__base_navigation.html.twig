@@ -1,1 +1,20 @@
 <li><a href="{{ path('lernparadies_lernparadies_home') }}">Home</a></li>
+{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+    {#{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |#}
+    <li>
+        <a href="{{ path('fos_user_security_logout') }}">
+            {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+        </a>
+    </li>
+{% else %}
+    <li>
+        <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+    </li>
+{% endif %}
+{% if is_granted("ROLE_SONATA_ADMIN") %}
+    <li>
+        <a href="{{ path('sonata_admin_dashboard') }}">
+            Dashboard
+        </a>
+    </li>
+{% endif %}
