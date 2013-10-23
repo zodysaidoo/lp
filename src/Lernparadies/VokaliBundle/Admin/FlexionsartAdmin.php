@@ -21,6 +21,7 @@ class FlexionsartAdmin extends Admin
     {
         $formMapper
             ->add('name')
+            ->add('code')
         ;
     }
 
@@ -28,6 +29,7 @@ class FlexionsartAdmin extends Admin
     {
         $datagridMapper
             ->add('name')
+            ->add('code')
         ;
     }
 
@@ -35,6 +37,7 @@ class FlexionsartAdmin extends Admin
     {
         $listMapper
             ->addIdentifier('name')
+            ->addIdentifier('code')
         ;
     }
     /**

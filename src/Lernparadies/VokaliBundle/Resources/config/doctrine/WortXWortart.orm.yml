@@ -1,0 +1,57 @@
+Lernparadies\VokaliBundle\Entity\WortXWortart:
+    type: entity
+    table: WORT_X_WORTART
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: true
+            nullable: false
+            column: ID
+            generator:
+                strategy: IDENTITY
+        created_at:
+            type: datetime
+            nullable: false
+            column: NEWDATE
+        updated_at:
+            type: datetime
+            nullable: false
+            column: EDITDATE
+    manyToOne:
+        wort:
+            targetEntity: Wort
+            cascade: ["persist"]
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: wort
+            joinColumns:
+                WORT:
+                    referencedColumnName: WORT_ID
+            orphanRemoval: false
+        wortart:
+            targetEntity: Wortart
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: wortart
+            joinColumns:
+                WORTART:
+                    referencedColumnName: WORTART_ID
+            orphanRemoval: false
+        sprache:
+            targetEntity: Lernparadies\LernparadiesBundle\Entity\Sprache
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            nullable: false
+            name: sprache
+            joinColumns:
+                SPRACHE:
+                    referencedColumnName: SPRACHE_ID
+            orphanRemoval: false
+    lifecycleCallbacks:
+        prePersist: [ setCreatedAtValue ]
+        preUpdate: [ setUpdatedAtValue ]

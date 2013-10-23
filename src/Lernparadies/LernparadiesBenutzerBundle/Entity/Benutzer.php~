@@ -134,42 +134,4 @@ class Benutzer extends BaseUser implements UserInterface
 	        $this->setBenutzerFriendlyUrl($this->getUsername()."-".uniqid());
         }
     }
-    /**
-     * @var \Doctrine\Common\Collections\Collection
-     */
-    protected $groups;
-
-
-    /**
-     * Add groups
-     *
-     * @param \Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $groups
-     * @return Benutzer
-     */
-    public function addGroup(\FOS\UserBundle\Model\GroupInterface $groups)
-    {
-        $this->groups[] = $groups;
-    
-        return $this;
-    }
-
-    /**
-     * Remove groups
-     *
-     * @param \Lernparadies\LernparadiesBenutzerBundle\Entity\Benutzergruppe $groups
-     */
-    public function removeGroup(\FOS\UserBundle\Model\GroupInterface  $groups)
-    {
-        $this->groups->removeElement($groups);
-    }
-
-    /**
-     * Get groups
-     *
-     * @return \Doctrine\Common\Collections\Collection 
-     */
-    public function getGroups()
-    {
-        return $this->groups;
-    }
 }

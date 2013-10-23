@@ -6,7 +6,7 @@ services:
 #        class: %lernparadies_vokali.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
 services:
-    sonata.admin.post:
+    lernparadies.vokali.flexionsart:
         class: Lernparadies\VokaliBundle\Admin\FlexionsartAdmin
         tags:
             - name: sonata.admin
@@ -16,4 +16,15 @@ services:
         arguments:
             - ~
             - Lernparadies\VokaliBundle\Entity\Flexionsart
+            - ~
+    lernparadies.vokali.wortart:
+        class: Lernparadies\VokaliBundle\Admin\WortartAdmin
+        tags:
+            - name: sonata.admin
+              manager_type: orm
+              group: "Vokali"
+              label: "Wortarten"
+        arguments:
+            - ~
+            - Lernparadies\VokaliBundle\Entity\Wortart
             - ~

@@ -1,7 +1,3 @@
-lernparadies_lernparadies_blog:
-    resource: "@LernparadiesBlogBundle/Resources/config/routing.yml"
-    prefix:   /
-
 lernparadies_lernparadies:
     resource: "@LernparadiesLernparadiesBundle/Resources/config/routing.yml"
     prefix:   /

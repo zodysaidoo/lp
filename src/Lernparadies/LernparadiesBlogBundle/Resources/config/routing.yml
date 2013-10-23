@@ -1,3 +1,0 @@
-lernparadies_lernparadies_blog_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: LernparadiesBlogBundle:Default:index }

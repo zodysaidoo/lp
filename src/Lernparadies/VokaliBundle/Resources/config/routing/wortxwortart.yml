@@ -1,0 +1,30 @@
+wortxwortart:
+    pattern:  /
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:index" }
+
+wortxwortart_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:show" }
+
+wortxwortart_new:
+    pattern:  /new
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:new" }
+
+wortxwortart_create:
+    pattern:  /create
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:create" }
+    requirements: { _method: post }
+
+wortxwortart_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:edit" }
+
+wortxwortart_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:update" }
+    requirements: { _method: post|put }
+
+wortxwortart_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LernparadiesVokaliBundle:WortXWortart:delete" }
+    requirements: { _method: post|delete }
