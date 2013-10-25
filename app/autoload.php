@@ -16,6 +16,5 @@ $loader->add( 'Knp\\Component', __DIR__.'/../vendor/knp-components/src');
 $loader->add( 'Knp\\Bundle', __DIR__.'/../vendor/bundles');
 $loader->add( 'FOS', __DIR__.'/../vendor/bundles');
 $loader->add( 'Sonata', __DIR__.'/../vendor/bundles');
-$loader->add( 'Application',  __DIR__ );
 
 return $loader;
