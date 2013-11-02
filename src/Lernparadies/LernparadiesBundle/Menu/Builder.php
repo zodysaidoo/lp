@@ -58,19 +58,27 @@ class Builder extends ContainerAware
     }
     public function sidebarMenu(FactoryInterface $factory, array $options)
     {
+        $securityContext = $this->container->get('security.context');
+
         $menu = $factory->createItem('sidebar');
         // Twitter Bootstrap Classe an UL übergeben
         $menu->setChildrenAttribute('class', 'nav nav-list ');
 
         // Startseite
-        $menu->addChild('Home')
-                ->setAttribute('class', 'nav-header');
+        /*
+        if(!$securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')) {
+        $menu[$appBenutzung]->addChild('Registrieren', array(
+            'route' => 'fos_user_registration_register'
+        ));*/
+
+        $menu->addChild('sonata_user')
+                ->setAttribute('class', 'nav-header')
+                ->setExtra('translation_domain', 'SonataUserBundle');
 
         $menu->addChild('WortWortart', array('route' => 'wortxwortart'));
 
         $menu->addChild('Wortart', array('route' => 'wortart'));
 
-        $securityContext = $this->container->get('security.context');
 
         $appBenutzung = $this->container->getParameter('app.name').'-Benutzung';
         $menu->addChild($appBenutzung)
@@ -85,7 +93,6 @@ class Builder extends ContainerAware
             $menu[$appBenutzung]->addChild('Newsletter abonnieren', array(
                 'uri' => '#'
             ));
-
 
         $menu->addChild('Vokabel', array('route' => 'vokabel'));
 

@@ -2,7 +2,10 @@
     Dies ist lediglich eine erweiterung des knpMenuBundle-Templates um Bootstrap-Klassen
 #}
 {% extends 'knp_menu.html.twig' %}
- 
+
+{# Wichtig für die Übersetzung #}
+{% block label %}{{ item.label|trans(item.getExtra('translation_params', {}), item.getExtra('translation_domain', 'messages')) }}{% endblock %}
+
 {% block item %}
     {% import "knp_menu.html.twig" as macros %}
     {% if item.displayed %}
@@ -83,4 +86,3 @@
     <a href="#"{{ macros.attributes(attributes) }}>{{ block('label') }} <b class="caret"></b></a>
 {% endblock %}
  
-{% block label %}{{ item.label|trans }}{% endblock %}
