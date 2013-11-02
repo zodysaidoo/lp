@@ -71,9 +71,7 @@
                     {% if is_granted("IS_AUTHENTICATED_REMEMBERED") != true %}
                     <div class="well sidebar-nav">
                         <h2>Registrieren</h2>
-                         <p>
-                             Registration-Form
-                         </p>
+                        {% render controller("FOSUserBundle:Registration:registerBis") %}
                     </div><!--/.well -->
                     {% endif %}
                 </div>
@@ -123,9 +121,7 @@
                         {% else %}
                             <div class="span4">
                             <h2>Login</h2>
-                            <p>
-                            USER LOGIN FORM
-                            </p>
+                                {% render controller("FOSUserBundle:Benutzer:loginBis") %}
                             </div><!--/span-->
                         {% endif %}
                     </div><!--/row-->
