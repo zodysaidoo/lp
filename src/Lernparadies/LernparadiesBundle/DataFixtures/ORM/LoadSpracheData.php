@@ -41,11 +41,11 @@ class LoadSpracheData extends AbstractFixture implements OrderedFixtureInterface
 		$sprache->setSpracheAktiv( true );
 		$em->persist($sprache);
 
-		$sprache = new Sprache();
-		$sprache->setSpracheName('Deutsch');
-		$sprache->setSpracheCode('GERM');
-		$sprache->setSpracheAktiv( true );
-		$em->persist($sprache);
+		$spracheDeutsch = new Sprache();
+        $spracheDeutsch->setSpracheName('Deutsch');
+        $spracheDeutsch->setSpracheCode('GERM');
+        $spracheDeutsch->setSpracheAktiv( true );
+		$em->persist($spracheDeutsch);
 
 		$sprache = new Sprache();
 		$sprache->setSpracheName('Griechisch');
@@ -211,6 +211,8 @@ class LoadSpracheData extends AbstractFixture implements OrderedFixtureInterface
 		$em->persist($sprache);
 
 		$em->flush();
+
+        $this->addReference('sprache-deutsch', $spracheDeutsch);
 	}
 
 	public function getOrder()

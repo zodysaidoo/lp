@@ -55,11 +55,23 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
         $verbZweitePersonPlural->setComment('gebeugte Verbform der zweiten Person Plural z.B. ihr lauft');
 		$em->persist($verbZweitePersonPlural);
 
-		$verbDrittePersonPlural = new Flexionsart();
+        $verbDrittePersonPlural = new Flexionsart();
         $verbDrittePersonPlural->setName('Verbform 3. Person Plural');
         $verbDrittePersonPlural->setCode('Verbform dritte Person Plural');
         $verbDrittePersonPlural->setComment('gebeugte Verbform der dritten Person Plural z.B. sie laufen');
 		$em->persist($verbDrittePersonPlural);
+
+        $verbErstesPartizip = new Flexionsart();
+        $verbErstesPartizip->setName('Verbform Erstes Partizip');
+        $verbErstesPartizip->setCode('Verbform Erstes Partizip');
+        $verbErstesPartizip->setComment('Verbform Erstes Partizip, z.B. gelaufen');
+        $em->persist($verbErstesPartizip);
+
+        $verbHilfsverbErsteVergangenheit = new Flexionsart();
+        $verbHilfsverbErsteVergangenheit->setName('Hilfsverb erste Vergangenheit');
+        $verbHilfsverbErsteVergangenheit->setCode('Hilfsverb erste Vergangenheit');
+        $verbHilfsverbErsteVergangenheit->setComment('Hilfsverb erste Vergangenheit z.B. sein');
+		$em->persist($verbHilfsverbErsteVergangenheit);
 
 		$nomenNominativ = new Flexionsart();
         $nomenNominativ->setName('Nomen Nominativ');
@@ -92,6 +104,21 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
 		$em->persist($artikelBestimmtNeutrumSingularNominativ);
 
 		$em->flush();
+
+        $this->addReference('wortflexion-nomen-nominativ', $nomenNominativ);
+        $this->addReference('wortflexion-verb-infinitiv', $verbInfinitv);
+        $this->addReference('wortflexion-verb-erste-person-singular', $verbErstePersonSingular);
+        $this->addReference('wortflexion-verb-zweite-person-singular', $verbZweitePersonSingular);
+        $this->addReference('wortflexion-verb-dritte-person-singular', $verbDrittePersonSingular);
+        $this->addReference('wortflexion-verb-erste-person-plural', $verbErstePersonPlural);
+        $this->addReference('wortflexion-verb-zweite-person-plural', $verbZweitePersonPlural);
+        $this->addReference('wortflexion-verb-dritte-person-plural', $verbDrittePersonPlural);
+        $this->addReference('wortflexion-verb-partizip', $verbErstesPartizip);
+        $this->addReference('wortflexion-hilfsverb-erste-vergangenheit', $verbHilfsverbErsteVergangenheit);
+        $this->addReference('wortflexion-adejektiv-praedikativum', $adjektivGrundform);
+        $this->addReference('wortflexion-artikel-bestimmt-maskulinum-singular-nominativ', $artikelBestimmtMaskulinumSingularNominativ);
+        $this->addReference('wortflexion-artikel-bestimmt-femininum-singular-nominativ', $artikelBestimmtFemininumSingularNominativ);
+        $this->addReference('wortflexion-artikel-bestimmt-neutrum-singular-nominativ', $artikelBestimmtNeutrumSingularNominativ);
 	}
 
 	public function getOrder()

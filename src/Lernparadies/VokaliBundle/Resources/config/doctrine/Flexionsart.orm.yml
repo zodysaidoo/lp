@@ -1,6 +1,7 @@
 Lernparadies\VokaliBundle\Entity\Flexionsart:
     type: entity
     table: FLEXIONSART
+    repositoryClass: Lernparadies\VokaliBundle\Entity\FlexionsartRepository
     fields:
         id:
             id: true

@@ -1,6 +1,7 @@
 Lernparadies\LernparadiesBundle\Entity\Sprache:
     type: entity
     table: SPRACHE
+    repositoryClass: Lernparadies\LernparadiesBundle\Entity\SpracheRepository
     fields:
         id:
             id: true

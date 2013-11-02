@@ -1,6 +1,7 @@
 Lernparadies\VokaliBundle\Entity\Wort:
     type: entity
     table: WORT
+    repositoryClass: Lernparadies\VokaliBundle\Entity\WortRepository
     indexes:
         name_index:
             columns: [ WORT_NAME ]

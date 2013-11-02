@@ -1,6 +1,7 @@
 Lernparadies\VokaliBundle\Entity\Wortart:
     type: entity
     table: WORTART
+    repositoryClass: Lernparadies\VokaliBundle\Entity\WortartRepository
     fields:
         id:
             id: true

@@ -35,11 +35,15 @@ class LoadWortData extends AbstractFixture implements OrderedFixtureInterface
 		$wortTree->setWortName('tree');
 		$em->persist($wortTree);
 
+        $wortSein = new Wort();
+        $wortSein->setWortName('sein');
+		$em->persist($wortSein);
+
 		$em->flush();
 	}
 
 	public function getOrder()
 	{
-		return 2; // the order in which fixtures will be loaded
+		return 3; // the order in which fixtures will be loaded
 	}
 }

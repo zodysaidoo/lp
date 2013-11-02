@@ -34,7 +34,19 @@ class LoadWortartData extends AbstractFixture implements OrderedFixtureInterface
 		$wortartVerb->setWortartKommentar('Verb');
 		$em->persist($wortartVerb);
 
+		$wortartArtikel = new Wortart();
+        $wortartArtikel->setWortartName('Artikel');
+        $wortartArtikel->setWortartKommentar('Artikel');
+		$em->persist($wortartArtikel);
+
+		$wortartArtikel = new Wortart();
+        $wortartArtikel->setWortartName('Pronomen');
+        $wortartArtikel->setWortartKommentar('Pronomen');
+		$em->persist($wortartArtikel);
+
 		$em->flush();
+
+        $this->addReference('wortart-verb', $wortartVerb);
 	}
 
 	public function getOrder()

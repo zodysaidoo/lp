@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea03c79-b36b-48c3-a932-7c8382c27d44" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/FlexionsartRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadVerbenData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/SpracheRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Exception/WortException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortartRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort_WortartXFlexion.orm.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexionRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortartRepository.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_Wortart.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadSpracheData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/DataFixtures/ORM/LoadSpracheData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadWortData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadWortData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadWortartData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadWortartData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Vokabel.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Vokabel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort.orm.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/WortXWortart.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/WortXWortart.orm.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortart.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wortart.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wortart.orm.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383423282634" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383434396778" ignored="false" />
     <file path="/AppKernel.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381510623479" ignored="false" />
     <file path="/LernparadiesLernparadiesBundle.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381507098457" ignored="false" />
-    <file path="/a.dummy" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383419254275" ignored="false" />
+    <file path="/a.dummy" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383434534923" ignored="false" />
     <file path="/Benutzer.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382287611953" ignored="false" />
     <file path="/Benutzer.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381526429197" ignored="false" />
     <file path="/Benutzergruppe.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381508398007" ignored="false" />
@@ -31,7 +51,7 @@
     <file path="/Comment.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381587488668" ignored="false" />
     <file path="/Post.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382289419383" ignored="false" />
     <file path="/Tag.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381588299168" ignored="false" />
-    <file path="/Flexionsart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383422250358" ignored="false" />
+    <file path="/Flexionsart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383431805566" ignored="false" />
     <file path="/services.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382485365612" ignored="false" />
     <file path="/DefaultControllerTest.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382277431661" ignored="false" />
     <file path="/Kommentar.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1382289534812" ignored="false" />
@@ -61,8 +81,22 @@
     <file path="/FOSUserBundle.de.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383415738009" ignored="false" />
     <file path="/show.html.twig" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383416179689" ignored="false" />
     <file path="/SonataUserBundle.de.xliff" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383418007681" ignored="false" />
-    <file path="/LoadFlexionsartData.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383422701971" ignored="false" />
+    <file path="/LoadFlexionsartData.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383430403217" ignored="false" />
     <file path="/Flexionsart.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383421851663" ignored="false" />
+    <file path="/LoadWortartData.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383424153735" ignored="false" />
+    <file path="/LoadVerbenData.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383433270816" ignored="false" />
+    <file path="/WortXWortart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383424594210" ignored="false" />
+    <file path="/Wort_Wortart.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383424730787" ignored="false" />
+    <file path="/WortXWortartRepository.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383433559278" ignored="false" />
+    <file path="/WortException.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383425571088" ignored="false" />
+    <file path="/LoadSpracheData.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383428397677" ignored="false" />
+    <file path="/Wort_WortartXFlexion.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383431384825" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383431744244" ignored="false" />
+    <file path="/Wortart.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383431794905" ignored="false" />
+    <file path="/Sprache.orm.yml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383432161231" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383432179832" ignored="false" />
+    <file path="/Wort_WortartXFlexionRepository.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383434149256" ignored="false" />
+    <file path="/WortRepository.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383434486430" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,30 +116,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadFlexionsartData.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php">
+      <file leaf-file-name="WortXWortartRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortartRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="53" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.30929792">
-              <folding>
-                <element signature="e#216#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flexionsart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="5" selection-start="2806" selection-end="2806" vertical-scroll-proportion="-18.125">
+            <state line="7" column="42" selection-start="243" selection-end="289" vertical-scroll-proportion="-2.9583333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wortart.orm.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wortart.orm.yml">
+      <file leaf-file-name="Wort_WortartXFlexion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="679" selection-end="840" vertical-scroll-proportion="0.0">
+            <state line="9" column="6" selection-start="124" selection-end="124" vertical-scroll-proportion="-4.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wort.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WortRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="544" selection-end="544" vertical-scroll-proportion="-7.7083335">
+              <folding>
+                <element signature="e#52#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WortException.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Exception/WortException.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="989" selection-end="1035" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wort_WortartXFlexionRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexionRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="55" selection-start="526" selection-end="526" vertical-scroll-proportion="-14.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WortXWortart.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="184" column="5" selection-start="3271" selection-end="3271" vertical-scroll-proportion="4.9578314">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wort_WortartXFlexion.orm.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort_WortartXFlexion.orm.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="53" selection-start="33" selection-end="53" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WortXWortart.orm.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/WortXWortart.orm.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,22 +226,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Controller/RegistrationController.php" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/translations/FOSUserBundle.de.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/Profile/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/__base_menu.html.twig" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/translations/SonataUserBundle.de.xliff" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Menu/Builder.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/views/Wort/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/SpracheController.php" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing/sprache.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort_WortartXFlexion.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexion.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortart.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wortart.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortartRepository.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/doctrine/Sprache.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity/Benutzer.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/SpracheRepository.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadVerbenData.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortartRepository.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexionRepository.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortRepository.php" />
       </list>
     </option>
   </component>
@@ -196,182 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sonata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sonata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sonata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sonata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata-project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -689,6 +610,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VokaliBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -792,26 +739,8 @@
               <option name="myItemId" value="Lernparadies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Acme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemId" value="LernparadiesBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -829,15 +758,201 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Acme" />
+              <option name="myItemId" value="Lernparadies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemId" value="LernparadiesBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doctrine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataFixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBenutzerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LernparadiesBenutzerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lernparadies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -903,11 +1018,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine" />
+      <recent name="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Exception" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Resources/views" />
       <recent name="$PROJECT_DIR$/src/Lernparadies/LernparadiesBlogBundle/DependencyInjection" />
-      <recent name="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine" />
-      <recent name="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Tutorial/BlogBundle/Controller" />
@@ -1043,7 +1158,11 @@
       <created>1383423284515</created>
       <updated>1383423284515</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Verbflexionen der Gegenwart hinzugefügt">
+      <created>1383424111425</created>
+      <updated>1383424111425</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1052,7 +1171,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32542372" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1061,13 +1180,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29469696" sideWeight="0.6745763" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2931818" sideWeight="0.6745763" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1113,7 +1232,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erste Flexionen angelegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wort_WortartXFlexion und WortXWortart hinzugefügt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1127,8 +1246,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Login funktioniert nun mit E-Mail oder Benutzernamen" />
-    <MESSAGE value="Button Anmelden/Abmelden Logik von allein" />
     <MESSAGE value="E-Mail Versand für Registrierung und Passwort zurücksetzen vorbereiten" />
     <MESSAGE value="Benutzergruppen als FOSUserBundle-Gruppe Funktion implementiert" />
     <MESSAGE value="LernparadiesBlogBundle angelegt, funktioniert jedoch noch nicht" />
@@ -1152,6 +1269,8 @@
     <MESSAGE value="body und maincontent-Blöcke wieder korrekt (Vertauscht)" />
     <MESSAGE value="Sprache nur noch über Admin-Panel bearbeitbar" />
     <MESSAGE value="Erste Flexionen angelegt" />
+    <MESSAGE value="Verbflexionen der Gegenwart hinzugefügt" />
+    <MESSAGE value="Wort_WortartXFlexion und WortXWortart hinzugefügt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1165,119 +1284,121 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/SpracheRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="33" selection-start="3575" selection-end="3575" vertical-scroll-proportion="10.0">
+        <state line="18" column="24" selection-start="375" selection-end="375" vertical-scroll-proportion="0.5335968">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortartRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="242" selection-end="242" vertical-scroll-proportion="-3.75">
+        <state line="18" column="31" selection-start="365" selection-end="376" vertical-scroll-proportion="0.556701">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Admin/FlexionsartAdmin.php">
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Entity/Sprache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="456" selection-end="456" vertical-scroll-proportion="-6.875">
-          <folding>
-            <element signature="e#205#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Controller/WortController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.2601156">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Controller/FlexionsartController.php">
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBenutzerBundle/Entity/Benutzer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Admin/WortartAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4166666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/SpracheController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="352" selection-end="352" vertical-scroll-proportion="0.30555555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Controller/SpracheAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.22099447">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="75" selection-start="123" selection-end="123" vertical-scroll-proportion="0.055248618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Admin/SpracheAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2777778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wortart.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="679" selection-end="840" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="958" selection-end="958" vertical-scroll-proportion="0.7606383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="5" selection-start="2806" selection-end="2806" vertical-scroll-proportion="-18.125">
+        <state line="135" column="5" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.7976879">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.30929792">
+        <state line="24" column="80" selection-start="771" selection-end="802" vertical-scroll-proportion="0.5335968">
           <folding>
             <element signature="e#216#262#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadVerbenData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="67" selection-start="2293" selection-end="2293" vertical-scroll-proportion="-17.5">
+          <folding>
+            <element signature="e#216#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/WortXWortart.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Exception/WortException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="989" selection-end="1035" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="544" selection-end="544" vertical-scroll-proportion="-7.7083335">
+          <folding>
+            <element signature="e#52#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Wort_WortartXFlexion.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="53" selection-start="33" selection-end="53" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexionRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="526" selection-end="526" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortartRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="243" selection-end="289" vertical-scroll-proportion="-2.9583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Wort_WortartXFlexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="124" selection-end="124" vertical-scroll-proportion="-4.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/WortXWortart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="5" selection-start="3271" selection-end="3271" vertical-scroll-proportion="4.9578314">
+          <folding />
         </state>
       </provider>
     </entry>

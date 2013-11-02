@@ -1,7 +1,7 @@
-Lernparadies\VokaliBundle\Entity\WortXWortart:
+Lernparadies\VokaliBundle\Entity\Wort_WortartXFlexion:
     type: entity
     table: WORT_X_WORTART
-    repositoryClass: Lernparadies\VokaliBundle\Entity\WortXWortartRepository
+    repositoryClass: Lernparadies\VokaliBundle\Entity\Wort_WortartXFlexionRepository
     fields:
         id:
             id: true
@@ -31,27 +31,27 @@ Lernparadies\VokaliBundle\Entity\WortXWortart:
                 WORT:
                     referencedColumnName: WORT_ID
             orphanRemoval: false
-        wortart:
-            targetEntity: Wortart
+        wortxwortart:
+            targetEntity: WortXWortart
             cascade: {  }
             mappedBy: null
             inversedBy: null
             nullable: false
             name: wortart
             joinColumns:
-                WORTART:
-                    referencedColumnName: WORTART_ID
+                WORT_X_WORTART:
+                    referencedColumnName: ID
             orphanRemoval: false
-        sprache:
-            targetEntity: Lernparadies\LernparadiesBundle\Entity\Sprache
+        flexionsart:
+            targetEntity: Flexionsart
             cascade: {  }
             mappedBy: null
             inversedBy: null
             nullable: false
-            name: sprache
+            name: flexionsart
             joinColumns:
-                SPRACHE:
-                    referencedColumnName: SPRACHE_ID
+                FLEXIONSART:
+                    referencedColumnName: FLEXIONSART_ID
             orphanRemoval: false
     lifecycleCallbacks:
         prePersist: [ setCreatedAtValue ]
