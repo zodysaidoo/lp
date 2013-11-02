@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea03c79-b36b-48c3-a932-7c8382c27d44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" afterPath="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383421360947" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383423282634" ignored="false" />
     <file path="/AppKernel.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381510623479" ignored="false" />
     <file path="/LernparadiesLernparadiesBundle.php" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1381507098457" ignored="false" />
     <file path="/a.dummy" changelist="5ea03c79-b36b-48c3-a932-7c8382c27d44" time="1383419254275" ignored="false" />
@@ -87,7 +85,7 @@
       <file leaf-file-name="LoadFlexionsartData.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="63" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.857685">
+            <state line="29" column="53" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.30929792">
               <folding>
                 <element signature="e#216#262#0" expanded="true" />
               </folding>
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing/sprache.yml" />
         <option value="$PROJECT_DIR$/src/Lernparadies/LernparadiesBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Resources/config/doctrine/Flexionsart.orm.yml" />
-        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
         <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/Entity/Flexionsart.php" />
+        <option value="$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php" />
       </list>
     </option>
   </component>
@@ -1041,7 +1039,11 @@
       <created>1383421362209</created>
       <updated>1383421362209</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Erste Flexionen angelegt">
+      <created>1383423284515</created>
+      <updated>1383423284515</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1111,7 +1113,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprache nur noch über Admin-Panel bearbeitbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erste Flexionen angelegt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1149,6 +1151,7 @@
     <MESSAGE value="Sidebar zeigt entsprechend route Links" />
     <MESSAGE value="body und maincontent-Blöcke wieder korrekt (Vertauscht)" />
     <MESSAGE value="Sprache nur noch über Admin-Panel bearbeitbar" />
+    <MESSAGE value="Erste Flexionen angelegt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1271,7 +1274,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lernparadies/VokaliBundle/DataFixtures/ORM/LoadFlexionsartData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="63" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.857685">
+        <state line="29" column="53" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.30929792">
           <folding>
             <element signature="e#216#262#0" expanded="true" />
           </folding>
