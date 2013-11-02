@@ -358,6 +358,26 @@
                 <source>link_edit_authentication</source>
                 <target>Benutzerkonto bearbeiten</target>
             </trans-unit>
+            <trans-unit id="link_menu_edit_profile">
+                <source>link_menu_edit_profile</source>
+                <target>Benutzerprofil</target>
+            </trans-unit>
+            <trans-unit id="link_menu_edit_authentication">
+                <source>link_menu_edit_authentication</source>
+                <target>Benutzerkonto</target>
+            </trans-unit>
+            <trans-unit id="account_settings">
+                <source>account_settings</source>
+                <target>Kontoeinstellungen</target>
+            </trans-unit>
+            <trans-unit id="user_account_settings">
+                <source>user_account_settings</source>
+                <target>Benutzerkontoeinstellungen</target>
+            </trans-unit>
+            <trans-unit id="user_account">
+                <source>user_account</source>
+                <target>Benutzerkonto</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
