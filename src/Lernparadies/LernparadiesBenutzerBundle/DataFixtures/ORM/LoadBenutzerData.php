@@ -46,6 +46,16 @@ class LoadBenutzerData extends AbstractFixture implements OrderedFixtureInterfac
 		$benutzer->setPlainPassword('0000');
 		$em->persist($benutzer);
 
+        $benutzer = $userManager->createUser();
+		$benutzer->addGroup($em->merge($this->getReference('benutzergruppe-lehrer')));
+		$benutzer->setUsername('Hans');
+		$benutzer->setEmail('Hans@hechtel.de');
+		$benutzer->setBenutzerFriendlyUrl('hans');
+        $benutzer->setEnabled(true);
+
+		$benutzer->setPlainPassword('0000');
+		$em->persist($benutzer);
+
 		$em->flush();
 	}
 

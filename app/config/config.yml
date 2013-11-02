@@ -25,6 +25,9 @@ twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
     cache: false
+    globals:
+        appName: %app.name%
+        appVokaliVersion: %app.vokali.version%
 
 fos_user:
     db_driver: orm
@@ -188,6 +191,6 @@ swiftmailer:
 
 knp_menu:
     twig:  # use "twig: false" to disable the Twig extension and the TwigRenderer
-        template: knp_menu.html.twig
+        template: __base_menu.html.twig
     templating: false # if true, enables the helper for PHP templates
     default_renderer: twig # The renderer to use, list is also available by default

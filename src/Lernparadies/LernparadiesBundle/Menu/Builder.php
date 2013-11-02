@@ -17,12 +17,20 @@ class Builder extends ContainerAware
         $menu->addChild('Home', array('route' => 'lernparadies_lernparadies_home'));
         $securityContext = $this->container->get('security.context');
         if ($securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')) {
-            $menu->addChild('Abmelden', array(
-                'route' => 'fos_user_security_logout'
-            ));
+            $menu->addChild('User')
+                ->setAttribute('dropdown', true);
+
+            $menu['User']->addChild('Kontoeinstellungen', array('route' => 'sonata_user_profile_show'))
+                ->setAttribute('divider_append', true);
+            $menu['User']['Kontoeinstellungen']->addChild('Account', array('route' => 'sonata_user_profile_edit_authentication'));
+            $menu['User']['Kontoeinstellungen']->addChild('Profile', array('route' => 'sonata_user_profile_edit'));
+            $menu['User']->addChild('Logout', array('route' => 'fos_user_security_logout'));
         }else{
             $menu->addChild('Anmelden', array(
                 'route' => 'fos_user_security_login'
+            ));
+            $menu->addChild('Registrieren', array(
+                'route' => 'fos_user_registration_register'
             ));
         }
         if ($securityContext->isGranted('ROLE_SONATA_ADMIN')) {
@@ -46,6 +54,40 @@ class Builder extends ContainerAware
         $menu->addChild('Vokabel', array(
             'route' => 'vokabel'
         ));
+        return $menu;
+    }
+    public function sidebarMenu(FactoryInterface $factory, array $options)
+    {
+        $menu = $factory->createItem('sidebar');
+        // Twitter Bootstrap Classe an UL übergeben
+        $menu->setChildrenAttribute('class', 'nav nav-list ');
+
+        // Startseite
+        $menu->addChild('Home')
+                ->setAttribute('class', 'nav-header');
+
+        $menu->addChild('WortWortart', array('route' => 'wortxwortart'));
+
+        $menu->addChild('Wortart', array('route' => 'wortart'));
+
+        $securityContext = $this->container->get('security.context');
+
+        $appBenutzung = $this->container->getParameter('app.name').'-Benutzung';
+        $menu->addChild($appBenutzung)
+            ->setAttribute('class', 'nav-header');
+        if(!$securityContext->isGranted('IS_AUTHENTICATED_REMEMBERED')) {
+            $menu[$appBenutzung]->addChild('Registrieren', array(
+                'route' => 'fos_user_registration_register'
+            ));
+        }else{
+            # Nur wenn Benutzer keinen Newsletter hat anzeigen
+        }
+            $menu[$appBenutzung]->addChild('Newsletter abonnieren', array(
+                'uri' => '#'
+            ));
+
+
+        $menu->addChild('Vokabel', array('route' => 'vokabel'));
 
         return $menu;
     }
