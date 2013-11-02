@@ -59,7 +59,7 @@
 
         <div class="container-fluid">
             <div class="row-fluid">
-                {% block body %}
+                {% block maincontent %}
                 <div class="span3">
                     {% block sidebarcontent %}
                     <div class="well sidebar-nav">
@@ -76,7 +76,7 @@
                     {% endif %}
                 </div>
                 <div class="span9">
-                    {% block maincontent %}
+                    {% block body %}
                     <div class="hero-unit">
                         <h1>Willkommen bei {{ appName }}</h1>
                         <p>Dies ist ein Angebot von Lernparadies UG (haftungsbeschränkt)</p>
