@@ -30,6 +30,12 @@ Lernparadies\VokaliBundle\Entity\Flexionsart:
             fixed: false
             nullable: false
             column: FLEXIONSART_CODE
+        comment:
+            type: string
+            length: 256
+            fixed: false
+            nullable: true
+            column: FLEXIONSART_KOMMENTAR
     lifecycleCallbacks:
         prePersist: [ setCreatedAtValue ]
         preUpdate: [ setUpdatedAtValue ]

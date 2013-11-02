@@ -121,7 +121,7 @@ class Flexionsart{
      */
     public function setCode($code)
     {
-        $this->code = $code;
+        $this->code = strtoupper(str_replace(' ', '_', $code));
     
         return $this;
     }
@@ -134,6 +134,34 @@ class Flexionsart{
     public function getCode()
     {
         return $this->code;
+    }
+    /**
+     * @var string
+     */
+    private $comment;
+
+
+    /**
+     * Set comment
+     *
+     * @param string $comment
+     * @return Flexionsart
+     */
+    public function setComment($comment)
+    {
+        $this->comment = $comment;
+    
+        return $this;
+    }
+
+    /**
+     * Get comment
+     *
+     * @return string 
+     */
+    public function getComment()
+    {
+        return $this->comment;
     }
     /**
      * @ORM\PrePersist
