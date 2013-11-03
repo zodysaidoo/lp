@@ -5,9 +5,10 @@ namespace Lernparadies\VokaliBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Flexionsart
+ * Wort_WortartXFlexion
  */
-class Flexionsart{
+class Wort_WortartXFlexion
+{
     /**
      * @var integer
      */
@@ -24,14 +25,19 @@ class Flexionsart{
     private $updated_at;
 
     /**
-     * @var string
+     * @var \Lernparadies\VokaliBundle\Entity\Wort
      */
-    private $name;
+    private $wort;
 
     /**
-     * @var string
+     * @var \Lernparadies\VokaliBundle\Entity\WortXWortart
      */
-    private $code;
+    private $wortxwortart;
+
+    /**
+     * @var \Lernparadies\VokaliBundle\Entity\Flexionsart
+     */
+    private $flexionsart;
 
 
     /**
@@ -48,7 +54,7 @@ class Flexionsart{
      * Set created_at
      *
      * @param \DateTime $createdAt
-     * @return Flexionsart
+     * @return Wort_WortartXFlexion
      */
     public function setCreatedAt($createdAt)
     {
@@ -71,7 +77,7 @@ class Flexionsart{
      * Set updated_at
      *
      * @param \DateTime $updatedAt
-     * @return Flexionsart
+     * @return Wort_WortartXFlexion
      */
     public function setUpdatedAt($updatedAt)
     {
@@ -91,77 +97,72 @@ class Flexionsart{
     }
 
     /**
-     * Set name
+     * Set wort
      *
-     * @param string $name
-     * @return Flexionsart
+     * @param \Lernparadies\VokaliBundle\Entity\Wort $wort
+     * @return Wort_WortartXFlexion
      */
-    public function setName($name)
+    public function setWort(\Lernparadies\VokaliBundle\Entity\Wort $wort = null)
     {
-        $this->name = $name;
+        $this->wort = $wort;
     
         return $this;
     }
 
     /**
-     * Get name
+     * Get wort
      *
-     * @return string 
+     * @return \Lernparadies\VokaliBundle\Entity\Wort 
      */
-    public function getName()
+    public function getWort()
     {
-        return $this->name;
+        return $this->wort;
     }
 
     /**
-     * Set code
+     * Set wortxwortart
      *
-     * @param string $code
-     * @return Flexionsart
+     * @param \Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart
+     * @return Wort_WortartXFlexion
      */
-    public function setCode($code)
+    public function setWortxwortart(\Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart = null)
     {
-        $this->code = strtoupper(str_replace(' ', '_', $code));
+        $this->wortxwortart = $wortxwortart;
     
         return $this;
     }
 
     /**
-     * Get code
+     * Get wortxwortart
      *
-     * @return string 
+     * @return \Lernparadies\VokaliBundle\Entity\WortXWortart 
      */
-    public function getCode()
+    public function getWortxwortart()
     {
-        return $this->code;
+        return $this->wortxwortart;
     }
-    /**
-     * @var string
-     */
-    private $comment;
-
 
     /**
-     * Set comment
+     * Set flexionsart
      *
-     * @param string $comment
-     * @return Flexionsart
+     * @param \Lernparadies\VokaliBundle\Entity\Flexionsart $flexionsart
+     * @return Wort_WortartXFlexion
      */
-    public function setComment($comment)
+    public function setFlexionsart(\Lernparadies\VokaliBundle\Entity\Flexionsart $flexionsart = null)
     {
-        $this->comment = $comment;
+        $this->flexionsart = $flexionsart;
     
         return $this;
     }
 
     /**
-     * Get comment
+     * Get flexionsart
      *
-     * @return string 
+     * @return \Lernparadies\VokaliBundle\Entity\Flexionsart 
      */
-    public function getComment()
+    public function getFlexionsart()
     {
-        return $this->comment;
+        return $this->flexionsart;
     }
     /**
      * @ORM\PrePersist

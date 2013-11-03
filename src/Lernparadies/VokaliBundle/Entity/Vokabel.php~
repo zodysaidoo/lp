@@ -107,7 +107,7 @@ class Vokabel
      * @param \Lernparadies\VokaliBundle\Entity\Wort $wort1
      * @return Vokabel
      */
-    public function setWort1( $wort1 = null)
+    public function setWort1( $wort1 = null )
     {
 
 	    if(is_string($wort1)){
