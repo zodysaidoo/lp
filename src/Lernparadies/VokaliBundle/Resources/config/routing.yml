@@ -1,15 +1,3 @@
 lernparadies_vokali_homepage:
     pattern:  /
     defaults: { _controller: LernparadiesVokaliBundle:Default:index }
-LernparadiesVokaliBundle_wortart:
-        resource: "@LernparadiesVokaliBundle/Resources/config/routing/wortart.yml"
-        prefix:   /wortart
-LernparadiesVokaliBundle_wort:
-        resource: "@LernparadiesVokaliBundle/Resources/config/routing/wort.yml"
-        prefix:   /wort
-LernparadiesVokaliBundle_vokabel:
-        resource: "@LernparadiesVokaliBundle/Resources/config/routing/vokabel.yml"
-        prefix:   /vokabel
-LernparadiesVokaliBundle_wortxwortart:
-        resource: "@LernparadiesVokaliBundle/Resources/config/routing/wortxwortart.yml"
-        prefix:   /wortxwortart

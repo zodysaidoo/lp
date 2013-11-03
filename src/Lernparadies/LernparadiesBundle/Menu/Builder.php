@@ -42,22 +42,6 @@ class Builder extends ContainerAware
                 'route' => 'sonata_admin_dashboard'
             ));
         }
-
-        $menu->addChild('WortWortart', array(
-            'route' => 'wortxwortart'
-        ));
-
-        $menu->addChild('Wortart', array(
-            'route' => 'wortart'
-        ));
-
-        $menu->addChild('Wort', array(
-            'route' => 'wort'
-        ));
-
-        $menu->addChild('Vokabel', array(
-            'route' => 'vokabel'
-        ));
         return $menu;
     }
     public function sidebarMenu(FactoryInterface $factory, array $options)
@@ -86,10 +70,6 @@ class Builder extends ContainerAware
                 ->setExtra('translation_domain', 'SonataUserBundle');
             $menu['sonata_user']->addChild('link_menu_edit_profile', array('route' => 'sonata_user_profile_edit'))
                 ->setExtra('translation_domain', 'SonataUserBundle');
-
-            $menu->addChild('übersicht', array('route' => 'wortxwortart'));
-
-            $menu->addChild('Wortart', array('route' => 'wortart'));
         }
 
 
@@ -106,7 +86,6 @@ class Builder extends ContainerAware
                 'uri' => '#'
             ));
 
-        $menu->addChild('Vokabel', array('route' => 'vokabel'));
 
         return $menu;
     }
