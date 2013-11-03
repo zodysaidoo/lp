@@ -1,7 +1,7 @@
-Lernparadies\VokaliBundle\Entity\Wort_WortartXFlexion:
+Lernparadies\VokaliBundle\Entity\WortWortartXFlexion:
     type: entity
-    table: WORT_X_WORTART
-    repositoryClass: Lernparadies\VokaliBundle\Entity\Wort_WortartXFlexionRepository
+    table: WORT_WORTART_X_FLEXION
+    repositoryClass: Lernparadies\VokaliBundle\Entity\WortWortartXFlexionRepository
     fields:
         id:
             id: true

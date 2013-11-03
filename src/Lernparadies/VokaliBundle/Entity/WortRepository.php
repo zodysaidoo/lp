@@ -13,18 +13,23 @@ use Lernparadies\VokaliBundle\Exception\WortException;
  */
 class WortRepository extends EntityRepository
 {
+    private $co = 0;
     /**
      * @param $wort2SearchFor
      * @return Wort|object
      * @throws WortException
      */
     public function findAndSaveIfNew( $wort2SearchFor ){
+        $this->co++;
         if(is_string($wort2SearchFor)){
-            $wort = $this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort2SearchFor ) );
+            $wort = $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:Wort')->findOneBy( array( 'wortName' => $wort2SearchFor ) );
+
             if(!$wort)
             {
                 $wort = new Wort();
                 $wort->setWortName($wort2SearchFor);
+                $this->getEntityManager()->persist($wort);
+                $this->getEntityManager()->flush();
             }
             return $wort;
         }elseif(is_object($wort2SearchFor) && get_class($wort2SearchFor) == 'Lernparadies\VokaliBundle\Entity\Wort'){

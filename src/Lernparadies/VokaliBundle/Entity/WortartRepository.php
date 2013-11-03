@@ -23,6 +23,6 @@ class WortartRepository extends EntityRepository
         }elseif(is_object($wortart2SearchFor) && get_class($wortart2SearchFor) == 'Lernparadies\VokaliBundle\Entity\Wortart'){
             return $wortart2SearchFor;
         }
-        return false;
+        return $wortart2SearchFor;
     }
 }

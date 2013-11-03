@@ -23,6 +23,6 @@ class SpracheRepository extends EntityRepository
         }elseif(is_object($sprache2SearchFor) && get_class($sprache2SearchFor) == 'Lernparadies\LernparadiesBundle\Entity\Sprache'){
             return $sprache2SearchFor;
         }
-        return false;
+        return $sprache2SearchFor;
     }
 }

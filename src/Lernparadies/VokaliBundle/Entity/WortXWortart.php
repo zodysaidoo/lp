@@ -125,7 +125,7 @@ class WortXWortart
      * @param \Lernparadies\VokaliBundle\Entity\Wort $wortart
      * @return WortXWortart
      */
-    public function setWortart(\Lernparadies\VokaliBundle\Entity\Wort $wortart = null)
+    public function setWortart( $wortart = null)
     {
         $this->wortart = $wortart;
     
@@ -148,7 +148,7 @@ class WortXWortart
      * @param \Lernparadies\LernparadiesBundle\Entity\Sprache $sprache
      * @return WortXWortart
      */
-    public function setSprache(\Lernparadies\LernparadiesBundle\Entity\Sprache $sprache = null)
+    public function setSprache( $sprache = null)
     {
         $this->sprache = $sprache;
     

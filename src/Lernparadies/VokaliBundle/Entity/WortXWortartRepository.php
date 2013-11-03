@@ -28,30 +28,36 @@ class WortXWortartRepository extends EntityRepository
 
     public function createWort( $wort = null, $wortart = null, $sprache = null ){
         $this->wortXWortart = new WortXWortart();
-        $this->setWort($wort);
-        $this->setWortart($wortart);
-        $this->setSprache($sprache);
+        if($wort){
+            $this->setWort($wort);
+        }
+        if($wortart){
+            $this->setWortart($wortart);
+        }
+        if($sprache){
+            $this->setSprache($sprache);
+        }
     }
 
     /**
      * @param $wort
      */
     public function setWort( $wort ){
-        $this->wortXWortart->setWort($this->doctrine->getRepository('LernparadiesVokaliBundle:Wort')->findAndSaveIfNew($wort));
+        $this->wortXWortart->setWort($this->getEntityManager()->getRepository('LernparadiesVokaliBundle:Wort')->findAndSaveIfNew($wort));
     }
 
     /**
      * @param $wortart
      */
     public function setWortart( $wortart ){
-        $this->wortXWortart->setWortart($this->doctrine->getRepository('LernparadiesVokaliBundle:Wortart')->findWortart($wortart));
+        $this->wortXWortart->setWortart($this->getEntityManager()->getRepository('LernparadiesVokaliBundle:Wortart')->findWortart($wortart));
     }
 
     /**
      * @param $sprache
      */
     public function setSprache( $sprache ){
-        $this->wortXWortart->setSprache($this->doctrine->getRepository('LernparadiesVokaliBundle:Wortart')->findSprache($sprache));
+        $this->wortXWortart->setSprache($this->getEntityManager()->getRepository('LernparadiesLernparadiesBundle:Sprache')->findSprache($sprache));
     }
 
     /**
@@ -60,11 +66,11 @@ class WortXWortartRepository extends EntityRepository
      */
     public function setFlexion( $wort, Flexionsart $flexionsart ){
         $this->save();
-        $this->doctrine->getRepository('LernparadiesVokaliBundle:Flexionsart')->createNew();
-        $this->doctrine->getRepository('LernparadiesVokaliBundle:Flexionsart')->setWortXWortart($this->wortXWortart);
-        $this->doctrine->getRepository('LernparadiesVokaliBundle:Flexionsart')->setWort($wort);
-        $this->doctrine->getRepository('LernparadiesVokaliBundle:Flexionsart')->setFlexionsart($flexionsart);
-        $this->doctrine->getRepository('LernparadiesVokaliBundle:Flexionsart')->save();
+        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->createNew();
+        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWortXWortart($this->wortXWortart);
+        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWort($wort);
+        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setFlexionsart($flexionsart);
+        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->save();
     }
     public function save(){
         $this->getEntityManager()->persist($this->wortXWortart);

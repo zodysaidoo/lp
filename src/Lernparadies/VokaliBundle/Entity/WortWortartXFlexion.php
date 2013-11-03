@@ -5,9 +5,9 @@ namespace Lernparadies\VokaliBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Wort_WortartXFlexion
+ * WortWortartXFlexion
  */
-class Wort_WortartXFlexion
+class WortWortartXFlexion
 {
     /**
      * @var integer
@@ -54,7 +54,7 @@ class Wort_WortartXFlexion
      * Set created_at
      *
      * @param \DateTime $createdAt
-     * @return Wort_WortartXFlexion
+     * @return WortWortartXFlexion
      */
     public function setCreatedAt($createdAt)
     {
@@ -77,7 +77,7 @@ class Wort_WortartXFlexion
      * Set updated_at
      *
      * @param \DateTime $updatedAt
-     * @return Wort_WortartXFlexion
+     * @return WortWortartXFlexion
      */
     public function setUpdatedAt($updatedAt)
     {
@@ -100,7 +100,7 @@ class Wort_WortartXFlexion
      * Set wort
      *
      * @param \Lernparadies\VokaliBundle\Entity\Wort $wort
-     * @return Wort_WortartXFlexion
+     * @return WortWortartXFlexion
      */
     public function setWort(\Lernparadies\VokaliBundle\Entity\Wort $wort = null)
     {
@@ -123,7 +123,7 @@ class Wort_WortartXFlexion
      * Set wortxwortart
      *
      * @param \Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart
-     * @return Wort_WortartXFlexion
+     * @return WortWortartXFlexion
      */
     public function setWortxwortart(\Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart = null)
     {
@@ -146,7 +146,7 @@ class Wort_WortartXFlexion
      * Set flexionsart
      *
      * @param \Lernparadies\VokaliBundle\Entity\Flexionsart $flexionsart
-     * @return Wort_WortartXFlexion
+     * @return WortWortartXFlexion
      */
     public function setFlexionsart(\Lernparadies\VokaliBundle\Entity\Flexionsart $flexionsart = null)
     {
