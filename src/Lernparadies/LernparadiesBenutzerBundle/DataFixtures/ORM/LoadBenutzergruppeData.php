@@ -85,6 +85,7 @@ class LoadBenutzergruppeData extends AbstractFixture implements OrderedFixtureIn
 
 		$this->addReference('benutzergruppe-administrator', $benutzergruppeAdmin);
 		$this->addReference('benutzergruppe-lehrer', $benutzergruppeLehrer);
+		$this->addReference('benutzergruppe-freier-benutzer', $benutzergruppeFreeUser);
 	}
 
 	public function getOrder()

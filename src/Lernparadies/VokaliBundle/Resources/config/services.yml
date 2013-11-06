@@ -28,3 +28,14 @@ services:
             - ~
             - Lernparadies\VokaliBundle\Entity\Wortart
             - ~
+    lernparadies.vokali.wortwortartxflexion:
+        class: Lernparadies\VokaliBundle\Admin\WortXWortartAdmin
+        tags:
+            - name: sonata.admin
+              manager_type: orm
+              group: "Vokali"
+              label: "Worte"
+        arguments:
+            - ~
+            - Lernparadies\VokaliBundle\Entity\WortXWortart
+            - ~

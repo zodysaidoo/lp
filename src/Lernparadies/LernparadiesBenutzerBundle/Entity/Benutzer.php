@@ -131,7 +131,7 @@ class Benutzer extends BaseUser implements UserInterface
     public function setDefaultParameterAtCreation()
     {
         if(!$this->getBenutzerFriendlyUrl()){
-	        $this->setBenutzerFriendlyUrl($this->getUsername()."-".uniqid());
+	        $this->setBenutzerFriendlyUrl(strtolower($this->getUsername())."-".uniqid());
         }
     }
 }

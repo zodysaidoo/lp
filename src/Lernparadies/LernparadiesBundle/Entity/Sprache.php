@@ -143,12 +143,12 @@ class Sprache
     /**
      * Set spracheAktiv
      *
-     * @param boolean $spracheAktiv
+     * @param boolean $boolean
      * @return Sprache
      */
-    public function setSpracheAktiv($spracheAktiv)
+    public function setSpracheAktiv($boolean)
     {
-        $this->spracheAktiv = $spracheAktiv;
+        $this->spracheAktiv = $boolean;
     
         return $this;
     }

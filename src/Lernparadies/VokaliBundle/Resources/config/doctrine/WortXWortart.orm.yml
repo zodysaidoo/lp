@@ -19,6 +19,10 @@ Lernparadies\VokaliBundle\Entity\WortXWortart:
             type: datetime
             nullable: false
             column: EDITDATE
+        enabled:
+            type: boolean
+            nullable: false
+            column: ENABLED
     manyToOne:
         wort:
             targetEntity: Wort

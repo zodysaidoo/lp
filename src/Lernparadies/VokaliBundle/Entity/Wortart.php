@@ -133,4 +133,9 @@ class Wortart
     {
         return $this->wortartKommentar;
     }
+
+    public function __toString()
+    {
+        return $this->getWortartName();
+    }
 }

@@ -42,6 +42,7 @@ class LoadVerbenData extends AbstractFixture implements OrderedFixtureInterface,
         $wortXWortartRepository->setWortart($em->merge($this->getReference('wortart-verb')));
         $wortXWortartRepository->setSprache($em->merge($this->getReference('sprache-deutsch')));
         $wortXWortart = $wortXWortartRepository->getWortXWortart();
+        $wortXWortart->setEnabled(true);
         $em->persist($wortXWortart);
         $wortXWortartRepository->setFlexion('sein', $em->merge($this->getReference('wortflexion-verb-infinitiv-gegenwart')));
         $wortXWortartRepository->setFlexion('gewesen sein', $em->merge($this->getReference('wortflexion-verb-infinitiv-perfekt')));
@@ -78,6 +79,7 @@ class LoadVerbenData extends AbstractFixture implements OrderedFixtureInterface,
         $wortXWortartRepository->setWortart($em->merge($this->getReference('wortart-verb')));
         $wortXWortartRepository->setSprache($em->merge($this->getReference('sprache-deutsch')));
         $wortXWortart = $wortXWortartRepository->getWortXWortart();
+        $wortXWortart->setEnabled(true);
         $em->persist($wortXWortart);
         $wortXWortartRepository->setFlexion('haben', $em->merge($this->getReference('wortflexion-verb-infinitiv-gegenwart')));
         $wortXWortartRepository->setFlexion('gehabt haben', $em->merge($this->getReference('wortflexion-verb-infinitiv-perfekt')));
@@ -114,6 +116,7 @@ class LoadVerbenData extends AbstractFixture implements OrderedFixtureInterface,
         $wortXWortartRepository->setWortart($em->merge($this->getReference('wortart-verb')));
         $wortXWortartRepository->setSprache($em->merge($this->getReference('sprache-deutsch')));
         $wortXWortart = $wortXWortartRepository->getWortXWortart();
+        $wortXWortart->setEnabled(true);
         $em->persist($wortXWortart);
         $wortXWortartRepository->setFlexion('werden', $em->merge($this->getReference('wortflexion-verb-infinitiv-gegenwart')));
         $wortXWortartRepository->setFlexion('geworden sein', $em->merge($this->getReference('wortflexion-verb-infinitiv-perfekt')));

@@ -39,6 +39,11 @@ class WortXWortart
      */
     private $sprache;
 
+    /**
+     * @var boolean
+     */
+    private $enabled;
+
 
     /**
      * Get id
@@ -182,5 +187,36 @@ class WortXWortart
     public function setUpdatedAtValue()
     {
         $this->updated_at = new \DateTime();
+    }
+
+    /**
+     * @param boolean $boolean
+     * @return $this
+     */
+    public function setEnabled($boolean)
+    {
+        $this->enabled = $boolean;
+
+        return $this;
+    }
+
+    /**
+     * getEnabled()
+     *
+     * @return boolean
+     */
+    public function getEnabled()
+    {
+        return $this->enabled;
+    }
+
+    /**
+     * isEnabled()
+     *
+     * @return boolean
+     */
+    public function isEnabled()
+    {
+        return $this->getEnabled();
     }
 }
