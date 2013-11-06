@@ -219,4 +219,49 @@ class WortXWortart
     {
         return $this->getEnabled();
     }
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $flexionen;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->flexionen = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add flexionen
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\WortWortartXFlexion $flexionen
+     * @return WortXWortart
+     */
+    public function addFlexionen(\Lernparadies\VokaliBundle\Entity\WortWortartXFlexion $flexionen)
+    {
+        $this->flexionen[] = $flexionen;
+    
+        return $this;
+    }
+
+    /**
+     * Remove flexionen
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\WortWortartXFlexion $flexionen
+     */
+    public function removeFlexionen(\Lernparadies\VokaliBundle\Entity\WortWortartXFlexion $flexionen)
+    {
+        $this->flexionen->removeElement($flexionen);
+    }
+
+    /**
+     * Get flexionen
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getFlexionen()
+    {
+        return $this->flexionen;
+    }
 }

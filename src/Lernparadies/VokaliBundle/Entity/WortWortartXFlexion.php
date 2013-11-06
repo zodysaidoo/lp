@@ -30,11 +30,6 @@ class WortWortartXFlexion
     private $wort;
 
     /**
-     * @var \Lernparadies\VokaliBundle\Entity\WortXWortart
-     */
-    private $wortxwortart;
-
-    /**
      * @var \Lernparadies\VokaliBundle\Entity\Flexionsart
      */
     private $flexionsart;
@@ -120,29 +115,6 @@ class WortWortartXFlexion
     }
 
     /**
-     * Set wortxwortart
-     *
-     * @param \Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart
-     * @return WortWortartXFlexion
-     */
-    public function setWortxwortart(\Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart = null)
-    {
-        $this->wortxwortart = $wortxwortart;
-    
-        return $this;
-    }
-
-    /**
-     * Get wortxwortart
-     *
-     * @return \Lernparadies\VokaliBundle\Entity\WortXWortart 
-     */
-    public function getWortxwortart()
-    {
-        return $this->wortxwortart;
-    }
-
-    /**
      * Set flexionsart
      *
      * @param \Lernparadies\VokaliBundle\Entity\Flexionsart $flexionsart
@@ -182,5 +154,33 @@ class WortWortartXFlexion
     public function setUpdatedAtValue()
     {
         $this->updated_at = new \DateTime();
+    }
+    /**
+     * @var \Lernparadies\VokaliBundle\Entity\WortXWortart
+     */
+    private $wortxwortart;
+
+
+    /**
+     * Set wortxwortart
+     *
+     * @param \Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart
+     * @return WortWortartXFlexion
+     */
+    public function setWortxwortart(\Lernparadies\VokaliBundle\Entity\WortXWortart $wortxwortart = null)
+    {
+        $this->wortxwortart = $wortxwortart;
+    
+        return $this;
+    }
+
+    /**
+     * Get wortxwortart
+     *
+     * @return \Lernparadies\VokaliBundle\Entity\WortXWortart 
+     */
+    public function getWortxwortart()
+    {
+        return $this->wortxwortart;
     }
 }

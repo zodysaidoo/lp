@@ -34,10 +34,9 @@ Lernparadies\VokaliBundle\Entity\WortWortartXFlexion:
         wortxwortart:
             targetEntity: WortXWortart
             cascade: {  }
-            mappedBy: null
-            inversedBy: null
+            inversedBy: flexionen
             nullable: false
-            name: wortart
+            name: wortxwortart
             joinColumns:
                 WORT_X_WORTART:
                     referencedColumnName: ID

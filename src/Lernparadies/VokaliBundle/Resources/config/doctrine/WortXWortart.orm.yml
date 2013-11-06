@@ -57,6 +57,10 @@ Lernparadies\VokaliBundle\Entity\WortXWortart:
                 SPRACHE:
                     referencedColumnName: SPRACHE_ID
             orphanRemoval: false
+    oneToMany:
+        flexionen:
+          targetEntity: WortWortartXFlexion
+          mappedBy: wortxwortart
     lifecycleCallbacks:
         prePersist: [ setCreatedAtValue ]
         preUpdate: [ setUpdatedAtValue ]

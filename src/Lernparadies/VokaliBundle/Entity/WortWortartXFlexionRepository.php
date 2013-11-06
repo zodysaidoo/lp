@@ -26,13 +26,6 @@ class WortWortartXFlexionRepository extends EntityRepository
     }
 
     /**
-     * @param $wortXWortart
-     */
-    public function setWortXWortart($wortXWortart){
-        $this->wortWortartXFlexion->setWortxwortart($wortXWortart);
-    }
-
-    /**
      * @param $wort
      */
     public function setWort($wort){
@@ -51,5 +44,11 @@ class WortWortartXFlexionRepository extends EntityRepository
      */
     public function save(){
         $this->getEntityManager()->persist($this->wortWortartXFlexion);
+        return $this->getFlexion();
+    }
+
+    public function getFlexion()
+    {
+        return $this->wortWortartXFlexion;
     }
 }

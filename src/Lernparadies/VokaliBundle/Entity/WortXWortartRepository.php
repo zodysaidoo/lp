@@ -66,10 +66,11 @@ class WortXWortartRepository extends EntityRepository
      */
     public function setFlexion( $wort, Flexionsart $flexionsart ){
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->createNew();
-        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWortXWortart($this->wortXWortart);
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWort($wort);
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setFlexionsart($flexionsart);
-        $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->save();
+        $this->wortXWortart->addFlexionen(
+            $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->save()
+        );
     }
     public function save(){
         $this->getEntityManager()->persist($this->wortXWortart);

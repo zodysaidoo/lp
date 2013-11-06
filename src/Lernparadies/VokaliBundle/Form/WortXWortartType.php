@@ -29,6 +29,7 @@ class WortXWortartType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
+            'compound'      => true,
             'data_class' => 'Lernparadies\VokaliBundle\Entity\WortXWortart'
         ));
     }
