@@ -65,7 +65,6 @@ class WortXWortartRepository extends EntityRepository
      * @param Flexionsart $flexionsart
      */
     public function setFlexion( $wort, Flexionsart $flexionsart ){
-        $this->save();
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->createNew();
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWortXWortart($this->wortXWortart);
         $this->getEntityManager()->getRepository('LernparadiesVokaliBundle:WortWortartXFlexion')->setWort($wort);
