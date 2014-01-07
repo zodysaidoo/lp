@@ -495,52 +495,51 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
         $adjektivNominativUnbestimmterArtikelPluralFeminin->setComment('Adjektiv in seiner femininen Plural-Nominativform, wie es als attributives Adjektiv verwendet mit unbestimmten Artikel  wird');
         $em->persist($adjektivNominativUnbestimmterArtikelPluralFeminin);
 
-
-        /**
-         * @todo Variablen umschreiben nach Flexionstabelle, siehe unten
-         */
         /**
          * Nominativ - ohne Artikel - Singular
          */
-        $adjektivGrundformPluralNeutral = new Flexionsart();
-        $adjektivGrundformPluralNeutral->setName('Adjektiv Prädikativum Plural Neutral');
-        $adjektivGrundformPluralNeutral->setCode('Adjektiv Prädikativum Plural Neutral');
-        $adjektivGrundformPluralNeutral->setComment('Adjektiv in seiner neutralen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Häuser sind grün');
-        $em->persist($adjektivGrundformPluralNeutral);
+        $adjektivNominativOhneArtikelSingularNeutral = new Flexionsart();
+        $adjektivNominativOhneArtikelSingularNeutral->setName('Adjektiv Nominativ Ohne Artikel Singular Neutral');
+        $adjektivNominativOhneArtikelSingularNeutral->setCode('Adjektiv Nominativ Ohne Artikel Singular Neutral');
+        $adjektivNominativOhneArtikelSingularNeutral->setComment('Adjektiv in seiner neutralen Singular-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grünes Haus');
+        $em->persist($adjektivNominativOhneArtikelSingularNeutral);
 
-        $adjektivGrundformPluralMaskulin = new Flexionsart();
-        $adjektivGrundformPluralMaskulin->setName('Adjektiv Prädikativum Plural Maskulin');
-        $adjektivGrundformPluralMaskulin->setCode('Adjektiv Prädikativum Plural Maskulin');
-        $adjektivGrundformPluralMaskulin->setComment('Adjektiv in seiner maskulinen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Bäume sind grün');
-        $em->persist($adjektivGrundformPluralMaskulin);
+        $adjektivNominativOhneArtikelSingularMaskulin = new Flexionsart();
+        $adjektivNominativOhneArtikelSingularMaskulin->setName('Adjektiv Nominativ Ohne Artikel Singular Maskulin');
+        $adjektivNominativOhneArtikelSingularMaskulin->setCode('Adjektiv Nominativ Ohne Artikel Singular Maskulin');
+        $adjektivNominativOhneArtikelSingularMaskulin->setComment('Adjektiv in seiner maskulinen Singular-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grüner Mann');
+        $em->persist($adjektivNominativOhneArtikelSingularMaskulin);
 
-        $adjektivGrundformPluralFeminin = new Flexionsart();
-        $adjektivGrundformPluralFeminin->setName('Adjektiv Prädikativum Plural Feminin');
-        $adjektivGrundformPluralFeminin->setCode('Adjektiv Prädikativum Plural Feminin');
-        $adjektivGrundformPluralFeminin->setComment('Adjektiv in seiner femininen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Flaschen sind grün');
-        $em->persist($adjektivGrundformPluralFeminin);
+        $adjektivNominativOhneArtikelSingularFeminin = new Flexionsart();
+        $adjektivNominativOhneArtikelSingularFeminin->setName('Adjektiv Nominativ Ohne Artikel Singular Feminin');
+        $adjektivNominativOhneArtikelSingularFeminin->setCode('Adjektiv Nominativ Ohne Artikel Singular Feminin');
+        $adjektivNominativOhneArtikelSingularFeminin->setComment('Adjektiv in seiner femininen Singular-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grüne Flasche');
+        $em->persist($adjektivNominativOhneArtikelSingularFeminin);
 
         /**
          * Nominativ - ohne Artikel - Plural
          */
-        $adjektivGrundformPluralNeutral = new Flexionsart();
-        $adjektivGrundformPluralNeutral->setName('Adjektiv Prädikativum Plural Neutral');
-        $adjektivGrundformPluralNeutral->setCode('Adjektiv Prädikativum Plural Neutral');
-        $adjektivGrundformPluralNeutral->setComment('Adjektiv in seiner neutralen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Häuser sind grün');
-        $em->persist($adjektivGrundformPluralNeutral);
+        $adjektivNominativOhneArtikelPluralNeutral = new Flexionsart();
+        $adjektivNominativOhneArtikelPluralNeutral->setName('Adjektiv Nominativ Ohne Artikel Plural Neutral');
+        $adjektivNominativOhneArtikelPluralNeutral->setCode('Adjektiv Nominativ Ohne Artikel Plural Neutral');
+        $adjektivNominativOhneArtikelPluralNeutral->setComment('Adjektiv in seiner neutralen Plural-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grüne Häuser');
+        $em->persist($adjektivNominativOhneArtikelPluralNeutral);
 
-        $adjektivGrundformPluralMaskulin = new Flexionsart();
-        $adjektivGrundformPluralMaskulin->setName('Adjektiv Prädikativum Plural Maskulin');
-        $adjektivGrundformPluralMaskulin->setCode('Adjektiv Prädikativum Plural Maskulin');
-        $adjektivGrundformPluralMaskulin->setComment('Adjektiv in seiner maskulinen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Bäume sind grün');
-        $em->persist($adjektivGrundformPluralMaskulin);
+        $adjektivNominativOhneArtikelPluralMaskulin = new Flexionsart();
+        $adjektivNominativOhneArtikelPluralMaskulin->setName('Adjektiv Nominativ Ohne Artikel Plural Maskulin');
+        $adjektivNominativOhneArtikelPluralMaskulin->setCode('Adjektiv Nominativ Ohne Artikel Plural Maskulin');
+        $adjektivNominativOhneArtikelPluralMaskulin->setComment('Adjektiv in seiner maskulinen Plural-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grüne Männer');
+        $em->persist($adjektivNominativOhneArtikelPluralMaskulin);
 
-        $adjektivGrundformPluralFeminin = new Flexionsart();
-        $adjektivGrundformPluralFeminin->setName('Adjektiv Prädikativum Plural Feminin');
-        $adjektivGrundformPluralFeminin->setCode('Adjektiv Prädikativum Plural Feminin');
-        $adjektivGrundformPluralFeminin->setComment('Adjektiv in seiner femininen Plural-Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Die Flaschen sind grün');
-        $em->persist($adjektivGrundformPluralFeminin);
+        $adjektivNominativOhneArtikelPluralFeminin = new Flexionsart();
+        $adjektivNominativOhneArtikelPluralFeminin->setName('Adjektiv Nominativ Ohne Artikel Plural Feminin');
+        $adjektivNominativOhneArtikelPluralFeminin->setCode('Adjektiv Nominativ Ohne Artikel Plural Feminin');
+        $adjektivNominativOhneArtikelPluralFeminin->setComment('Adjektiv in seiner femininen Plural-Nominativform, wie es als attributives Adjektiv ohne Artikel verwendet wird. z.B. grüne Flaschen');
+        $em->persist($adjektivNominativOhneArtikelPluralFeminin);
 
+        /**
+         * @todo Variablen umschreiben nach Flexionstabelle, siehe unten
+         */
         /**
          * Genetiv - bestimmter Artikel - Singular
          */
