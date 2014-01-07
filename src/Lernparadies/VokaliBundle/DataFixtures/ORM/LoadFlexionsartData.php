@@ -32,19 +32,49 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
         /**
          * Nomen
          */
-        $nomenNominativ = new Flexionsart();
-        $nomenNominativ->setName('Nomen Nominativ');
-        $nomenNominativ->setCode('Nomen Nominativ');
-        $nomenNominativ->setComment('Nomen im Singular und Nominativ');
-		$em->persist($nomenNominativ);
+        $nomenSingularNominativMaskulin = new Flexionsart();
+        $nomenSingularNominativMaskulin->setName('Nomen Singular Nominativ Maskulin');
+        $nomenSingularNominativMaskulin->setCode('Nomen Singular Nominativ Maskulin');
+        $nomenSingularNominativMaskulin->setComment('maskulines Nomen im Singular und Nominativ');
+		$em->persist($nomenSingularNominativMaskulin);
 
-		$adjektivGrundform = new Flexionsart();
+        $nomenSingularNominativFeminin = new Flexionsart();
+        $nomenSingularNominativFeminin->setName('Nomen Singular Nominativ Feminin');
+        $nomenSingularNominativFeminin->setCode('Nomen Singular Nominativ Feminin');
+        $nomenSingularNominativFeminin->setComment('feminines Nomen im Singular und Nominativ');
+		$em->persist($nomenSingularNominativFeminin);
+
+        $nomenSingularNominativNeutrum = new Flexionsart();
+        $nomenSingularNominativNeutrum->setName('Nomen Singular Nominativ Neutrum');
+        $nomenSingularNominativNeutrum->setCode('Nomen Singular Nominativ Neutrum');
+        $nomenSingularNominativNeutrum->setComment('neutrales Nomen im Singular und Nominativ');
+		$em->persist($nomenSingularNominativNeutrum);
+
+        $nomenPluarNominativMaskulin = new Flexionsart();
+        $nomenPluarNominativMaskulin->setName('Nomen Plural Nominativ Maskulin');
+        $nomenPluarNominativMaskulin->setCode('Nomen Plural Nominativ Maskulin');
+        $nomenPluarNominativMaskulin->setComment('maskulines Nomen im Plural und Nominativ');
+		$em->persist($nomenSingularNominativMaskulin);
+
+        $nomenPluralNominativFeminin = new Flexionsart();
+        $nomenPluralNominativFeminin->setName('Nomen Plural Nominativ Feminin');
+        $nomenPluralNominativFeminin->setCode('Nomen Plural Nominativ Feminin');
+        $nomenPluralNominativFeminin->setComment('femininesNomen im Plural und Nominativ');
+		$em->persist($nomenSingularNominativMaskulin);
+
+        /**
+         * Adjektive
+         */
+        $adjektivGrundform = new Flexionsart();
         $adjektivGrundform->setName('Adjektiv Prädikativum');
         $adjektivGrundform->setCode('Adjektiv Prädikativum');
         $adjektivGrundform->setComment('Adjektiv in seiner Grundform (Prädikativum), wie es als prädikative Ergänzung verwendet wird. z.B. Das Haus ist grün');
 		$em->persist($adjektivGrundform);
 
-		$artikelBestimmtMaskulinumSingularNominativ = new Flexionsart();
+        /**
+         * Artikel
+         */
+        $artikelBestimmtMaskulinumSingularNominativ = new Flexionsart();
         $artikelBestimmtMaskulinumSingularNominativ->setName('bestimmter Artikel Maskulinum Singular Nominativ');
         $artikelBestimmtMaskulinumSingularNominativ->setCode('Artikel bestimmt Maskulinum Singular Nominativ');
         $artikelBestimmtMaskulinumSingularNominativ->setComment('bestimmter Artikel Maskulinum Singular Nominativ z.B. der');
@@ -64,7 +94,7 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
 
 		$em->flush();
 
-        $this->addReference('wortflexion-nomen-nominativ', $nomenNominativ);
+        $this->addReference('wortflexion-nomen-nominativ', $nomenSingularNominativMaskulin);
         $this->addReference('wortflexion-adjektiv-praedikativum', $adjektivGrundform);
         $this->addReference('wortflexion-artikel-bestimmt-maskulinum-singular-nominativ', $artikelBestimmtMaskulinumSingularNominativ);
         $this->addReference('wortflexion-artikel-bestimmt-femininum-singular-nominativ', $artikelBestimmtFemininumSingularNominativ);

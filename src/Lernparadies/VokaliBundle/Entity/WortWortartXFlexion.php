@@ -183,4 +183,9 @@ class WortWortartXFlexion
     {
         return $this->wortxwortart;
     }
+
+    public function __toString()
+    {
+        return $this->getWort()->getWortName();
+    }
 }

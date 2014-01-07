@@ -28,7 +28,6 @@ class WortXWortartAdmin extends Admin
             ->add('wort')
             ->add('flexionen', 'sonata_type_model',
                 array(
-
                     'by_reference' => true,
                     'multiple' => true,
                     'expanded' => true,
