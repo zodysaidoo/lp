@@ -50,17 +50,23 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
         $nomenSingularNominativNeutrum->setComment('neutrales Nomen im Singular und Nominativ');
 		$em->persist($nomenSingularNominativNeutrum);
 
-        $nomenPluarNominativMaskulin = new Flexionsart();
-        $nomenPluarNominativMaskulin->setName('Nomen Plural Nominativ Maskulin');
-        $nomenPluarNominativMaskulin->setCode('Nomen Plural Nominativ Maskulin');
-        $nomenPluarNominativMaskulin->setComment('maskulines Nomen im Plural und Nominativ');
-		$em->persist($nomenSingularNominativMaskulin);
+        $nomenPluralNominativMaskulin = new Flexionsart();
+        $nomenPluralNominativMaskulin->setName('Nomen Plural Nominativ Maskulin');
+        $nomenPluralNominativMaskulin->setCode('Nomen Plural Nominativ Maskulin');
+        $nomenPluralNominativMaskulin->setComment('maskulines Nomen im Plural und Nominativ');
+		$em->persist($nomenPluralNominativMaskulin);
 
         $nomenPluralNominativFeminin = new Flexionsart();
         $nomenPluralNominativFeminin->setName('Nomen Plural Nominativ Feminin');
         $nomenPluralNominativFeminin->setCode('Nomen Plural Nominativ Feminin');
         $nomenPluralNominativFeminin->setComment('femininesNomen im Plural und Nominativ');
-		$em->persist($nomenSingularNominativMaskulin);
+		$em->persist($nomenPluralNominativFeminin);
+
+        $nomenPluralNominativNeutrum = new Flexionsart();
+        $nomenPluralNominativNeutrum->setName('Nomen Plural Nominativ Neutrum');
+        $nomenPluralNominativNeutrum->setCode('Nomen Plural Nominativ Neutrum');
+        $nomenPluralNominativNeutrum->setComment('neutrales Nomen im Plural und Nominativ');
+        $em->persist($nomenPluralNominativNeutrum);
 
         /**
          * Adjektive
@@ -94,7 +100,12 @@ class LoadFlexionsartData extends AbstractFixture implements OrderedFixtureInter
 
 		$em->flush();
 
-        $this->addReference('wortflexion-nomen-nominativ', $nomenSingularNominativMaskulin);
+        $this->addReference('wortflexion-nomen-singular-nominativ-maskulin', $nomenSingularNominativMaskulin);
+        $this->addReference('wortflexion-nomen-singular-nominativ-feminin', $nomenSingularNominativFeminin);
+        $this->addReference('wortflexion-nomen-singular-nominativ-neutrum', $nomenSingularNominativNeutrum);
+        $this->addReference('wortflexion-nomen-plural-nominativ-maskulin', $nomenPluralNominativMaskulin);
+        $this->addReference('wortflexion-nomen-plural-nominativ-feminin', $nomenPluralNominativFeminin);
+        $this->addReference('wortflexion-nomen-plural-nominativ-neutrum', $nomenPluralNominativNeutrum);
         $this->addReference('wortflexion-adjektiv-praedikativum', $adjektivGrundform);
         $this->addReference('wortflexion-artikel-bestimmt-maskulinum-singular-nominativ', $artikelBestimmtMaskulinumSingularNominativ);
         $this->addReference('wortflexion-artikel-bestimmt-femininum-singular-nominativ', $artikelBestimmtFemininumSingularNominativ);

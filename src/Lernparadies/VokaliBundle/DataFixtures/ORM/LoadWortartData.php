@@ -46,6 +46,7 @@ class LoadWortartData extends AbstractFixture implements OrderedFixtureInterface
 
 		$em->flush();
 
+        $this->addReference('wortart-nomen', $wortartNomen);
         $this->addReference('wortart-verb', $wortartVerb);
 	}
 

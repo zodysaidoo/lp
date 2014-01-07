@@ -21,7 +21,7 @@ class LoadWortData extends AbstractFixture implements OrderedFixtureInterface
 	{
 		$wortHaus = new Wort();
 		$wortHaus->setWortName('Haus');
-		$em->persist($wortHaus);
+//		$em->persist($wortHaus);
 
 		$wortHouse = new Wort();
 		$wortHouse->setWortName('house');
@@ -29,7 +29,7 @@ class LoadWortData extends AbstractFixture implements OrderedFixtureInterface
 
 		$wortBaum = new Wort();
 		$wortBaum->setWortName('Baum');
-		$em->persist($wortBaum);
+//		$em->persist($wortBaum);
 
 		$wortTree = new Wort();
 		$wortTree->setWortName('tree');
@@ -37,13 +37,13 @@ class LoadWortData extends AbstractFixture implements OrderedFixtureInterface
 
         $wortSein = new Wort();
         $wortSein->setWortName('sein');
-		$em->persist($wortSein);
+//		$em->persist($wortSein);
 
 		$em->flush();
 	}
 
 	public function getOrder()
 	{
-		return 3; // the order in which fixtures will be loaded
+		return 99; // the order in which fixtures will be loaded
 	}
 }
